@@ -28,18 +28,18 @@ $('.open-overlay').click(function() {
     // bottom_bar.removeClass('animate-out-bottom-bar').addClass('animate-bottom-bar');
     overlay_navigation.removeClass('overlay-slide-up').addClass('overlay-slide-down')
     overlay_navigation.velocity('transition.slideLeftIn', {
-      duration: 80,
-      delay: 0,
+      duration: 150,
+      delay: 20,
       begin: function() {
-        $('.nav_item, .nav_item li').velocity('transition.perspectiveLeftIn', {
+        $('.nav_item').velocity('transition.perspectiveLeftIn', {
           stagger: 70,
           delay: 0,
           complete: function() {
             $('.nav_name, .nav_item li').velocity({
               opacity: [1, 0],
             }, {
-              delay: 10,
-              duration: 10
+              delay: 50,
+              duration: 150
             });
             $('.open-overlay').css('pointer-events', 'auto');
             svg.addClass('open');
@@ -53,19 +53,19 @@ $('.open-overlay').click(function() {
     $('.open-overlay').css('pointer-events', 'none');
     // bottom_bar.removeClass('animate-bottom-bar').addClass('animate-out-bottom-bar');
     overlay_navigation.removeClass('overlay-slide-down').addClass('overlay-slide-up')
-    $('.nav_item, .nav_item li').velocity('transition.perspectiveRightOut', {
-      stagger: 50,
+    $('.nav_item').velocity('transition.perspectiveRightOut', {
+      stagger: 150,
       delay: 0,
       complete: function() {
         overlay_navigation.velocity('transition.fadeOut', {
           delay: 0,
-          duration: 50,
+          duration: 150,
           complete: function() {
             $('.nav_name, .nav_item li').velocity({
               opacity: [0, 1],
             }, {
               delay: 0,
-              duration: 2
+              duration: 50
             });
             svg.removeClass('open');
             $('.open-overlay').css('pointer-events', 'auto');

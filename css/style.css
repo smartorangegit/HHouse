@@ -189,9 +189,11 @@ nav .main_name {
   position: absolute;
   z-index: 2;
   top: 70px;
+  opacity: 0;
+  transition: 0.4s;
 }
 
-/* line 82, ../sass/_menu.scss */
+/* line 83, ../sass/_menu.scss */
 .nav_item {
   -webkit-flex-basis: 25%;
   -ms-flex-preferred-size: 25%;
@@ -210,7 +212,7 @@ nav .main_name {
   opacity: 0;
   display: none;
 }
-/* line 99, ../sass/_menu.scss */
+/* line 100, ../sass/_menu.scss */
 .nav_item li {
   font-family: "GothaPro";
   color: #000000;
@@ -218,7 +220,7 @@ nav .main_name {
   opacity: 0;
 }
 
-/* line 108, ../sass/_menu.scss */
+/* line 109, ../sass/_menu.scss */
 .nav_name {
   margin: 190px 0 30px;
   color: #ed1c24;
@@ -229,73 +231,91 @@ nav .main_name {
   opacity: 0;
 }
 
-/* line 117, ../sass/_menu.scss */
+/* line 118, ../sass/_menu.scss */
 .nav_item {
   background-color: rgba(255, 255, 255, 0.7);
   position: relative;
 }
 
-/* line 124, ../sass/_menu.scss */
+/* line 122, ../sass/_menu.scss */
 .nav_logo {
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: -100%;
   padding: 10px;
   max-width: 100%;
+  transition: 0.4s;
 }
-/* line 130, ../sass/_menu.scss */
+/* line 129, ../sass/_menu.scss */
 .nav_logo img {
   width: 100%;
+}
+
+/* line 133, ../sass/_menu.scss */
+.close_btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+/* line 142, ../sass/_menu.scss */
+.overlay-active nav .main_name {
+  opacity: 1;
+  transition: 0.4s;
+}
+/* line 146, ../sass/_menu.scss */
+.overlay-active .nav_logo {
+  left: 0px;
+}
+/* line 149, ../sass/_menu.scss */
+.overlay-active .close_btn {
+  opacity: 1;
+  transition: 0.4s;
 }
 
 /* ====================================
 Burger king
 ==================================== */
-/* line 141, ../sass/_menu.scss */
+/* line 160, ../sass/_menu.scss */
 .open-overlay {
   position: fixed;
   z-index: 100;
   cursor: pointer;
 }
 
-/* line 147, ../sass/_menu.scss */
-.close_btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-/* line 152, ../sass/_menu.scss */
+/* line 166, ../sass/_menu.scss */
 .animate-top-bar {
   -webkit-animation: animate-top-bar .6s linear 1 both;
   animation: animate-top-bar 0.6s linear 1 both;
 }
 
-/* line 157, ../sass/_menu.scss */
+/* line 171, ../sass/_menu.scss */
 .animate-bottom-bar {
   -webkit-animation: animate-bottom-bar .6s linear 1 both;
   animation: animate-bottom-bar 0.6s linear 1 both;
 }
 
-/* line 162, ../sass/_menu.scss */
+/* line 176, ../sass/_menu.scss */
 .animate-middle-bar {
   -webkit-animation: animate-middle-bar .6s linear 1 both;
   animation: animate-middle-bar 0.6s linear 1 both;
 }
 
-/* line 167, ../sass/_menu.scss */
+/* line 181, ../sass/_menu.scss */
 .animate-out-top-bar {
   -webkit-animation: animate-out-top-bar .6s linear 1 both;
   animation: animate-out-top-bar 0.6s linear 1 both;
 }
 
-/* line 172, ../sass/_menu.scss */
+/* line 186, ../sass/_menu.scss */
 .animate-out-bottom-bar {
   -webkit-animation: animate-out-bottom-bar .6s linear 1 both;
   animation: animate-out-bottom-bar 0.6s linear 1 both;
 }
 
-/* line 177, ../sass/_menu.scss */
+/* line 191, ../sass/_menu.scss */
 .animate-out-middle-bar {
   -webkit-animation: animate-out-middle-bar .6s linear 1 both;
   animation: animate-out-middle-bar 0.6s linear 1 both;
@@ -305,7 +325,7 @@ Burger king
 Animation keyframes
 ==================================== */
 @media (max-width: 640px) {
-  /* line 204, ../sass/_menu.scss */
+  /* line 218, ../sass/_menu.scss */
   nav > ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -314,28 +334,28 @@ Animation keyframes
     flex-direction: column;
   }
 
-  /* line 211, ../sass/_menu.scss */
+  /* line 225, ../sass/_menu.scss */
   .nav_item {
     height: 20%;
   }
 
-  /* line 214, ../sass/_menu.scss */
+  /* line 228, ../sass/_menu.scss */
   nav ul .nav_item a {
     font-size: 11px;
   }
 
-  /* line 217, ../sass/_menu.scss */
+  /* line 231, ../sass/_menu.scss */
   nav .nav_item a:after {
     font-size: 0.6rem;
     bottom: -25px;
   }
 
-  /* line 221, ../sass/_menu.scss */
+  /* line 235, ../sass/_menu.scss */
   nav .nav_item a:hover:after {
     transform: translateY(0);
   }
 
-  /* line 224, ../sass/_menu.scss */
+  /* line 238, ../sass/_menu.scss */
   .open-overlay {
     right: 1rem;
   }

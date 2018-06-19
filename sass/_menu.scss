@@ -77,7 +77,8 @@ nav .main_name{
   position: absolute;
   z-index: 2;
   top: 70px;
-
+  opacity: 0;
+  transition: 0.4s;
 }
 .nav_item {
 -webkit-flex-basis: 25%;
@@ -118,20 +119,38 @@ opacity: 0;
   background-color: rgba(255,255,255,.7);
   position: relative;
 }
-.nav_item:nth-child(odd){
-  // background-color: $red;
-}
 .nav_logo{
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: -100%;
   padding: 10px;
   max-width: 100%;
+  transition: 0.4s;
   img{
     width: 100%;
   }
 }
+.close_btn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: 0.4s;
+}
 
+.overlay-active {
+  nav .main_name{
+    opacity: 1;
+    transition: 0.4s;
+  }
+  .nav_logo{
+    left: 0px;
+  }
+  .close_btn{
+    opacity: 1;
+    transition: 0.4s;
+  }
+}
 
 
 /* ====================================
@@ -144,11 +163,6 @@ z-index: 100;
 cursor: pointer;
 }
 
-.close_btn{
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
 .animate-top-bar {
 -webkit-animation: animate-top-bar .6s linear 1 both;
 animation: animate-top-bar .6s linear 1 both
