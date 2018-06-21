@@ -33,47 +33,48 @@
 
         <div class="wrapper">
           <div class="line_link">
-            <a href="/" class="link_active">Главная</a>&#8195;/&#8195;<span class="link_no_active">Інфраструктура</span>
+            <a href="/" class="link_active">Головна</a>&#8195;|&#8195;<span class="link_no_active">Інфраструктура</span>
           </div>
+
           <section class="infra__block">
             <div class="infra__item infra__item__1">
-              <div class="infra__name">
+              <div class="section__name">
                 Дитячий садок нового покоління
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
             <div class="infra__item infra__item__2">
-              <div class="infra__name">
+              <div class="section__name">
                 Центр дитячого розвитку
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
             <div class="infra__item infra__item__3">
-              <div class="infra__name">
+              <div class="section__name">
                 Сімейне кафе
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
             <div class="infra__item infra__item__4">
-              <div class="infra__name">
+              <div class="section__name">
                 Дитяча клініка
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
             <div class="infra__item infra__item__5">
-              <div class="infra__name">
+              <div class="section__name">
                 MAMA HUB
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
             <div class="infra__item infra__item__6">
-              <div class="infra__name">
+              <div class="section__name">
                 Безпечний дитячий та спортивний майданчики на даху
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
             <div class="infra__item infra__item__7">
-              <div class="infra__name">
+              <div class="section__name">
                 Простір для зберігання дитячих візків та велосипедів
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
@@ -84,11 +85,8 @@
     </div>
     <!-- end section -->
 
-    <!-- bottom-menu -->
+
     <?php include_once 'includes/bottom-menu.php';?>
-      <!--end bottom-menu -->
-      <!-- footer -->
-      <?php include_once 'includes/footer.php';?>
-      <!-- end footer -->
+    <?php include_once 'includes/footer.php';?>
   </body>
 </html>

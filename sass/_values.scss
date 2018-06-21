@@ -1,0 +1,75 @@
+/*! VALUES HappyHouse(1.2). (C) June 2018 Anna Begas. */
+
+.values_block{
+  margin-bottom: 20px;
+  .section__name{
+    font-size: 24px;
+  }
+
+}
+.values_item{
+  width: 100%;
+  height: 450px;
+  background-size: auto 140%;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.values__name{
+  position: relative;
+  margin-right: 0;
+  margin-left: auto;
+  top: 60%;
+  max-width: 230px;
+  text-align: center;
+  font-family: $gotha;
+  text-transform: uppercase;
+  font-size: 30px;
+  z-index: 1;
+  span{
+    display: block;
+    background-color: white;
+    padding: 14px 20px;
+    border-radius: 4px 0 0 4px;
+  }
+  &::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 10px;
+    bottom: -10px;
+    background-color: rgba(255,255,255,0.7);
+    z-index: -1;
+    border-radius: 4px 0 0 4px;
+  }
+  &::after{
+    content: '';
+    position: absolute;
+    width: calc(100% + 10px);
+    height: 100%;
+    left: -10px;
+    top: -10px;
+    background-color: $red;
+    z-index: -2;
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+.values_item__1{
+  background: url('/img/values/1.jpg');
+  background-size: cover;
+}
+.values_item__2{
+  background: url('/img/values/2.jpg');
+  background-size: cover;
+  .values__name{
+    top: 10%;
+  }
+}
+.values_item__3{
+  background: url('/img/values/3.jpg');
+  background-size: cover;
+}

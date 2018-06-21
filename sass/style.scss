@@ -865,6 +865,8 @@ svg{
   transition-duration: 0.8s;
   -webkit-transition-duration: 0.8s;
   transition-delay: 1s;
+  display: inline-block;
+  vertical-align: middle;
 }
 .smile_line.open{
   width: 90px;
@@ -899,6 +901,9 @@ svg{
 }
 .name_box{
   position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   &:before,
   &:after{
     content: url('/img/smile_grey.svg');
@@ -917,105 +922,7 @@ svg{
 
 
 
-// styles for VALUES
 
-.values_block{
-  width: 100%;
-  height: 500px;
-  background-size: auto 140%;
-  background-position: center center;
-  overflow: hidden;
-  position: relative;
-  margin-top: -20px;
-}
-.values__name{
-  position: absolute;
-  bottom: 100px;
-  right: 0;
-  font-size: 36px;
-  transform: skewY(-6deg);
-  z-index: 1;
-  &::before{
-    content: '';
-    width: 100%;
-    height: 100%;
-    left: -10px;
-    top: -10px;
-    position: absolute;
-    background: $orange;
-    z-index: -1;
-  }
-  &::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0;
-    position: absolute;
-    background-color: $yellow;
-    z-index: -2;
-    transform: skewY(12deg);
-  }
-}
-.values__name__inner{
-  padding: 20px 40px;
-  background: $blue;
-}
-.values__info{
-  width: 300px;
-  position: absolute;
-  // top: 150px;
-  padding: 30px 40px;
-  line-height: 1.5;
-  z-index: 1;
-  &:before{
-    content: '';
-    position: absolute;
-    opacity: .8;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: -1;
-  }
-}
-.values_block__1{
-  -webkit-clip-path: polygon(0px 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
-  clip-path: polygon(0px 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
-  .values__info{
-    bottom: 100px;
-    left: 0;
-    right: 0;
-    &:before{
-      background: $red;
-      transform: skewY(5deg);
-    }
-  }
-}
-.values_block__2{
-  -webkit-clip-path: polygon(0px 0, 50% 10%, 100% 0, 100% 100%, 50% 90%, 0 100%);
-  clip-path: polygon(0px 0, 50% 10%, 100% 0, 100% 100%, 50% 90%, 0 100% );
-  .values__info{
-    top: 70px;
-    right: 0;
-    &:before{
-      background: $yellow;
-      transform: skewY(-5deg);
-    }
-  }
-}
-.values_block__3{
-  -webkit-clip-path: polygon(0px 10%, 50% 0%, 100% 10%, 100% 100%, 0 100%);
-  clip-path: polygon(0px 10%, 50% 0, 100% 10%, 100% 100%, 0 100% );
-  .values__info{
-    top: 90px;
-    left: 0;
-    &:before{
-      background: $orange;
-      transform: skewY(-5deg);
-    }
-  }
-}
 
                                             // styles for page day
 .day_block{
@@ -1325,3 +1232,5 @@ svg{
 
 //styles for INFRASTRUKTURA
 @import "_infra";
+//styles for Values
+@import "_values";

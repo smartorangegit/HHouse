@@ -8,79 +8,67 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- hidden block -->
-    <div class="hidden__box">
-      <div id="arrow_right">
-        <svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m0 416.08179c0 2 1.2 3.8 3.1 4.6s4 .3 5.4-1.1l205.6-205.6c1-1 1.5-2.3 1.5-3.5s-.5-2.6-1.5-3.5l-205.5-205.4999914c-1.3-1.4-3.5-1.9-5.5-1.1-1.9.8-3.1 2.6000001-3.1 4.6000002z"/></svg>
-      </div>
-      <div id="arrow_left">
-        <svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m215.6 416.08179c0 2-1.2 3.8-3.1 4.6s-4 .3-5.4-1.1l-205.6-205.6c-1-1-1.5-2.3-1.5-3.5s.5-2.6 1.5-3.5l205.5-205.4999914c1.3-1.4 3.5-1.9 5.5-1.1 1.9.8 3.1 2.6000001 3.1 4.6000002z"/></svg>
-      </div>
-      <svg width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <defs>
-          <symbol id="long_arrow_right" viewBox="0 0 89 49">
-            <title id="title">long_arrow_right</title>
-            <path d="m71.415 74.415 22.498-22.499c.094-.093.178-.196.251-.307.032-.047.054-.099.081-.148.035-.064.074-.127.103-.195.027-.065.043-.133.063-.2.017-.058.039-.113.051-.173.052-.259.052-.524 0-.783-.012-.06-.034-.115-.051-.173-.02-.067-.035-.135-.063-.2-.028-.068-.067-.131-.103-.195-.027-.05-.049-.102-.081-.148-.073-.11-.157-.214-.251-.307l-22.498-22.501c-.781-.781-2.048-.781-2.828 0-.391.391-.586.902-.586 1.414s.195 1.023.586 1.414l19.086 19.086h-80.172c-1.104 0-2 .896-2 2s.896 2 2 2h80.172l-19.086 19.086c-.391.391-.586.902-.586 1.414s.195 1.023.586 1.414c.78.782 2.047.782 2.828.001z" transform="translate(-5.501 -26.00025)"></path>
-          </symbol>
-        </defs>
-      </svg>
-    </div>
-    <!-- end hidden block -->
-
     <!-- top-menu -->
     <?php include_once 'includes/top-menu.php';?>
     <!-- end top-menu -->
-    <div class="container">
+    <?php include_once 'includes/form_callback.php';?>
+
+    <div class="container values_block">
 
       <!-- header -->
       <div class="header">
-        <div class="header_name">
-          Цінності
-        </div>
-        <div class="one__line">
-          <div class="line_fanny"></div>
+        <div class="main_name">
+          <div class="line_grey">
+            <div class="line_fanny"></div>
+          </div>
+          <div class="name_box">
+            <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg" style="transform:scaleX(-1);"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg>
+            <span>Цінності</span>
+            <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg>
+          </div>
         </div>
       </div>
       <!-- end header -->
 
         <div class="wrapper">
           <div class="line_link">
-            <a href="/" class="link_active">Главная</a>&#8195;/&#8195;<span class="link_no_active">Ценности</span>
+            <a href="/" class="link_active">Головна</a>&#8195;|&#8195;<span class="link_no_active">Ценности</span>
           </div>
+          <!-- <section class="values_block"> -->
 
-          <div class="values_block values_block__1">
-            <img src="img/adv_bg.jpg" alt="">
-            <div class="values__name">
-              <div class="values__name__inner">
-                Діти
+            <div class="values_item values_item__1">
+              <div class="values__name">
+                <span>Діти</span>
+              </div>
+              <div class="section__name">
+                Продумана інфраструктура для навчання, розвитку та розваг ваших дітей
+                <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
-            <div class="values__info">
-              Продумана інфраструктура для навчання, розвитку та розваг ваших дітей
-            </div>
-          </div>
-          <div class="values_block values_block__2">
-            <img src="img/day_bg.jpg" alt="">
-            <div class="values__name">
-              <div class="values__name__inner">
-                Сім&prime;я
+
+            <div class="values_item values_item__2">
+              <div class="values__name">
+                <span>Сім&prime;я</span>
+              </div>
+              <div class="section__name">
+                Екосистема, що створює затишок, комфорт та безпеку вашої сім’ї
+                <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
-            <div class="values__info">
-              Екосистема, що створює затишок, комфорт та безпеку вашої сім&prime;ї.
-            </div>
-          </div>
-          <div class="values_block values_block__3">
-            <img src="img/bg_1.jpg" alt="">
-            <div class="values__name">
-              <div class="values__name__inner">
-                Гармонія
+
+            <div class="values_item values_item__3">
+              <div class="values__name">
+                <span>Гармонія</span>
+              </div>
+              <div class="section__name">
+                Гармонічне середовище – запорука гармонійного розвитку та гармонійних відносин
+                <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
-            <div class="values__info">
-              Гармонічне середовище - запорука гармонійного розвитку та гармонійних відносин.
-            </div>
-          </div>
+
+          <!-- </section> -->
+
+
         </div>
         <!-- end wrapper -->
     </div>
