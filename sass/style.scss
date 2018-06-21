@@ -671,7 +671,6 @@ svg{
 }
 .tabs__content{
   width: 100%;
-  // background: $orange;
 }
 .contacts__box{
   margin-top: 20px;
@@ -773,13 +772,11 @@ svg{
 }
 .bottom-menu_name{
   font-size: 20px;
-  // color: $orange;
 }
 .bottom-menu__item li{
   color: #676767;
   font-family: $gotha;
   line-height: 2.5;
-
 }
 .bottom-menu__item li a{
   color: #676767;
@@ -788,7 +785,6 @@ svg{
     color: $red;
   }
 }
-
 .phone_box{
   background: #fff;
   text-align: center;
@@ -821,14 +817,13 @@ svg{
   background: #e5e5e5;
   padding: 10px;
   font-family: $gotha;
-
-
 }
 .footer__right{
   width: 100px;
 }
 
  // pop_up form
+
 .form_box{
   position: fixed;
   width: 100%;
@@ -837,7 +832,6 @@ svg{
   left: 0;
   background: url(/img/menu_bg.jpg);
   background-size: cover;
-  // opacity: 1;
   display: none;
   opacity: 0;
   z-index: 12;
@@ -877,17 +871,9 @@ svg{
 
 }
 
-
-
-
-// styles for VALUES
-
+// hearer for all pages
 .header{
-  background: $red;
-  position: relative;
   margin-top: 70px;
-  overflow: hidden;
-  margin-bottom: 20px;
   .one__line{
     position: static;
     padding: 1px 0;
@@ -895,59 +881,44 @@ svg{
   .line_fanny{
     margin: 12px 0;
   }
-}
-.header::before,
-.header::after{
-  content: '';
-  position: absolute;
-  width: 15rem;
-  height: 15rem;
-  background: $yellow;
-  border-radius: 100%;
-  top: -9rem;
-  left: 50%;
-  margin-left: -28rem;
-  opacity: 0.8;
-  z-index: 1;
-}
-.header::after{
-  left: auto;
-  right: 50%;
-  margin-right: -28rem;
-  opacity: 1;
-}
-.header_name{
-  font-size: 42px;
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 50px 0;
-  text-align: center;
-  z-index: 1;
-  &:before{
-    content: '';
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    background: $orange;
-    transform: skewX(40deg);
-    -webkit-transform: skewX(40deg);
-    z-index: -1;
+  .menu_line{
+    width: 90px;
   }
 }
+
 .line_link{
   margin-bottom: 40px;
-  color: white;
+  color:#808080;
+  margin-top: 20px;
 }
 .link_active{
-  color: white;
+  color: #808080;
 }
 .link_no_active{
   color: $red;
 }
+.name_box{
+  position: relative;
+  &:before,
+  &:after{
+    content: url('/img/smile_grey.svg');
+    position: absolute;
+    width:20px;
+    height: 24px;
+    top: 50%;
+    left: 5%;
+    margin-top: -14px;
+  }
+    &:after{
+      left: auto;
+      right: 5%;
+    }
+}
+
+
+
+// styles for VALUES
+
 .values_block{
   width: 100%;
   height: 500px;
@@ -1046,7 +1017,7 @@ svg{
   }
 }
 
-                                                        // styles for page day
+                                            // styles for page day
 .day_block{
   width: 100%;
   height: 100vh;
@@ -1116,7 +1087,7 @@ svg{
   height: 100px;
   position: absolute;
   font-size: 24px;
-  background: rgba(209,204,201,.6);
+  background: rgba(176,176,176,.6);
   top: -30px;
   left: 30px;
   padding-top: 45px;
@@ -1353,86 +1324,4 @@ svg{
 }
 
 //styles for INFRASTRUKTURA
-
-.infra__block{
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-.infra__item{
-  height: 550px;
-  width: 100%;
-  position: relative;
-  -webkit-clip-path: polygon(0px 25%, 100% 0, 100% 75%, 0 100%);
-  clip-path: polygon(0px 25%, 100% 0, 100% 75%, 0 100%);
-  margin-top: -120px;
-  &:after{
-    content: '';
-    position: absolute;
-    width: 80%;
-    height: 24px;
-    background: rgba(255,218,0,0.8);
-    transform: skewY(-6.8deg);
-    bottom: 50px;
-  }
-}
-.infra__name{
-  width: 30%;
-  // max-width: 300px;
-  font-size: 30px;
-  padding: 30px 30px 60px;
-  position: relative;
-  z-index: 1;
-  font-family: $gothaLight;
-  top: 120px;
-  &:before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(189,47,42,.9);
-    z-index: -1;
-    clip-path: polygon(0 100%, 100% 70%, 100% 0%, 0 0%);
-    -webkit-clip-path: polygon(0 100%, 100% 70%, 100% 0%, 0 0%);
-  }
-}
-.infra__item__1{
-  background: url('/img/infra_bg.jpg') center no-repeat;
-  background-size: cover;
-  margin-top: 0;
-  -webkit-clip-path: polygon(0px 0, 100% 0, 100% 75%, 0 100%);
-  clip-path: polygon(0px 0, 100% 0, 100% 75%, 0 100%);
-  .infra__name{
-    top:0;
-  }
-}
-.infra__item__2{
-  background: url('/img/day/img6.jpg') center no-repeat;
-  background-size: cover;
-}
-.infra__item__3{
-  background: url('/img/day/img5.jpg') center no-repeat;
-  background-size: cover;
-}
-.infra__item__4{
-  background: url('/img/render3.jpg') center no-repeat;
-  background-size: cover;
-}
-.infra__item__5{
-  background: url('/img/infra/mama_bg.jpg') center no-repeat;
-  background-size: cover;
-}
-.infra__item__6{
-  background: url('/img/day/img3.jpg') center no-repeat;
-  background-size: cover;
-}
-.infra__item__7{
-  background: url('/img/kolyaska.jpg') center no-repeat;
-  background-size: cover;
-  -webkit-clip-path: polygon(0px 25%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0px 25%, 100% 0, 100% 100%, 0 100%);
-  &:after{
-    top:78px;
-  }
-}
+@import "_infra";

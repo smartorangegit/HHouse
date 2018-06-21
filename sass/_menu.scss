@@ -1,6 +1,6 @@
-/* ====================================
-Navigation
-==================================== */
+/* ====================================*/
+/*! Open Menu HappyHouse(1.2). (C) June 2018 Anna Begas. */
+/* ==================================== */
 
 .overlay-navigation {
 position: fixed;
@@ -11,7 +11,6 @@ width: 100%;
 height: 100%;
 background: url('/img/menu_bg.jpg');
 background-size: cover;
-// background-color: hsla(0, 0%, 100%, 0.2);
 display: none;
 opacity: 0;
 }
@@ -51,28 +50,16 @@ list-style: none;
     display: inline-block;
     margin: 0 20px;
   }
-  svg{
-    vertical-align: middle;
-    width: 0;
-    transition: 1s;
-  }
-  svg.open{
-    width: 90px;
-    transition: 1s;
-  }
-  &:before,
-  &:after{
-    content: url('/img/smile_grey.svg');
-    position: absolute;
-    width:20px;
-    height: 24px;
-    top: 76px;
-    left: 5%;
-  }
-    &:after{
-      left: auto;
-      right: 5%;
-    }
+
+}
+.menu_line{
+  vertical-align: middle;
+  width: 0;
+  transition: 1s;
+}
+.menu_line.open{
+  width: 90px;
+  transition: 1s;
 }
 nav .main_name{
   position: absolute;

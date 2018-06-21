@@ -52,7 +52,7 @@
     <?php include_once 'includes/footer.php';?>
     <!-- end footer -->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
 
     $('.day_time').hover(function(){
       var image = this.dataset.image
@@ -65,6 +65,6 @@
       $(this).addClass('day_time_active');
     });
 
-    </script>
+    </script> -->
   </body>
 </html>

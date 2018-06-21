@@ -21,9 +21,11 @@ var modal = $('#form_callback');
 var line = $('.smile_line');
 
 call.click(function(){
-  line.addClass('open')
   modal.velocity('transition.slideUpBigIn',{
     // duration: 650,
+    complete:function() {
+      line.addClass('open')
+      }
   })
 });
 
@@ -39,7 +41,7 @@ close.click(function(){
 $('.open-overlay').click(function() {
   $('.open-overlay').css('pointer-events', 'none');
   var overlay_navigation = $('.overlay-navigation')
-  var svg = $('.main_name svg')
+  var svg = $('.menu_line')
 
   overlay_navigation.toggleClass('overlay-active');
   if (overlay_navigation.hasClass('overlay-active')) {
@@ -228,4 +230,18 @@ $(function(){
     prevText: '<svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" ><path d="m215.6 416.08179c0 2-1.2 3.8-3.1 4.6s-4 .3-5.4-1.1l-205.6-205.6c-1-1-1.5-2.3-1.5-3.5s.5-2.6 1.5-3.5l205.5-205.4999914c1.3-1.4 3.5-1.9 5.5-1.1 1.9.8 3.1 2.6000001 3.1 4.6000002z"/></svg>',
     // slideWidth: '100%'
   });
+});
+
+
+/// page DAY
+
+$('.day_time').hover(function(){
+  var image = this.dataset.image
+  var info = this.dataset.info
+  var time = this.dataset.time
+  $('.day_block').css('backgroundImage','url(img/day/' + image + '.jpg)');
+  $('.day_looktime').html(time);
+  $('.day_round span').html(info);
+  $('.day_time').removeClass('day_time_active');
+  $(this).addClass('day_time_active');
 });

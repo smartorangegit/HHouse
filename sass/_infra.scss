@@ -1,0 +1,96 @@
+/*! INFRASTRUKTURA HappyHouse(1.2). (C) June 2018 Anna Begas. */
+
+.infra__block{
+  margin-bottom: 20px;
+}
+.infra__item{
+  height: 412px;
+  width: 100%;
+  position: relative;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+.infra__name{
+  width: 30%;
+  font-size: 30px;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+  font-family: $gothaLight;
+  top: 70px;
+  &:before{
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.9);
+    z-index: -1;
+    border-radius: 4px;
+    }
+  &:after{
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: -28px;
+    width: 90%;
+    height: 28px;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 0 4px 0 0;
+  }
+  .smile_line{
+    display: block;
+    margin: 20px 0 0;
+  }
+}
+.infra__item:nth-child(even){
+  .infra__name{
+    margin-right: 0;
+    margin-left: auto;
+  &:before{
+    left: auto;
+    right: -4px;
+    }
+  &:after{
+    left: auto;
+    right: -4px;
+    border-radius: 4px 0 0 0;
+    }
+  }
+}
+.infra__item__1{
+  background: url('/img/infra_bg.jpg') center no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  .infra__name{
+    top:200px;
+  }
+}
+.infra__item__2{
+  background: url('/img/day/img6.jpg') center no-repeat;
+  background-size: cover;
+}
+.infra__item__3{
+  background: url('/img/day/img5.jpg') center no-repeat;
+  background-size: cover;
+}
+.infra__item__4{
+  background: url('/img/render3.jpg') center no-repeat;
+  background-size: cover;
+}
+.infra__item__5{
+  background: url('/img/infra/mama_bg.jpg') center no-repeat;
+  background-size: cover;
+}
+.infra__item__6{
+  background: url('/img/day/img3.jpg') center no-repeat;
+  background-size: cover;
+}
+.infra__item__7{
+  background: url('/img/kolyaska.jpg') center no-repeat;
+  background-size: cover;
+  .infra__name{
+    top:120px;
+  }
+}
