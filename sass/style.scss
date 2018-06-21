@@ -705,6 +705,7 @@ svg{
     outline: none;
     margin-bottom: 16px;
     text-indent: 60px;
+    letter-spacing: 1px;
     }
   input[type="submit"]{
     background: $red;
@@ -712,6 +713,10 @@ svg{
     border-radius: 4px;
     margin-bottom: 0;
     text-indent: 0;
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
   }
 }
 .form__img{
@@ -823,6 +828,56 @@ svg{
   width: 100px;
 }
 
+ // pop_up form
+.form_box{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(/img/menu_bg.jpg);
+  background-size: cover;
+  // opacity: 1;
+  display: none;
+  opacity: 0;
+  z-index: 12;
+  .main_name{
+    margin-top: 67px;
+  }
+  .contact_form{
+    width: 95%;
+    margin: 70px auto 10px;
+    max-width: 1000px;
+    input{
+      border: 1px solid #cbcbcb;
+      background-color: #fff;
+    }
+    input[type="submit"]{
+      border: 1px solid $red;
+      background-color: $red;
+    }
+  }
+  .close_btn{
+    opacity: 1;
+    top: auto;
+    bottom: -70px;
+    svg{
+      width: inherit;
+    }
+  }
+}
+.smile_line{
+  width: 0px;
+  transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  transition-delay: 1s;
+}
+.smile_line.open{
+  width: 90px;
+
+}
+
+
 
 
 // styles for VALUES
@@ -885,10 +940,10 @@ svg{
 }
 .line_link{
   margin-bottom: 40px;
-  color: $blue;
+  color: white;
 }
 .link_active{
-  color: $blue;
+  color: white;
 }
 .link_no_active{
   color: $red;
@@ -999,6 +1054,18 @@ svg{
   background-size: cover;
   transition: 0.4s;
   -webkit-transition: 0.4s;
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background: -webkit-gradient(linear, 0% 100%, 0% 0%,color-stop(0, rgba(0, 0, 0, 0.8)),color-stop(1, rgba(0, 0, 0, 0)));
+    background: -webkit-repeating-linear-gradient(bottom,rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0) 100%);
+    background: repeating-linear-gradient(to top,rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0) 100%);
+    background: -ms-repeating-linear-gradient(bottom,rgba(0, 0, 0, 0.8) 0%,rgba(0, 0, 0, 0) 100%);
+  }
   .wrapper{
     height: 100%;
     padding: 100px 30px 50px;
@@ -1015,6 +1082,8 @@ svg{
   -webkit-justify-content: space-around;
   align-items: center;
   -webkit-align-items: center;
+  position: relative;
+  z-index: 1;
 }
 .day_round{
   width: 260px;
@@ -1022,10 +1091,14 @@ svg{
   border-radius: 100%;
   position: relative;
   padding: 80px 50px 50px;
-  background-color: rgba(242,103,41,.8);
+  background-color: rgba(255,255,255,.8);
   text-align: center;
   overflow: hidden;
   line-height: 1.6;
+  .icon_line {
+    height: 20px;
+    width: 88px;
+    }
   &::after{
     content: '';
     position: absolute;
@@ -1035,7 +1108,7 @@ svg{
     width: calc(100% - 20px);
     height: calc(100% - 20px);
     border-radius: 100%;
-    border: 1px solid $yellow;
+    border: 1px solid #fff;
   }
 }
 .day_looktime{
@@ -1043,7 +1116,7 @@ svg{
   height: 100px;
   position: absolute;
   font-size: 24px;
-  background: blue;
+  background: rgba(209,204,201,.6);
   top: -30px;
   left: 30px;
   padding-top: 45px;
@@ -1088,6 +1161,7 @@ svg{
     padding: 18px 7px;
     border-radius: 100%;
     opacity: 0;
+    color: white;
     transition: 0.35s;
     -webkit-transition: 0.35s;
   }
@@ -1104,7 +1178,7 @@ svg{
 }
 .day_time:hover,
 .day_time_active{
-  background: $yellow;
+  background: $red;
   &:before,
   &:after{
     opacity: 1;

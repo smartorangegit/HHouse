@@ -38,6 +38,7 @@ list-style: none;
   font-family: $gothaLight;
   padding-bottom: 16px;
   background: rgba(255,255,255,.8);
+  position: relative;
   .line_grey{
     background: #f0f0f0;
     padding: 10px 0;
@@ -81,9 +82,9 @@ nav .main_name{
   transition: 0.4s;
 }
 .nav_item {
--webkit-flex-basis: 25%;
--ms-flex-preferred-size: 25%;
-flex-basis: 25%;
+-webkit-flex-basis: 20%;
+-ms-flex-preferred-size: 20%;
+flex-basis: 20%;
 -webkit-box-pack: center;
 -webkit-justify-content: center;
 -ms-flex-pack: center;
@@ -136,6 +137,7 @@ opacity: 0;
   right: 20px;
   opacity: 0;
   transition: 0.4s;
+  cursor: pointer;
 }
 
 .overlay-active {
