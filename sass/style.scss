@@ -1,4 +1,4 @@
-/* Welcome to Compass.
+/*!  HappyHouse(1.2). (C) June 2018 Anna Begas. *//* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
@@ -9,7 +9,7 @@
 @import "_slider";
 
 body{
-  font-family: $gothaMed;
+  font-family: $gotha;
   color: #000000;
   letter-spacing: 1px;
   font-size: 14px;
@@ -812,6 +812,17 @@ svg{
     color: $red;
   }
 }
+.btn_red{
+  display: block;
+  text-align: center;
+  background: $red;
+  padding: 18px 0;
+  color: #fff;
+  transition: 0.33s;
+  -webkit-transition: 0.33s;
+  border-radius: 4px;
+  margin-top: 12px;
+}
 .footer{
   width: 100%;
   background: #e5e5e5;
@@ -1063,174 +1074,13 @@ svg{
   }
 }
 // styles for ABOUT PROJECT
-.about_block{
-  background: url('../img/bg_1.jpg') center no-repeat;
-  background-size: cover;
-  padding-top: 80px;
-  margin-bottom: 20px;
-}
-.about_box_blue{
-  overflow: hidden;
-  margin-bottom: 50px;
-}
-.about_box_inner{
-  width: 50%;
-  position: relative;
-  z-index: 1;
-  line-height: 1.8;
-  padding: 50px 30px 70px;
-  p{
-    margin-bottom: 20px;
-  }
-}
-.about_box_inner:before{
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: rgba(43,50,140,0.8);
-  z-index: -1;
-  transform: skewY(-8deg);
-  -webkit-transform: skewY(-8deg);
-}
-.about_box_inner:after{
-  content: '';
-  position: absolute;
-  background-color: rgba(242,103,41,0.8);
-  width: 94%;
-  height: 24px;
-  transform: skewY(-8deg);
-  -webkit-transform: skewY(-8deg);
-}
-.about_box_inner:nth-child(1){
-  &:before{
-    top:-40px;
-  }
-  &:after{
-    bottom: 14px;
-    left: 0;
-  }
-}
-.about_box_inner:nth-child(2){
-  padding: 100px 30px 10px;
-  margin: 0 0 0 auto;
-  &:before{
-    top:auto;
-    bottom: -40px;
-  }
-  &:after{
-    top: 14px;
-    right: 0;
-  }
-}
-.about_box_red{
-  overflow:hidden;;
-  text-align: center;
-}
-.about_box_inner_red.about_box_inner:nth-child(1){
-  margin: 0 auto;
-  padding: 100px 30px 20px;
-  &:before{
-    background-color: rgba(189,47,42,.8);
-    top: 40px;
-  }
-  &:after{
-    content: none;
-  }
-}
-
-.button_double{
-  display: block;
-  margin: 30px auto;
-  position: relative;
-  padding: 10px 20px;
-  z-index: 1;
-  color: $blue;
-  transition: 0.42s;
-  -webkit-transition: 0.42s;
-  &:before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: $yellow;
-    right: 0px;
-    top: 0px;
-    z-index: -1;
-    transition: 0.42s;
-    -webkit-transition: 0.42s;
-  }
-  &:after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: $blue;
-    right: -8px;
-    top: -8px;
-    z-index: -2;
-    transition: 0.42s;
-    -webkit-transition: 0.42s;
-  }
-}
-.button_double:hover{
-  color: $yellow;
-  &:before{
-    background: $blue;
-  }
-  &:after{
-    background: $yellow;
-  }
-}
-.about_list{
-  background: $orange;
-  padding: 10px 50px;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-.about_icon{
-  width: 25%;
-  justify-content: center;
-  -webkit-justify-content: center;
-  margin: 30px 0;
-}
-.icon_wrap{
-  width: 100px;
-  height: 100px;
-  background: $red;
-  border-radius: 100%;
-  padding: 25px;
-  margin-right: 20px;
-  svg{
-    width: 100%;
-    height: 100%;
-    fill:#ffffff;
-  }
-}
-.icon_wrap_yellow{
-  background-color: $yellow;
-  svg{
-    fill:$blue;
-  }
-}
-.icon_wrap_white{
-  background-color: #fff;
-  svg{
-    fill:$blue;
-  }
-}
-.icon_wrap_blue{
-  background-color: $blue;
-  }
-.about_prev {
-  width: 120px;
-  line-height: 1.6;
-}
-
+@import "_about";
 //styles for INFRASTRUKTURA
 @import "_infra";
 //styles for Values
 @import "_values";
+@import "_developer";
+@import "_advantages";
+@import "_level-floor";
+@import "_filter";
+@import "special";

@@ -1,0 +1,95 @@
+.floor_block{
+  .line_link{
+    position: relative;
+    z-index: 2;
+    pointer-events: all;
+  }
+  .header{
+    position: relative;
+    z-index: 3;
+
+  }
+}
+.floor-level_block{
+  position: relative;
+  .wrapper{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 20px;
+    pointer-events: none;
+  }
+}
+.floor-level_box{
+  position: relative;
+  top: -163px;
+  z-index: 0;
+  margin-bottom: -165px;
+  pointer-events: all;
+  svg{
+    max-height: 100vh;
+    min-height: 700px;
+  }
+  svg a{
+    cursor: pointer;
+  }
+  svg a polygon{
+    opacity: 0;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+  }
+  svg a:hover polygon{
+    opacity: 0.8;
+  }
+}
+.house_left{
+  width: 210px;
+  pointer-events: all;
+}
+.house_right{
+  width: 240px;
+  text-align: center;
+}
+.btn_transparent{
+  background: transparent;
+  border: 1px solid $red;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 250px;
+  justify-content: center;
+  -webkit-justify-content: center;
+  padding: 18px 0;
+}
+.kimnati-link{
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #dcdcdc;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 20px;
+  *{
+    display: block;
+  }
+}
+.kimnati-number{
+  font-size: 30px;
+  color: $red;
+  margin-bottom: 6px;
+}
+.compass{
+  margin-top: -50px;
+}
+.select__box{
+  // position: absolute;
+}
+.arrow_blink{
+  position: absolute;
+  top: 20px;
+  z-index: 3;
+  left: 24%;
+}

@@ -1,0 +1,54 @@
+/*! Developer HappyHouse(1.2). (C) June 2018 Anna Begas. */
+
+.developer_block{
+  .content_subname{
+    font-size: 24px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 740px;
+    letter-spacing: normal;
+    line-height: 1.8;
+  }
+  .projects .wrapper{
+    border: none;
+    padding: 10px 0;
+  }
+  .develop__img{
+    position: static;
+  }
+
+}
+.content_text{
+  line-height: 2;
+
+}
+.developer_box{
+  background: #efefef;
+  padding: 40px;
+  margin-bottom: 36px;
+}
+.developer_logo{
+  width: 25%;
+  padding: 20px;
+}
+.developer_info{
+  width: 75%;
+  padding: 20px 40px;
+  li{
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    margin-bottom: 12px;
+  }
+  .content_text{
+    margin-bottom: 24px;
+  }
+}
+.developer_icon{
+  width: 44px;
+  text-align: center;
+  margin-right: 20px;
+  svg{
+    max-width: 22px;
+    height: 30px;
+  }
+}

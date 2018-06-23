@@ -10,18 +10,8 @@
   <body>
     <!-- hidden block -->
     <div class="hidden__box">
-      <div id="arrow_right">
-        <svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m0 416.08179c0 2 1.2 3.8 3.1 4.6s4 .3 5.4-1.1l205.6-205.6c1-1 1.5-2.3 1.5-3.5s-.5-2.6-1.5-3.5l-205.5-205.4999914c-1.3-1.4-3.5-1.9-5.5-1.1-1.9.8-3.1 2.6000001-3.1 4.6000002z"/></svg>
-      </div>
-      <div id="arrow_left">
-        <svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m215.6 416.08179c0 2-1.2 3.8-3.1 4.6s-4 .3-5.4-1.1l-205.6-205.6c-1-1-1.5-2.3-1.5-3.5s.5-2.6 1.5-3.5l205.5-205.4999914c1.3-1.4 3.5-1.9 5.5-1.1 1.9.8 3.1 2.6000001 3.1 4.6000002z"/></svg>
-      </div>
       <svg width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
-          <symbol id="long_arrow_right" viewBox="0 0 89 49">
-            <title id="title">long_arrow_right</title>
-            <path d="m71.415 74.415 22.498-22.499c.094-.093.178-.196.251-.307.032-.047.054-.099.081-.148.035-.064.074-.127.103-.195.027-.065.043-.133.063-.2.017-.058.039-.113.051-.173.052-.259.052-.524 0-.783-.012-.06-.034-.115-.051-.173-.02-.067-.035-.135-.063-.2-.028-.068-.067-.131-.103-.195-.027-.05-.049-.102-.081-.148-.073-.11-.157-.214-.251-.307l-22.498-22.501c-.781-.781-2.048-.781-2.828 0-.391.391-.586.902-.586 1.414s.195 1.023.586 1.414l19.086 19.086h-80.172c-1.104 0-2 .896-2 2s.896 2 2 2h80.172l-19.086 19.086c-.391.391-.586.902-.586 1.414s.195 1.023.586 1.414c.78.782 2.047.782 2.828.001z" transform="translate(-5.501 -26.00025)"></path>
-          </symbol>
 <!-- инициализация свг-иконок -->
           <symbol id="door" viewBox="0 0 512 512">
             <path d="m503.467 494.933h-17.067v-452.266c0-23.527-19.14-42.667-42.667-42.667h-187.733-187.733c-23.527 0-42.667 19.14-42.667 42.667v452.267h-17.067c-4.719 0-8.533 3.823-8.533 8.533s3.814 8.533 8.533 8.533h25.6 34.133 375.467 34.133 25.6c4.719 0 8.533-3.823 8.533-8.533s-3.813-8.534-8.532-8.534zm-409.6-298.666v-119.467c0-4.71 3.814-8.533 8.533-8.533h119.467c4.719 0 8.533 3.823 8.533 8.533v119.467c0 4.71-3.814 8.533-8.533 8.533h-119.467c-4.719 0-8.533-3.823-8.533-8.533zm324.266 0c0 4.71-3.814 8.533-8.533 8.533h-119.467c-4.719 0-8.533-3.823-8.533-8.533v-119.467c0-4.71 3.814-8.533 8.533-8.533h119.467c4.719 0 8.533 3.823 8.533 8.533zm34.151 298.666h-17.084v-435.2c0-4.702-3.823-8.533-8.533-8.533h-162.134v180.087c.162.034.307.111.469.145 2.176.478 4.301 1.135 6.366 1.946.444.171.862.375 1.297.563 1.869.811 3.678 1.732 5.41 2.79.256.162.529.29.794.461 1.886 1.212 3.652 2.603 5.333 4.096.384.341.751.691 1.126 1.05 1.655 1.587 3.243 3.268 4.642 5.129h42.846c14.114 0 25.6 11.486 25.6 25.6s-11.486 25.6-25.6 25.6h-42.854c-1.399 1.86-2.987 3.541-4.651 5.129-.367.358-.734.708-1.118 1.041-1.681 1.502-3.447 2.884-5.333 4.096-.256.162-.529.299-.794.461-1.741 1.067-3.55 1.988-5.41 2.799-.427.188-.853.384-1.289.563-2.065.811-4.19 1.468-6.366 1.954-.162.034-.307.111-.469.145v180.079h-17.067v-180.088c-.162-.034-.307-.102-.461-.145-2.176-.478-4.301-1.135-6.366-1.954-.435-.171-.862-.375-1.289-.563-1.869-.811-3.678-1.732-5.41-2.799-.265-.162-.529-.29-.794-.461-1.886-1.212-3.652-2.603-5.333-4.096-.384-.341-.742-.691-1.118-1.041-1.664-1.596-3.251-3.268-4.651-5.129h-42.843c-14.114 0-25.6-11.486-25.6-25.6s11.486-25.6 25.6-25.6h42.846c1.408-1.86 2.995-3.541 4.651-5.129.367-.358.742-.708 1.126-1.05 1.681-1.502 3.447-2.884 5.333-4.096.256-.162.529-.299.794-.461 1.732-1.067 3.541-1.988 5.41-2.79.435-.188.853-.393 1.297-.563 2.065-.811 4.19-1.468 6.366-1.946.162-.034.307-.111.461-.145v-180.078h-162.134c-4.71 0-8.533 3.831-8.533 8.533v435.2h-17.067v-435.2c0-14.114 11.486-25.6 25.6-25.6h170.667 170.667c14.114 0 25.6 11.486 25.6 25.6z"/><path d="m298.667 85.333v102.4h102.4v-102.4zm11.033 28.101 17.067-17.067c3.337-3.337 8.73-3.337 12.066 0s3.337 8.73 0 12.066l-17.067 17.067c-1.664 1.664-3.849 2.5-6.033 2.5-2.185 0-4.369-.836-6.033-2.5-3.336-3.337-3.336-8.73 0-12.066zm71.8-5.001-59.733 59.733c-1.664 1.664-3.849 2.5-6.033 2.5-2.185 0-4.369-.836-6.033-2.5-3.336-3.337-3.336-8.73 0-12.066l59.733-59.733c3.337-3.337 8.73-3.337 12.066 0s3.336 8.73 0 12.066z"/><path d="m110.933 85.333v102.4h102.4v-102.4zm11.034 28.101 17.067-17.067c3.337-3.337 8.73-3.337 12.066 0 3.337 3.337 3.337 8.73 0 12.066l-17.067 17.067c-1.664 1.664-3.849 2.5-6.033 2.5-2.185 0-4.369-.836-6.033-2.5-3.337-3.337-3.337-8.73 0-12.066zm71.799-5.001-59.733 59.733c-1.664 1.664-3.849 2.5-6.033 2.5-2.185 0-4.369-.836-6.033-2.5-3.337-3.337-3.337-8.73 0-12.066l59.733-59.733c3.336-3.337 8.73-3.337 12.066 0s3.328 8.73 0 12.066z"/>
@@ -55,22 +45,27 @@
     <!-- top-menu -->
     <?php include_once 'includes/top-menu.php';?>
     <!-- end top-menu -->
+    <?php include_once 'includes/form_callback.php';?>
 
-    <div class="container">
+    <!-- <div class="container"> -->
 
       <!-- header -->
       <div class="header">
-        <div class="header_name">
-          Про проект
-        </div>
-        <div class="one__line">
-          <div class="line_fanny"></div>
+        <div class="main_name">
+          <div class="line_grey">
+            <div class="line_fanny"></div>
+          </div>
+          <div class="name_box">
+            <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg" style="transform:scaleX(-1);"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg>
+            <span>Про HAPPY HOUSE</span>
+            <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg>
+          </div>
         </div>
       </div>
       <!-- end header -->
       <div class="wrapper">
         <div class="line_link">
-          <a href="/" class="link_active">Главная</a>&#8195;/&#8195;<span class="link_no_active">Про проект</span>
+          <a href="/" class="link_active">Головна</a>&#8195;/&#8195;<span class="link_no_active">Про HAPPY HOUSE</span>
         </div>
       </div>
 
@@ -97,65 +92,65 @@
           <div class="about_box_red">
             <div class="about_box_inner about_box_inner_red">
               <span>Дізнайтеся більше про різноманітні можливості , які надає мешканцям Happy House</span>
-              <a class="button_double" href="#">Дізнатися більше</a>
+              <a class="link_keys" href="#">Дізнатися більше</a>
             </div>
           </div>
         </div>
       </div>
       <div class="wrapper about_list flex">
         <div class="about_icon flex">
-          <div class="icon_wrap icon_wrap_yellow">
+          <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#door"></use></svg>
           </div>
-          <div class="about_prev" >4 під&prime;їзди</div>
+          <div class="about_prev">4 під&prime;їзди</div>
         </div>
         <div class="about_icon flex">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#house"></use></svg>
           </div>
-          <div class="about_prev" >25 поверхів</div>
+          <div class="about_prev">25 поверхів</div>
         </div>
         <div class="about_icon flex">
-          <div class="icon_wrap icon_wrap_white">
+          <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#room"></use></svg>
           </div>
-          <div class="about_prev" >30 квартир</div>
+          <div class="about_prev">30 квартир</div>
         </div>
         <div class="about_icon flex">
-          <div class="icon_wrap icon_wrap_yellow">
+          <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#garage"></use></svg>
           </div>
-          <div class="about_prev" >Підземний паркінг</div>
+          <div class="about_prev">Підземний паркінг</div>
         </div>
         <div class="about_icon flex">
-          <div class="icon_wrap icon_wrap_blue">
+          <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#game"></use></svg>
           </div>
-          <div class="about_prev" >Дитячий садок у будинку</div>
+          <div class="about_prev">Дитячий садок у будинку</div>
         </div>
         <div class="about_icon flex">
-          <div class="icon_wrap icon_wrap_white">
+          <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#teaching"></use></svg>
           </div>
           <div class="about_prev" >Центр дитячого розвитку</div>
         </div>
         <div class="about_icon flex">
-          <div class="icon_wrap icon_wrap_yellow">
+          <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#sport"></use></svg>
           </div>
-          <div class="about_prev" >Спортивний майданчик на даху</div>
+          <div class="about_prev">Спортивний майданчик на даху</div>
         </div>
         <div class="about_icon flex">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#mother"></use></svg>
           </div>
-          <div class="about_prev" >Мама HUB</div>
+          <div class="about_prev">Мама HUB</div>
         </div>
 
       </div>
 
         <!-- end wrapper -->
-    </div>
+    <!-- </div> -->
     <!-- end section -->
 
     <!-- bottom-menu -->
