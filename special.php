@@ -39,62 +39,57 @@
 
             <div class="special_item special_item__1">
               <div class="wrapper flex">
-
                 <div class="special_box">
                   <div class="special_box_inner">
-                    <p>
-                      Спеціальні умови придбання квартири для молодих сімей
-                    </p>
+                    <p>Спеціальні умови придбання квартири для молодих сімей</p>
                     <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
                   </div>
                 </div>
-
-                <div class="special__number">
-                  <span>1</span>
-                </div>
+                <div class="special__number">1</div>
                 <a class="btn_red" href="#">Дізнатися більше</a>
-
               </div>
             </div>
 
             <div class="special_item special_item__2">
-              <div class="wrapper">
-
-              <div class="special__name">
-                Продумана інфраструктура будинку, призначена для дітей та їх батьків
-                <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
-                <div class="special__number">
-                  <span>2</span>
+              <div class="wrapper flex">
+                <div class="special_box">
+                  <div class="special_box_inner">
+                    <p>Дизайн дитячої кімнати у подарунок при придбанні квартири</p>
+                    <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
+                  </div>
                 </div>
-              </div>
+                <div class="special__number">2</div>
+                <a class="btn_red" href="#">Дізнатися більше</a>
               </div>
             </div>
 
             <div class="special_item special_item__3">
-              <div class="wrapper">
-
-              <div class="special__name">
-                Сучасний дитячий садок, розташований на 1-му поверсі будинку
-                <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
-                <div class="special__number">
-                  <span>3</span>
+              <div class="wrapper flex">
+                <div class="special_box">
+                  <div class="special_box_inner">
+                    <p>Бонус за народження дитини до завершення будівництва будинку</p>
+                    <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
+                  </div>
                 </div>
-              </div>
+                <div class="special__number">3</div>
+                <a class="btn_red" href="#">Дізнатися більше</a>
               </div>
             </div>
 
             <div class="special_item special_item__4">
-              <div class="wrapper">
-
-              <div class="special__name">
-                Безпечні дитячий та спортивний майданчики на даху будинку
-                <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
-                <div class="special__number">
-                  <span>4</span>
+              <div class="wrapper flex">
+                <div class="special_box">
+                  <div class="special_box_inner">
+                    <p>Вигідне кредитування</p>
+                    <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
+                  </div>
                 </div>
-              </div>
+                <div class="special__number">4</div>
+                <a class="btn_red" href="#">Дізнатися більше</a>
               </div>
             </div>
+
+
 
 
           <!-- </section> -->

@@ -245,3 +245,44 @@ $('.day_time').hover(function(){
   $('.day_time').removeClass('day_time_active');
   $(this).addClass('day_time_active');
 });
+
+//// floor-plan1
+
+var currentMousePos = { x: -1, y: -1 };
+  $(document).mousemove(function(event) {
+      currentMousePos.x = event.pageX;
+      currentMousePos.y = event.pageY;
+  });
+
+ $('.floor__img').mousemove(function(){
+   var divInfoLeftPos = currentMousePos.x - $('#appInfo').width() - 46;
+   var divInfoTopPos = currentMousePos.y - $('#appInfo').height() - 70;
+
+   $('#appInfo').css({left:divInfoLeftPos});
+   $('#appInfo').css({top:divInfoTopPos});
+
+   var rooms = this.dataset.rooms;
+   var square = this.dataset.square;
+   var livsquare = this.dataset.livsquare;
+   var number = this.dataset.floor;
+
+   $('#room').html(rooms);  $('#floor').html(number);
+   $('#square').html(square);  $('#livingSquare').html(livsquare);
+
+ });
+
+
+  $('.floor__img').mouseover(function(){
+    if($(window).width() > 320)
+    {
+      $('#appInfo').css( {visibility:'visible'});
+      $('#appInfo').css( {display:'block'});
+    }
+     });
+ $('.floor__img').mouseout(function(){
+   if($(window).width() > 320)
+     {
+     $('#appInfo').css( {visibility:'hidden'});
+     $('#appInfo').css( {display:'none'});
+   }
+});

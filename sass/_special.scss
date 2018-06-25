@@ -16,7 +16,7 @@
   .btn_red{
     position: absolute;
     width: 100%;
-    max-width: 230px;
+    max-width: 400px;
     right: 0;
     bottom: 30px;
   }
@@ -82,19 +82,30 @@
   position: relative;
   padding: 20px;
   font-size: 42px;
-  font-family: $gothaLight;
-  z-index: 1;
+  font-family: "GothaProLig";
+  z-index: 0;
+  width: 140px;
+  text-align: right;
+  padding-right: 12px;
+  padding-top: 86px;
   &:before{
     content: '';
     position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    z-index: -8;
+    border: 100px solid transparent;
     border-bottom: 100px solid #f0f0f0;
-    border-left: 0px solid transparent;
-    border-right: 22px solid transparent;
     height: 0;
-    left: -36px;
-    top: 0;
+    right: -80px;
+    bottom: 0;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 18px;
+    border: 35px solid transparent;
+    border-top: 35px solid white;
+    border-right: 35px solid white;
+    right: -20px;
   }
 }

@@ -1,3 +1,12 @@
+/* ====================================*/
+/*! ALL STYLE FOR :
+-level-floor.php
+-floor-plan.php
+-flat-plan.php
+ HappyHouse(1.2). (C) June 2018 Anna Begas. */
+/* ==================================== */
+
+// -level-floor.php
 .floor_block{
   .line_link{
     position: relative;
@@ -7,7 +16,6 @@
   .header{
     position: relative;
     z-index: 3;
-
   }
 }
 .floor-level_block{
@@ -33,17 +41,13 @@
     max-height: 100vh;
     min-height: 700px;
   }
-  svg a{
-    cursor: pointer;
-  }
+  svg a{ cursor: pointer; }
   svg a polygon{
     opacity: 0;
     transition: 0.4s;
     -webkit-transition: 0.4s;
   }
-  svg a:hover polygon{
-    opacity: 0.8;
-  }
+  svg a:hover polygon{ opacity: 0.65;}
 }
 .house_left{
   width: 210px;
@@ -72,9 +76,7 @@
   border-radius: 100%;
   text-align: center;
   padding-top: 20px;
-  *{
-    display: block;
-  }
+  *{display: block;}
 }
 .kimnati-number{
   font-size: 30px;
@@ -84,12 +86,97 @@
 .compass{
   margin-top: -50px;
 }
-.select__box{
-  // position: absolute;
-}
 .arrow_blink{
   position: absolute;
   top: 20px;
   z-index: 3;
   left: 24%;
+}
+
+// floor-plan.php
+.floorplan_block{
+  .line_link{
+    margin-bottom: 0;
+  }
+  .btn_transparent{
+    width: 280px;
+  }
+}
+.floorplan__box{
+  text-align: center;
+  padding: 40px;
+}
+.infobox {
+    display: none;
+    width: 250px;
+    height: auto;
+    padding: 30px 20px;
+    background: rgba(230,230,230,.9);
+    position: absolute;
+    line-height: 1.6;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.infobox__logo img,
+.flatplan_floor img{
+  width: 100%;
+}
+
+///flat-plan
+.flatplan_block{
+  .bx-wrapper .bx-controls-direction a {
+    margin-top: -25px;
+    }
+  .bx-wrapper .bx-next {
+    right: -50px;
+    }
+    .bx-wrapper .bx-prev {
+    left: -50px;
+  }
+}
+.flatplan__info{
+  align-items: normal;
+  -webkit-align-items: normal;
+  margin: 10px auto 30px;
+}
+.flatplan_center{
+  width: 60%;
+  padding: 40px;
+  img{
+    width: 100%;
+  }
+}
+.flatplan__info__item.flex{
+  flex-direction: column;
+  width: 20%;
+  & .flatplan_btn,
+  & .btn_transparent,
+  & .btn_red {
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+}
+.flatplan_floor p{
+  margin: 20px auto;
+  text-align: center;
+}
+.flats_param_num{
+  display: block;
+  font-size: 24px;
+}
+.flats_about{
+  background: #e5e5e5;
+  padding: 30px 10px;
+
+}
+.flats_about_name{
+  font-size: 24px;
+  line-height: 1.6;
+}
+.flats__slider li{
+  text-align: center;
+  line-height: 1.5;
 }
