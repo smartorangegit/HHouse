@@ -169,14 +169,7 @@
       <!-- footer -->
       <?php include_once 'includes/footer.php';?>
       <!-- end footer -->
-      <script type="text/javascript">
-      // var myPath = document.getElementsByTagName('polygon');
-      // var w = myPath.getBoundingClientRect().width;
-      // console.log(myPath);
-      // var h = myPath.getBoundingClientRect();
-      // console.log( h);
-
-      </script>
+      
       <script type="text/javascript">
 
 

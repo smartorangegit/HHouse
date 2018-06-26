@@ -56,6 +56,7 @@
         </div>
         <div class="location_map">
           <div id="map" ></div>
+          <div class="wrapper">
 
             <ul class="location_list">
               <li>
@@ -79,20 +80,15 @@
                 <p>до Хрещатику</p>
               </li>
             </ul>
-
+          </div>
 
         </div>
-
-
-
-
 
         <!-- end wrapper -->
     </div>
     <!-- end section -->
-    <!-- end section contacts -->
+
   <?php include_once 'includes/section-contacts.php';?>
-    <!-- end section contacts -->
 
     <!-- bottom-menu -->
     <?php include_once 'includes/bottom-menu.php';?>

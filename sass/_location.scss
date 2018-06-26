@@ -59,14 +59,22 @@ overflow: hidden;
   height: 600px;
   position: relative;
   margin: 20px auto;
+  .wrapper{
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
 }
 #map{
   height: 100%;
 }
+// .location_map
 .location_list{
   position: absolute;
-  right: 50%;
-  margin-right: -600px;
+  right: 10px;
   top: 20px;
   font-size: 24px;
   letter-spacing: normal;
@@ -75,7 +83,6 @@ overflow: hidden;
     margin-bottom: 10px;
     background: rgba(255,255,255,.8);
     padding: 14px;
-
   }
   .red{
     color:$red;

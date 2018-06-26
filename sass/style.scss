@@ -96,9 +96,7 @@ a{
   }
 }
 .menu__link:hover{
-  // background: $blue;
   &:before{
-    // border-top-color: $blue;
   }
   .menu_line:nth-child(2){
     margin-left:-6px;
@@ -1085,3 +1083,5 @@ svg{
 @import "_filter";
 @import "_special";
 @import "_location";
+@import "_gallery";
+@import "_news";

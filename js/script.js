@@ -286,3 +286,14 @@ var currentMousePos = { x: -1, y: -1 };
      $('#appInfo').css( {display:'none'});
    }
 });
+
+//////gallery1
+$('.gallery1').bxSlider({
+ mode: 'fade',
+ nextText: '<svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" ><path d="m0 416.08179c0 2 1.2 3.8 3.1 4.6s4 .3 5.4-1.1l205.6-205.6c1-1 1.5-2.3 1.5-3.5s-.5-2.6-1.5-3.5l-205.5-205.4999914c-1.3-1.4-3.5-1.9-5.5-1.1-1.9.8-3.1 2.6000001-3.1 4.6000002z"/></svg>',
+ prevText: '<svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" ><path d="m215.6 416.08179c0 2-1.2 3.8-3.1 4.6s-4 .3-5.4-1.1l-205.6-205.6c-1-1-1.5-2.3-1.5-3.5s.5-2.6 1.5-3.5l205.5-205.4999914c1.3-1.4 3.5-1.9 5.5-1.1 1.9.8 3.1 2.6000001 3.1 4.6000002z"/></svg>',
+ pager: true,
+ pagerCustom: "#bx-pager",
+ captions: true,
+ easing: 'ease-in-out',
+});
