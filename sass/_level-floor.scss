@@ -58,6 +58,8 @@
   text-align: center;
 }
 .btn_transparent{
+  display: block;
+  text-align: center;
   background: transparent;
   border: 1px solid $red;
   border-radius: 4px;

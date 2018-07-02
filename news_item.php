@@ -22,9 +22,7 @@
             <div class="line_fanny"></div>
           </div>
           <div class="name_box">
-            <!-- <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg" style="transform:scaleX(-1);"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg> -->
             <span>Заголовок для новини</span>
-            <!-- <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg> -->
           </div>
         </div>
       </div>
@@ -61,9 +59,15 @@
             </p>
           </div>
 
-          <div class="newsitem_btn">
-            <a href="#" class="btn_transparent">Повернутися до новин</a>
-            <a href="#" class="btn_red">Обрати квартиру</a>
+          <div class="newsitem_btn flex">
+            <a href="#" class="btn_transparent">
+              <svg fill="#ee1c25" height="14" viewBox="0 0 215.60001 421.0636" width="50" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" style="position:relative; top:-1px;"><path d="m215.6 416.08179c0 2-1.2 3.8-3.1 4.6s-4 .3-5.4-1.1l-205.6-205.6c-1-1-1.5-2.3-1.5-3.5s.5-2.6 1.5-3.5l205.5-205.4999914c1.3-1.4 3.5-1.9 5.5-1.1 1.9.8 3.1 2.6000001 3.1 4.6000002z"></path></svg>
+              Повернутися до новин
+            </a>
+            <a href="#" class="btn_red">
+              <svg height="12" viewBox="0 0 100 49" width="50" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" ><path d="m-14.237332 377.98047c-9.647141-9.52657-25.149377-9.42908-34.675947.21806-2.026943 2.05259-3.643364 4.51058-5.05458 7.1712l-42.835125.26947-10.134706 10.26297 10.262973 10.13471 6.080824-6.15779 6.157784 6.08083 6.080823-6.15779 6.157784 6.08083 18.357804-.11544c1.239359 2.44002 2.886566 4.87748 5.144367 7.10706 9.647248 9.52668 25.149377 9.42909 34.675947-.21805s9.4293009-25.14938-.217948-34.67606zm-13.11093 23.54076c-3.489465-3.44585-3.522813-8.74914-.07696-12.23861 3.445852-3.48946 8.749142-3.52281 12.238607-.077 3.489464 3.44586 3.522813 8.74915.07696 12.23861-3.445853 3.48947-8.749144 3.52281-12.238607.077z" stroke-width=".150835" transform="translate(106.93769 -370.89887)"/></svg>
+              <span>Обрати квартиру</span>
+            </a>
 
           </div>
 

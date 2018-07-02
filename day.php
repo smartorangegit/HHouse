@@ -22,7 +22,7 @@
           <div class="day_controls">
             <div class="day_round">
               <div class="icon_line_box">
-                <svg class="icon_line"><use xlink:href="#line"></use></svg>
+                <svg class="icon_line line_active"><use xlink:href="#line"></use></svg>
               </div>
               <span>Сніданок у сімейному колі</span>
               <div class="day_looktime">08:00</div>

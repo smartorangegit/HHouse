@@ -83,3 +83,14 @@
     padding: 10px 0;
   }
 }
+.newsitem_btn{
+  & > *{
+    width: 48%;
+    max-width: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+  }
+}

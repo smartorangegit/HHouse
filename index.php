@@ -8,39 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- hidden block -->
-    <div class="hidden__box">
-      <div id="arrow_right">
-        <svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m0 416.08179c0 2 1.2 3.8 3.1 4.6s4 .3 5.4-1.1l205.6-205.6c1-1 1.5-2.3 1.5-3.5s-.5-2.6-1.5-3.5l-205.5-205.4999914c-1.3-1.4-3.5-1.9-5.5-1.1-1.9.8-3.1 2.6000001-3.1 4.6000002z"/></svg>
-      </div>
-      <div id="arrow_left">
-        <svg height="421.0636" viewBox="0 0 215.60001 421.0636" width="215.60001" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m215.6 416.08179c0 2-1.2 3.8-3.1 4.6s-4 .3-5.4-1.1l-205.6-205.6c-1-1-1.5-2.3-1.5-3.5s.5-2.6 1.5-3.5l205.5-205.4999914c1.3-1.4 3.5-1.9 5.5-1.1 1.9.8 3.1 2.6000001 3.1 4.6000002z"/></svg>
-      </div>
-      <svg width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <defs>
-          <symbol id="long_arrow_right" viewBox="0 0 89 49">
-            <title id="title">long_arrow_right</title>
-            <path d="m71.415 74.415 22.498-22.499c.094-.093.178-.196.251-.307.032-.047.054-.099.081-.148.035-.064.074-.127.103-.195.027-.065.043-.133.063-.2.017-.058.039-.113.051-.173.052-.259.052-.524 0-.783-.012-.06-.034-.115-.051-.173-.02-.067-.035-.135-.063-.2-.028-.068-.067-.131-.103-.195-.027-.05-.049-.102-.081-.148-.073-.11-.157-.214-.251-.307l-22.498-22.501c-.781-.781-2.048-.781-2.828 0-.391.391-.586.902-.586 1.414s.195 1.023.586 1.414l19.086 19.086h-80.172c-1.104 0-2 .896-2 2s.896 2 2 2h80.172l-19.086 19.086c-.391.391-.586.902-.586 1.414s.195 1.023.586 1.414c.78.782 2.047.782 2.828.001z" transform="translate(-5.501 -26.00025)"></path>
-          </symbol>
-          <symbol id="smile" viewBox="0 0 22 22" height="100" width="100">
-            <title id="title">smile</title>
-            <g fill="#ccc" transform="matrix(.99598086 0 0 .94256753 -358.584634 -380.57059)"><path d="m364.27339 410.6c1.6 0 2.9-1.3 2.9-2.9s-1.3-2.9-2.9-2.9-2.9 1.3-2.9 2.9 1.3 2.9 2.9 2.9z"/><path d="m378.07339 414.9c-1.6 0-2.8 1.3-2.8 2.8-.2 2.1-1.9 3.8-4.1 3.8s-3.9-1.7-4.1-3.8c0-1.6-1.3-2.8-2.8-2.8-1.6 0-2.8 1.3-2.8 2.8.2 5.2 4.4 9.4 9.7 9.4s9.5-4.2 9.7-9.4c0-1.5-1.2-2.8-2.8-2.8z"/><path d="m378.07339 404.8c-1.6 0-2.9 1.3-2.9 2.9s1.3 2.9 2.9 2.9 2.9-1.3 2.9-2.9-1.3-2.9-2.9-2.9z"/></g>
-          </symbol>
-          <symbol id="line" height="12" viewBox="0 0 24 1" width="90">
-            <title id="title">line</title>
-            <g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" stroke="#ee1c25"/><g><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g>
-          </symbol>
-          <symbol id="arrow_circle" height="100" viewBox="0 0 40 40" width="100">
-            <title id="title">arrow_circle</title>
-            <path fill="#ee1c25" d="m20 0c-11.027 0-20 8.973-20 20s8.973 20 20 20 20-8.973 20-20-8.973-20-20-20zm7.059 22.281h-9.187l2.142 2.521c.815.96.698 2.399-.263 3.216-.429.363-.953.543-1.476.543-.646 0-1.288-.272-1.739-.806l-5.334-6.278c-.723-.853-.723-2.103 0-2.953l5.334-6.279c.814-.961 2.254-1.078 3.215-.264.961.815 1.078 2.256.263 3.217l-2.142 2.521h9.187c1.26 0 2.28 1.021 2.28 2.281s-1.021 2.281-2.28 2.281z" transform="matrix(-1 0 0 1 40 0)"/></svg>
-          </symbol>
-        </defs>
-      </svg>
-    </div>
-    <!-- end hidden block -->
 
     <?php include_once 'includes/top-menu.php';?>
-    
+
     <?php include_once 'includes/form_callback.php';?>
 
     <div class="container">
@@ -53,7 +23,7 @@
           <li class="gallery__item gitem__5"></li>
         </ul>
         <div class="one__box">
-          <p>Все для сімейного щастя</p>
+          <p class="wow fadeInUp">Все для сімейного щастя</p>
           <svg  class="arrow_down" enable-background="new 0 0 100 100" viewBox="0 0 90.211869 158.80933" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><path d="m82.143 18-32.143 48.001-32.143-48.001h-12.857l45 64 45-64z" transform="translate(-4.788136 28.292373)"/><path d="m5 18 45 64 45-64h-12.857l-32.143 48.001-32.143-48.001z" transform="translate(-5 -18)"/><path d="m17.857 18h-12.857l45 64 45-64h-12.857l-32.143 48.001z" transform="translate(-5 76.809322)"/></svg>
         </div>
         <div class="one__line">
@@ -76,7 +46,7 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="about.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
@@ -96,14 +66,12 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/location.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
             </figcaption>
           </div>
-
-
 
           <div class="block_genplan block_single">
             <div  class="block__name">
@@ -114,12 +82,11 @@
               <svg class="icon_smile"><use xlink:href="#smile"></use></svg>
             </div>
             <div class="block_img"></div>
-            <a class="link_round" href="#">
+            <a class="link_round" href="/genplan.php">
               <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
               <p>читати</p>
             </a>
           </div>
-
 
           <div class="block_hub block_double">
             <div class="block__name">
@@ -135,7 +102,7 @@
                 • Безпечні дитячий та спортивний майданчики на даху<br>
                 • Простір для зберігання дитячих візків та велосипедів
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/mamahub.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
@@ -162,7 +129,7 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/infrastruktura.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
@@ -185,7 +152,7 @@
                 <div><img src="/img/render3.jpg" ></div>
               </div>
             </div>
-            <a class="link_round" href="#">
+            <a class="link_round" href="/gallery.php">
               <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
               <p>більше<br> фото</p>
             </a>
@@ -211,7 +178,7 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/values.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
@@ -237,7 +204,7 @@
                 <div class="block_prev">
                   Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
                 </div>
-                <a class="link_round" href="#">
+                <a class="link_round" href="/special.php">
                   <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                   <p>читати</p>
                 </a>
@@ -263,7 +230,7 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/advantages.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>деталі</p>
               </a>
@@ -283,7 +250,7 @@
                 <div class="block_prev">
                   Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
                 </div>
-                <a class="link_keys" href="#">
+                <a class="link_keys" href="/filter.php">
                   <svg height="12" viewBox="0 0 100 49" width="22" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" ><path d="m-14.237332 377.98047c-9.647141-9.52657-25.149377-9.42908-34.675947.21806-2.026943 2.05259-3.643364 4.51058-5.05458 7.1712l-42.835125.26947-10.134706 10.26297 10.262973 10.13471 6.080824-6.15779 6.157784 6.08083 6.080823-6.15779 6.157784 6.08083 18.357804-.11544c1.239359 2.44002 2.886566 4.87748 5.144367 7.10706 9.647248 9.52668 25.149377 9.42909 34.675947-.21805s9.4293009-25.14938-.217948-34.67606zm-13.11093 23.54076c-3.489465-3.44585-3.522813-8.74914-.07696-12.23861 3.445852-3.48946 8.749142-3.52281 12.238607-.077 3.489464 3.44586 3.522813 8.74915.07696 12.23861-3.445853 3.48947-8.749144 3.52281-12.238607.077z" stroke-width=".150835" transform="translate(106.93769 -370.89887)"/></svg>
                   <span>Обрати квартиру</span>
                 </a>
@@ -304,7 +271,7 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/kommercheskaya.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
@@ -324,7 +291,7 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/sfera.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
@@ -345,7 +312,7 @@
               <div class="block_prev">
                 Дізнайтеся про хід будівництва<br> та етапи виконання робіт
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/building.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
@@ -369,7 +336,7 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/developer.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
@@ -425,19 +392,15 @@
               <svg class="icon_smile"><use xlink:href="#smile"></use></svg>
             </div>
             <div class="block_img ">
-
               <div class="block_prev">
                 Дізнайтеся, як проходить щасливий день у HAPPY HOUSE!
               </div>
-              <a class="link_round" href="#">
+              <a class="link_round" href="/day.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>деталі</p>
               </a>
             </div>
           </div>
-
-
-
         </div>
       </section>
 

@@ -271,6 +271,14 @@ background-size: auto 100%;
 .icon_line{
   height: 40px;
   width: 88px;
+  stroke-dashoffset: 100;
+  stroke-dasharray: 100;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+}
+.line_active{
+  stroke-dasharray: 118;
+
 }
 figcaption{
   font-family: $gotha;
@@ -843,7 +851,7 @@ svg{
   background-size: cover;
   display: none;
   opacity: 0;
-  z-index: 12;
+  z-index: 1000;
   .main_name{
     margin-top: 67px;
   }
@@ -1071,11 +1079,21 @@ svg{
     opacity: 1;
   }
 }
-// styles for ABOUT PROJECT
+.clearfix:after,
+.clearfix:before{
+  content: '';
+  display: table;
+  clear: both;
+}
+.under{
+  text-align: center;
+  font-size: 24px;
+  margin: 24px auto 60px;
+}
+
+@import "_animate";
 @import "_about";
-//styles for INFRASTRUKTURA
 @import "_infra";
-//styles for Values
 @import "_values";
 @import "_developer";
 @import "_advantages";
@@ -1085,3 +1103,4 @@ svg{
 @import "_location";
 @import "_gallery";
 @import "_news";
+@import "_building";
