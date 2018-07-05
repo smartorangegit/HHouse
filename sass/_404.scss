@@ -1,0 +1,149 @@
+.not-found__container {
+  position: relative;
+  height: calc(100vh - 125px);
+  background: url(../img/404/404-bg.jpg) center -100px no-repeat;
+  background-size: cover;
+}
+
+.not-found__main_name {
+  padding-bottom: 0;
+}
+
+.main_name .not-found__line_grey {
+  margin: 0;
+}
+
+.main_name .not-found__line_fanny {
+  margin: 0;
+  padding: 0;
+}
+
+.not-found__content {
+  width: 1145px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.not-found__image {
+  width: 690px;
+  margin-right: 90px;
+}
+
+.not-found-info {
+  position: relative;
+  width: 350px;
+
+  &__heading {
+    width: 100%;
+    font-size: 36/18*1rem;
+    font-family: $gothaLight;
+    margin: 0 0 37% 0;
+  }
+
+  &__button {
+    width: 49%;
+    line-height: 45px;
+    text-align: center;
+    background-color: $red;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14/16*1rem;
+    font-family: $gothaMed;
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: #fff;
+      color: $red;
+    }
+
+    &-wrap {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__icon_line {
+    position: absolute;
+    left: 0;
+    top: -40px;
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .not-found__content {
+    width: 768px;
+  }
+
+  .not-found__image {
+    width: 475px;
+    height: 190px;
+    margin-right: 50px;
+  }
+
+  .not-found-info {
+    width: 243px;
+
+    &__heading {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .not-found__content {
+    width: 570px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .not-found__image {
+    width: 100%;
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .not-found-info {
+    &__heading {
+      text-align: center;
+    }
+
+    &__icon_line {
+      top: -25px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .not-found__container {
+    position: relative;
+    height: 100vh;
+    background: url(../img/404/404-bg.jpg) center center no-repeat;
+    background-size: cover;
+  }
+
+  .not-found__content {
+    width: 300px;
+  }
+
+  .not-found__image {
+    width: 100%;
+    height: 120px;
+  }
+
+  .not-found-info {
+    &__heading {
+      margin-bottom: 25%;
+    }
+
+    &__icon_line {
+      top: -25px;
+    }
+  }
+}

@@ -60,13 +60,13 @@
               </a>
             </div>
 
-            <div class="floorplan__info__item">
+            <div class="floorplan__info__item floorplan_compass">
               <img src="/img/compas.png" alt="compas">
             </div>
 
           </div>
           <div class="floorplan__box">
-            <a class="floor__img" href="/" data-square="105" data-livsquare="60" data-rooms="2" data-floor="5">
+            <a class="floor__img" href="/flat-plan.php" data-square="105" data-livsquare="60" data-rooms="2" data-floor="5">
               <img src="/img/floor-plan/plan1.png" alt="План поаерху Happy House">
             </a>
 
@@ -98,6 +98,6 @@
       <!-- footer -->
       <?php include_once 'includes/footer.php';?>
       <!-- end footer -->
-    
+
   </body>
 </html>

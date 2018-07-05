@@ -213,3 +213,60 @@
       bottom: 0;
       }
 }
+@media only screen and (max-width:1024px) {
+  .status_box {
+    padding: 10px;
+}
+.building_timebar{
+  width: 100%;
+}
+}
+@media only screen and (max-width: 842px) {
+  .status_box{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .status_box{
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding: 20px 0;
+  }
+  .building_timebar {
+      width: 100%;
+  }
+  .timebar__item {
+    width: 100%;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+  .timebar_name{
+    margin-bottom: 10px;
+  }
+  .building_webcam{
+    width: 90%;
+    margin: 20px auto;
+  }
+  .building_webcam__link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    padding: 6px 60px;
+    justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
+    svg{
+      margin: 0 6px;
+      width: 20px;
+    }
+  }
+
+  .hod-stroitelstva__item{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .hod-stroitelstva__item:nth-child(odd){
+    margin: 0 0 30px 0;
+  }
+}

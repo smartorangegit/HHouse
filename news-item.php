@@ -31,7 +31,7 @@
         <div class="wrapper flex">
           <div class="line_link">
             <a href="/" class="link_active">Головна</a>&#8195;|&#8195;
-            <a href="/news" class="link_active">Новини</a>&#8195;|&#8195;
+            <a href="/news.php" class="link_active">Новини</a>&#8195;|&#8195;
             <span class="link_no_active">Назва новини у два рядки</span>
           </div>
           <div class="news_date">

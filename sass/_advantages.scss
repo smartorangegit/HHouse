@@ -157,3 +157,43 @@
   background: url('/img/adv/7.jpg') center no-repeat;
   background-size: cover;
 }
+
+@media only screen and (max-width: 768px) {
+  .advantages_item{
+    height: 550px;
+    margin-bottom: 10px;
+  }
+  .advantages__name .smile_line {
+    margin: 20px auto 40px 0;
+}
+  .advantages__name{
+    font-size: 14px;
+    width: 65%;
+    padding: 0 50px 0 28px;
+    &:before{
+      left: -30%;
+    }
+    &:after{
+      right: 33%;
+    }
+  }
+  .advantages_item:nth-child(odd){
+    .advantages__name{
+      padding: 0 30px 0 60px;
+      &:before{
+        right: -30%;
+      }
+      &:after{
+        left: 33%;
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+}

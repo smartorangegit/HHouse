@@ -25,7 +25,7 @@ function mapMaker(id, longt, lat) {
 				// [contentString6, 50.435491, 30.53961, "/img/map/sad.png"],
 				// [contentString7, 50.435456, 30.546176, "/img/map/bank.png"],
 				// [contentString8, 50.439367, 30.544927, "/img/map/bank.png"],
-				[contentString9, 50.422954, 30.522, "img/icons/marker.png"]
+				[contentString9, 50.422954, 30.522, "img/icons/location.svg"]
 			];
 	var centerX = 50.423954;
 	var centerY = lat || 30.522;

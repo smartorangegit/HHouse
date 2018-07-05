@@ -5,8 +5,9 @@
   width: 48%;
   height: 290px;
   position: relative;
-overflow: hidden;
+  overflow: hidden;
 }
+
 .location_item_1{
   background: url('/img/location/1.jpg') center no-repeat;
   background-size: cover;
@@ -90,4 +91,38 @@ overflow: hidden;
   p{
     font-size: 14px;
   }
+}
+
+@media only screen and (max-width:768px) {
+  .location_block{
+    .wrapper.flex{
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+    }
+  }
+    .location_item {
+    width: 100%;
+  }
+
+  .location_list{
+    position: static;
+    li{
+      padding: 10px;
+      margin: 2px auto;
+      text-align: center;
+      background: #f0f0f0;
+    }
+
+  }
+  .location_map{
+    height: auto;
+    .wrapper{
+      position: static;
+      transform: none;
+    }
+  }
+  #map{
+    height: 90vh;
+  }
+
 }

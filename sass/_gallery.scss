@@ -45,3 +45,16 @@
     background-size:cover;
   }
 }
+@media only screen and (max-width:768px) {
+  .one_gallery1 {
+    #bx-pager img {
+      border: 2px solid transparent;
+      width: 48px;
+    }
+    #bx-pager {
+      padding: 10px 0px;
+    }
+
+  }
+
+}

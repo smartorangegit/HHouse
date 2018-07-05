@@ -52,19 +52,6 @@
     <?php include_once 'includes/footer.php';?>
     <!-- end footer -->
 
-    <!-- <script type="text/javascript">
-
-    $('.day_time').hover(function(){
-      var image = this.dataset.image
-      var info = this.dataset.info
-      var time = this.dataset.time
-      $('.day_block').css('backgroundImage','url(img/day/' + image + '.jpg)');
-      $('.day_looktime').html(time);
-      $('.day_round span').html(info);
-      $('.day_time').removeClass('day_time_active');
-      $(this).addClass('day_time_active');
-    });
-
-    </script> -->
+  
   </body>
 </html>

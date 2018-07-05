@@ -20,7 +20,7 @@
 $(document).ready(function(){
 
   $('.block__name').addClass('wow fadeIn');
-  $('.block_prev').addClass('wow slideInLeft');
+  $('.block_prev').addClass('wow fadeInLeft');
   // .block_prev
 })
 
@@ -172,7 +172,6 @@ jQuery.fn.lightTabs = function(options){
           $(tabs).children("ul").children("li").removeClass("active");
           $(tabs).children("ul").children("li").eq(i).addClass("active");
       }
-
       showPage(0);
 
       $(tabs).children("ul").children("li").each(function(index, element){
@@ -234,6 +233,18 @@ $(window).scroll(function(){
               }
             }
           });
+          // $('.block_img').each(function(){
+          //   windowTop = $(window).scrollTop() - 250;
+          //   elTop = $(this).offset().top;
+          //   if((elTop - h) <= windowTop){
+          //     $(this).addClass('scaleimage_active');
+          //   }
+          //   if ( (elTop - h) > windowTop) {
+          //     if ( $(this).hasClass("scaleimage_active") ) {
+          //       $(this).removeClass("scaleimage_active");
+          //     }
+          //   }
+          // });
 
       });
 
@@ -356,7 +367,8 @@ $('.gallery1').bxSlider({
 
 $(window).load(function() {
   var wow = new WOW({
-        offset: 50
+    duration: 2,
+    offset: 30
     })
     wow.init();
 });

@@ -59,17 +59,47 @@
 }
 
 .values_item__1{
-  background: url('/img/values/1.jpg');
+  background: url('/img/values/1.jpg') center no-repeat;
   background-size: cover;
 }
 .values_item__2{
-  background: url('/img/values/2.jpg');
+  background: url('/img/values/2.jpg') center no-repeat;
   background-size: cover;
   .values__name{
     top: 10%;
   }
 }
 .values_item__3{
-  background: url('/img/values/3.jpg');
+  background: url('/img/values/3.jpg') center no-repeat;
   background-size: cover;
+}
+@media only screen and (max-width:768px) {
+  .values_item__3 {
+    background-position: 65% 4%;
+    }
+  .values_item__2 {
+    background-position: 38% 26%;
+  }
+  .values_block .section__name {
+    font-size: 14px;
+  }
+  .values__name span {
+    padding: 12px;
+    }
+  .section__name {
+      width: 85%;
+      font-size: 14px;
+      padding: 20px;
+      top: 58%;
+      line-height: 1.5;
+  }
+  .values__name{
+    top: 10%;
+    max-width: 146px;
+    font-size: 20px;
+  }
+
+
+
+
 }

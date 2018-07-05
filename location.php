@@ -37,7 +37,7 @@
         </div>
 
         <div class="wrapper flex">
-          <div class="location_item location_item_1">
+          <div class="location_item location_item_1 scaleimage">
             <div class="location_box">
               <div class="location_box_inner">
                 <p>Найближча станція метро, Берестейська, знаходиться у декількох хвилинах пішки від будинку. </p>
@@ -46,7 +46,7 @@
             <img class="metro_logo" src="/img/location/metro.png" alt="Metro">
           </div>
 
-          <div class="location_item location_item_2">
+          <div class="location_item location_item_2 scaleimage">
             <div class="location_box">
               <div class="location_box_inner">
                 <p>Завдяки тому, що Happy House розташований на деякій відстані від проспекту, звук автомобільної траси не буде заважати вашій сім’ї.</p>
@@ -59,23 +59,23 @@
           <div class="wrapper">
 
             <ul class="location_list">
-              <li>
+              <li class="wow fadeInUp">
                 <span class="red">5 хвилин </span>пішки
                 <p>до станцій метро Берестейська</p>
               </li>
-              <li>
+              <li class="wow fadeInUp">
                 <span class="red">10 хвилин </span>пішки
                 <p>до найближчого парку</p>
               </li>
-              <li>
+              <li class="wow fadeInUp">
                 <span class="red">5 хвилин </span>на авто
                 <p>до Київського зоопарку</p>
               </li>
-              <li>
+              <li class="wow fadeInUp">
                 <span class="red">5 хвилин </span>на авто
-                <p>до найближчого ТРУЦ</p>
+                <p>до найближчого ТРЦ</p>
               </li>
-              <li>
+              <li class="wow fadeInUp">
                 <span class="red">15 хвилин </span>на авто
                 <p>до Хрещатику</p>
               </li>

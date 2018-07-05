@@ -152,56 +152,12 @@ z-index: 100;
 cursor: pointer;
 }
 
-.animate-top-bar {
--webkit-animation: animate-top-bar .6s linear 1 both;
-animation: animate-top-bar .6s linear 1 both
-}
-
-.animate-bottom-bar {
--webkit-animation: animate-bottom-bar .6s linear 1 both;
-animation: animate-bottom-bar .6s linear 1 both
-}
-
-.animate-middle-bar {
--webkit-animation: animate-middle-bar .6s linear 1 both;
-animation: animate-middle-bar .6s linear 1 both
-}
-
-.animate-out-top-bar {
--webkit-animation: animate-out-top-bar .6s linear 1 both;
-animation: animate-out-top-bar .6s linear 1 both
-}
-
-.animate-out-bottom-bar {
--webkit-animation: animate-out-bottom-bar .6s linear 1 both;
-animation: animate-out-bottom-bar .6s linear 1 both
-}
-
-.animate-out-middle-bar {
--webkit-animation: animate-out-middle-bar .6s linear 1 both;
-animation: animate-out-middle-bar .6s linear 1 both
-}
 
 
 /* ====================================
 Animation keyframes
 ==================================== */
 
-
-// .home a {
-// font-family: "Work Sans", sans-serif;
-// color: #222;
-// font-weight: 300;
-// font-size: 12px;
-// text-transform: uppercase;
-// text-decoration: none;
-// position: absolute;
-// z-index: 10;
-// top: 50px;
-// left: 50px;
-// padding-bottom: 3px;
-// border-bottom: 1px solid #222;
-// }
 
 @media (max-width: 640px) {
 nav > ul {
@@ -210,12 +166,26 @@ nav > ul {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  height: auto;
+}
+.overlay-navigation{
+  overflow: auto;
+}
+nav{
+  // overflow: auto;
+  height: auto;
+}
+nav .main_name{
+  padding: 10px 0;
 }
 .nav_item {
-  height: 20%;
+  padding: 10px 20px;
+  &:nth-child(1){
+    padding-top: 114px;
+  }
 }
 nav ul .nav_item a {
-  font-size: 11px;
+  font-size: 14px;
 }
 nav .nav_item a:after {
   font-size: 0.6rem;
@@ -224,9 +194,17 @@ nav .nav_item a:after {
 nav .nav_item a:hover:after {
   transform: translateY(0);
 }
-.open-overlay {
-  right: 1rem;
-
+.nav_logo {
+  background: rgba(255,255,255,.8);
+  top: -4px;
 }
+.nav_name {
+    margin: 10px 0 10px;
+  }
+.close_btn {
+  top: 5px;
+  right: 0px;
+  }
+
 
 }

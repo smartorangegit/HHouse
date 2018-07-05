@@ -79,7 +79,6 @@
     content: none;
   }
 }
-
 .about_list{
   background: #f0f0f0;
   padding: 10px 50px;
@@ -106,9 +105,40 @@
     fill:$red;
   }
 }
-
 .about_prev {
   width: 120px;
   line-height: 1.6;
   font-family: $gotha;
+}
+@media only screen and (max-width:768px) {
+  .about_box_inner {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.6;
+    padding: 25px 20px 40px;
+    font-size: 12px;
+}
+.about_box_inner:nth-child(2) {
+    padding: 75px 20px 10px;
+    margin: 0 auto;
+}
+.about_box_inner:nth-child(1):after {
+    bottom: 16px;
+}
+.about_box_inner_red.about_box_inner:nth-child(1) {
+    padding: 80px 40px 20px;
+}
+.about_list{
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  padding: 10px;
+}
+.about_icon{
+  width: 100%;
+  margin: 10px 0;
+}
+
+
+
+
 }

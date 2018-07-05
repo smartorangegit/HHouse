@@ -56,6 +56,9 @@
 .house_right{
   width: 240px;
   text-align: center;
+  .link_rect{
+    display: none;
+  }
 }
 .btn_transparent{
   display: block;
@@ -92,7 +95,7 @@
   position: absolute;
   top: 20px;
   z-index: 3;
-  left: 24%;
+  left: 28%;
 }
 
 // floor-plan.php
@@ -181,4 +184,175 @@
 .flats__slider li{
   text-align: center;
   line-height: 1.5;
+}
+#floorNumber{
+  position: absolute;
+}
+
+@media only screen and (max-width:1024px) {
+  .floor_block{
+    overflow: hidden;
+  }
+  .floor-level_box svg {
+    width: 200%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+  .arrow_blink {
+    top: 40px;
+    width: 150px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .floor-level_block .wrapper{
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding: 0 10px;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+  }
+  .floor-level_box {
+    width: 300%;
+    margin-left: 60%;
+    transform: translateX(-50%);
+}
+.house_left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-align-items: flex-start;
+    pointer-events: none;
+    .btn_transparent{
+      pointer-events: all;
+      order: 1;
+      max-width: 170px;
+    }
+    .btn_red{
+      pointer-events: all;
+      order: 2;
+      max-width: 170px;
+      width: 100%;
+    }
+}
+.kimnati-link {
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    font-size: 10px;
+    background: #fff;
+    margin: 8px;
+    pointer-events: all;
+    order: 3;
+}
+.house_right{
+  width: auto;
+  margin-top: 44px;
+  .kimnati-link{
+    border-radius: 0;
+    margin: 0;
+    width: 90px;
+  }
+  .link_rect{
+    display: block;
+    order: 4;
+    pointer-events: all;
+    background: $red;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px;
+    svg{
+      margin-bottom: 4px;
+    }
+  }
+}
+.main_select__infobox{
+  display: flex;
+  display: -webkit-flex;
+}
+
+.floorplan__info{
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+.floorplan__info__item{
+  margin: 10px auto;
+}
+.floorplan_compass{
+  width: 90px;
+  img{width: 100%;}
+}
+.floorplan__box{
+  padding: 30px 10px;
+  img{
+    width: 100%;
+  }
+}
+
+.flatplan_block{
+  .line_link{
+    margin-bottom: 10px;
+  }
+}
+.flatplan__info{
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+.flatplan__info__item.flex{
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  .flatplan_btn{
+    display: flex;
+    display: -webkit-flex;
+    margin: 0 auto;
+  }
+  .btn_transparent,
+  .btn_red{
+    display: flex;
+    display: -webkit-flex;
+    width: 48%;
+    justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
+    padding: 12px 6px;
+    span{
+      font-size: 12px;
+    }
+    svg{
+      width: 16px;
+    }
+  }
+}
+.flatplan_center {
+    width: 100%;
+    padding: 20px 10px;
+    img{
+      width: 100%;
+    }
+  }
+.flatplan__info__item:nth-child(3){
+  .btn_red{
+    width: 100%;
+  }
+}
+.flats_about .wrapper{
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+.flats_about_name {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+.flats_about__line{
+  width: 100%;
+}
+
+
+
 }

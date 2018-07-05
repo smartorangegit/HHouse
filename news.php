@@ -50,7 +50,7 @@
                 <div class="block_prev">
                   Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
                 </div>
-                <a class="link_round" href="#">
+                <a class="link_round" href="/news-item.php">
                   <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                   <p>читати</p>
                 </a>
@@ -69,7 +69,7 @@
                 <div class="block_prev">
                   Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
                 </div>
-                <a class="link_round" href="#">
+                <a class="link_round" href="/news-item.php">
                   <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                   <p>читати</p>
                 </a>
@@ -88,7 +88,7 @@
                 <div class="block_prev">
                   Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
                 </div>
-                <a class="link_round" href="#">
+                <a class="link_round" href="/news-item.php">
                   <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                   <p>читати</p>
                 </a>
@@ -107,7 +107,7 @@
                 <div class="block_prev">
                   Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
                 </div>
-                <a class="link_round" href="#">
+                <a class="link_round" href="/news-item.php">
                   <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                   <p>читати</p>
                 </a>

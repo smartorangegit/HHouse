@@ -247,7 +247,7 @@
             </div>
             <div class="block_img ">
               <figcaption>
-                <div class="block_prev">
+                <div class="block_prev wow fadeInRight">
                   Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
                 </div>
                 <a class="link_keys" href="/filter.php">
@@ -291,7 +291,7 @@
               <div class="block_prev">
                 Придбання власної квартири – дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них – щасливе та гармонійне життя вашої сім’ї.
               </div>
-              <a class="link_round" href="/sfera.php">
+              <a class="link_round" href="/atmosphere.php">
                 <svg class="icon_line"><use xlink:href="#arrow_circle"></use></svg>
                 <p>читати</p>
               </a>
