@@ -117,6 +117,24 @@ a{
 .phone_icon{
   margin-right: 2px;
 }
+.lang_list{
+  max-height: 22px;
+  overflow: hidden;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+}
+.lang_item{
+  cursor: pointer;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  line-height: 1.5;
+  margin-left: 4px;
+}
+.lang_list_active{
+  max-height: 60px;
+  height: auto;
+}
+
 
 // section one
 .one{
@@ -269,6 +287,11 @@ background-size: auto 100%;
   position: absolute;
   top: 24px;
   right: 30px;
+}
+.icon_line_box{
+  width: 88px;
+  height: 40px;
+  overflow: hidden;
 }
 .icon_line{
   height: 40px;
@@ -1386,7 +1409,6 @@ svg{
     }
 }
 
-@import "_animate";
 @import "_about";
 @import "_infra";
 @import "_values";
@@ -1401,6 +1423,7 @@ svg{
 @import "_building";
 @import "_atmosphere";
 @import "_404";
+@import "_animate";
 
 .scaleimage{
   background-size: cover;
@@ -1412,4 +1435,184 @@ svg{
   transition: background-size 2s ease-in;
 -moz-transition: background-size 2s ease-in;
 -webkit-transition: background-size 2s ease-in;
+}
+
+
+.btn-11,
+.btn-10 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid $red;
+  border-radius: 4px;
+  padding: 18px 0;
+  text-align: center;
+  &:before,
+  &:after {
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+    z-index: -1;
+  }
+  i,em,
+  b,strong,
+  span {
+    transition: none;
+  }
+}
+.btn-10{
+
+}
+
+///styles for button
+
+@keyframes criss-cross-left {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    left: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+@-webkit-keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    right: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+@keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  100% {
+    right: 50%;
+    width: 375px;
+    height: 375px;
+  }
+}
+.btn-11 {
+  position: relative;
+  color:$red;
+}
+.btn-10{
+  position: relative;
+  color: white;
+}
+.btn-11:before, .btn-11:after {
+  position: absolute;
+  top: 50%;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: $red;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+.btn-11:before {
+  left: -20px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-11:after {
+  right: -20px;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+.btn-11:hover {
+  color: #ffffff;
+  svg{
+    fill: #ffffff;
+  }
+}
+.btn-11:hover:before {
+  -webkit-animation: criss-cross-left 0.8s both;
+          animation: criss-cross-left 0.8s both;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+.btn-11:hover:after {
+  -webkit-animation: criss-cross-right 0.8s both;
+          animation: criss-cross-right 0.8s both;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+
+/* //// Default effect: Slide from Top  //// */
+/* //// Slide Corner  //// */
+
+.slidebottomleft{
+  color: white;
+  background: transparent;
+  border: 1px solid $red;
+  border-radius: 4px;
+  position: relative;
+	text-decoration: none;
+  overflow: hidden;
+  transition: all .5s;
+  svg{
+    transition: all .5s;
+
+  }
+}
+.slidebottomleft:before,
+.slidebottomleft:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: white;
+  z-index: -1;
+  transform: translate3D(0,-100%,0);
+  transition: all .5s;
+}
+.slidebottomleft:before{
+  background: $red;
+  z-index: -2;
+  transform: translate3D(0,0,0);
+}
+.slidebottomleft:hover{
+	color: $red;
+  border: 1px solid $red;
+  svg{
+    fill:$red;
+  }
+}
+.slidebottomleft:hover:after{
+  transform: translate3D(0,0,0);
+  transition: all .5s;
+}
+.slidebottomleft:after{
+  transform: translate3D(-100%,100%,0);
+}
+.slidebottomleft:hover:after{
+	transform: translate3D(0,0,0);
+  transition: all .5s;
 }

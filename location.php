@@ -13,7 +13,7 @@
     <!-- end top-menu -->
     <?php include_once 'includes/form_callback.php';?>
 
-    <div class="container location_block">
+    <div class="container location_block wow fadeIn">
 
       <!-- header -->
       <div class="header">

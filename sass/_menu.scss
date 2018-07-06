@@ -90,7 +90,6 @@ li{
   color: #000000;
   line-height: 2.5;
   opacity: 0;
-
 }
 }
 
@@ -138,6 +137,9 @@ opacity: 0;
   .close_btn{
     opacity: 1;
     transition: 0.4s;
+  }
+  .nav_item li a:hover{
+    color: $red;
   }
 }
 

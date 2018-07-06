@@ -15,7 +15,7 @@
     <!-- end top-menu -->
     <?php include_once 'includes/form_callback.php';?>
 
-    <div class="container_building">
+    <div class="container_building wow fadeIn">
 
       <!-- header -->
       <div class="header">

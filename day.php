@@ -13,7 +13,7 @@
     <?php include_once 'includes/form_callback.php';?>
 
     <div class="container">
-      <div class="day_block">
+      <div class="day_block wow fadeIn">
         <div class="wrapper">
           <div class="line_link">
             <a href="/" class="link_active">Главная</a>&#8195;|&#8195;
@@ -52,6 +52,6 @@
     <?php include_once 'includes/footer.php';?>
     <!-- end footer -->
 
-  
+
   </body>
 </html>

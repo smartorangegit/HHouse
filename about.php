@@ -69,78 +69,78 @@
         </div>
       </div>
 
-      <div class="about_block">
+      <div class="about_block wow fadeIn">
         <div class="wrapper">
           <div class="about_box_blue">
             <div class="about_box_inner">
-              <p>
+              <p class="wow fadeInUp">
                 Придбання власної квартири - дуже серйозний крок. Обираючи житло, треба врахувати багато різних факторів. Але головний з них - щасливе та гармонійне життя вашої сім&prime;ї.
               </p>
-              <p>
+              <p class="wow fadeInUp">
                 Саме для тих, хто вважає сімейні цінності найважливішими, ми створили Happy House - будинок, створений для сімейного щастя.
               </p>
             </div>
             <div class="about_box_inner">
-              <p>
+              <p class="wow fadeInUp">
                 HAPPY HOUSE облаштований зручноє інфраструктурою для дітей та їх батьків. Ми подбали про те, щоб ваші діти могли навчатися, розвиватися та розважатися, не покидаючи будинок.
               </p>
-              <p>
+              <p class="wow fadeInUp">
                 А батьки зможуть почувати себе впевнено, коли малюки під їх наглядом. Адже за дитячим майданчиком та іншими призначенними для дітей місцями можна спостерігати з власного смартфону.
               </p>
             </div>
           </div>
           <div class="about_box_red">
             <div class="about_box_inner about_box_inner_red">
-              <span>Дізнайтеся більше про різноманітні можливості , які надає мешканцям Happy House</span>
-              <a class="link_keys" href="#">Дізнатися більше</a>
+              <span class="wow fadeInUp">Дізнайтеся більше про різноманітні можливості , які надає мешканцям Happy House</span>
+              <a class="link_keys wow fadeIn" href="#">Дізнатися більше</a>
             </div>
           </div>
         </div>
       </div>
       <div class="wrapper about_list flex">
-        <div class="about_icon flex">
+        <div class="about_icon flex wow fadeInUp" data-wow-duration=".5s">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#door"></use></svg>
           </div>
           <div class="about_prev">4 під&prime;їзди</div>
         </div>
-        <div class="about_icon flex">
+        <div class="about_icon flex wow fadeInUp" data-wow-duration=".6s">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#house"></use></svg>
           </div>
           <div class="about_prev">25 поверхів</div>
         </div>
-        <div class="about_icon flex">
+        <div class="about_icon flex wow fadeInUp" data-wow-duration=".7s">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#room"></use></svg>
           </div>
           <div class="about_prev">30 квартир</div>
         </div>
-        <div class="about_icon flex">
+        <div class="about_icon flex wow fadeInUp" data-wow-duration=".8s">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#garage"></use></svg>
           </div>
           <div class="about_prev">Підземний паркінг</div>
         </div>
-        <div class="about_icon flex">
+        <div class="about_icon flex wow fadeInUp" data-wow-duration="1.2s">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#game"></use></svg>
           </div>
           <div class="about_prev">Дитячий садок у будинку</div>
         </div>
-        <div class="about_icon flex">
+        <div class="about_icon flex wow fadeInUp" data-wow-duration="1.3s">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#teaching"></use></svg>
           </div>
           <div class="about_prev" >Центр дитячого розвитку</div>
         </div>
-        <div class="about_icon flex">
+        <div class="about_icon flex wow fadeInUp" data-wow-duration="1.4s">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#sport"></use></svg>
           </div>
           <div class="about_prev">Спортивний майданчик на даху</div>
         </div>
-        <div class="about_icon flex">
+        <div class="about_icon flex wow fadeInUp" data-wow-duration="1.5s">
           <div class="icon_wrap">
             <svg class="icon"><use xlink:href="#mother"></use></svg>
           </div>

@@ -13,7 +13,7 @@
     <!-- end top-menu -->
     <?php include_once 'includes/form_callback.php';?>
 
-    <div class="container values_block">
+    <div class="container values_block wow fadeIn">
 
       <!-- header -->
       <div class="header">
@@ -37,30 +37,30 @@
           <!-- <section class="values_block"> -->
 
             <div class="values_item values_item__1">
-              <div class="values__name">
+              <div class="values__name wow fadeInRight" data-wow-duration="1s">
                 <span>Діти</span>
               </div>
-              <div class="section__name">
+              <div class="section__name wow fadeInLeft">
                 Продумана інфраструктура для навчання, розвитку та розваг ваших дітей
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
 
             <div class="values_item values_item__2">
-              <div class="values__name">
+              <div class="values__name wow fadeInRight" data-wow-duration="1s">
                 <span>Сім&prime;я</span>
               </div>
-              <div class="section__name">
+              <div class="section__name wow fadeInLeft">
                 Екосистема, що створює затишок, комфорт та безпеку вашої сім’ї
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>
             </div>
 
             <div class="values_item values_item__3">
-              <div class="values__name">
+              <div class="values__name wow fadeInRight" data-wow-duration="1s">
                 <span>Гармонія</span>
               </div>
-              <div class="section__name">
+              <div class="section__name wow fadeInLeft">
                 Гармонічне середовище – запорука гармонійного розвитку та гармонійних відносин
                 <svg class="smile_line open" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"></path><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"></path><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"></path></g></g></svg>
               </div>

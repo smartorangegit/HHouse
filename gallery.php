@@ -14,7 +14,7 @@
 
     <?php include_once 'includes/form_callback.php';?>
 
-    <div class="container">
+    <div class="container wow fadeIn">
       <!-- header -->
       <div class="header">
         <div class="main_name">

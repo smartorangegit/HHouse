@@ -13,7 +13,7 @@
     <!-- end top-menu -->
     <?php include_once 'includes/form_callback.php';?>
 
-    <div class="container floorplan_block">
+    <div class="container floorplan_block wow fadeIn">
 
       <!-- header -->
       <div class="header">
@@ -40,7 +40,7 @@
 
           <div class="floorplan__info flex">
             <div class="floorplan__info__item">
-              <a href="/filter" class="flex btn_transparent">
+              <a href="/filter.php" class="flex btn_transparent btn-11">
                 <svg height="10" viewBox="0 0 661.621 363.89101" width="36" xmlns="http://www.w3.org/2000/svg" fill="#ed1c24"><path d="m90.973 168.449v-168.449h-33.081v168.449c-19.22 6.831-33.081 25.009-33.081 46.578s13.861 39.747 33.081 46.578v400.016h33.081v-400.016c19.237-6.832 33.081-25.009 33.081-46.578s-13.845-39.747-33.081-46.578zm264.648 281.189v-449.638h-33.081v449.638c-19.236 6.831-33.081 25.01-33.081 46.578 0 21.569 13.861 39.747 33.081 46.578v118.827h33.081v-118.827c19.237-6.831 33.081-25.009 33.081-46.578s-13.844-39.747-33.081-46.578z" transform="matrix(0 1 -1 0 659.479832 -24.811)"/></svg>
                 <span>Фільтр</span>
               </a>
@@ -67,7 +67,7 @@
           </div>
           <div class="floorplan__box">
             <a class="floor__img" href="/flat-plan.php" data-square="105" data-livsquare="60" data-rooms="2" data-floor="5">
-              <img src="/img/floor-plan/plan1.png" alt="План поаерху Happy House">
+              <img src="/img/floor-plan/plan1.png" alt="План поверху Happy House">
             </a>
 
           </div>
