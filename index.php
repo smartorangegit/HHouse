@@ -19,9 +19,10 @@
         <ul class=" gallery">
           <li class="gallery__item gitem__1"></li>
           <li class="gallery__item gitem__2"></li>
-          <li class="gallery__item gitem__3"></li>
+          <!-- <li class="gallery__item gitem__3"></li> -->
           <li class="gallery__item gitem__4"></li>
-          <li class="gallery__item gitem__5"></li>
+          <!-- <li class="gallery__item gitem__5"></li> -->
+          <!-- <li class="gallery__item gitem__6"></li> -->
         </ul>
         <div class="one__box">
           <p class="wow fadeInUp">Все для сімейного щастя</p>
