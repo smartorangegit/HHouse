@@ -22,7 +22,6 @@
         <li><a href="/filter.php">3-кімнатні</a></li>
         <li><a href="/special.php">Спеціальні умови</a></li>
         <!-- <li><a href="#">Коммерційна нерухомість</a></li> -->
-        <!-- <li><a href="#">Юридична інформація</a></li> -->
       </ul>
     </div>
     <div class="bottom-menu__item">
@@ -31,6 +30,7 @@
         <li><a href="/developer.php">Забудовник</a></li>
         <li><a href="/building.php">Хід будівництва</a></li>
         <li><a href="/news.php">Новини</a></li>
+        <li><a href="/webcam.php">Вебкамера</a></li>
 
       </ul>
     </div>

@@ -1,3 +1,29 @@
+////webcam///
+.webcam_block{
+  .building_info{
+    margin: 40px auto;
+  }
+  .btn_red{
+    max-width: 350px;
+    margin: 30px auto 60px;
+  }
+}
+.webcam_box{
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  iframe{
+    height: 460px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width:768px) {
+ .webcam_box iframe{
+   height: 240px;
+ }
+}
+
+/// building
 .status_box{
   background: #f0f0f0;
   padding: 20px 30px;

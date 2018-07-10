@@ -11,14 +11,31 @@
              <div class="content_subname">
                Наші контактні дані
             </div>
-            <div class="contacts__box flex">
-              <div class="logo">
+            <div class="contacts__box">
+              <!-- <div class="logo">
                 <img src="img/HH_logo.svg" alt="Happy House">
-              </div>
+              </div> -->
               <div class="contacts__info">
-                <p></p>
-                <p></p>
-                <p></p>
+                <div class="contacts__info_top flex">
+                  <div class="contacts__info__item">
+                    <p class="contact_item_name">Наш телефон</p>
+                    <p>(044) 237-36-35</p>
+                  </div>
+                  <div class="contacts__info__item">
+                    <p class="contact_item_name">Наша адреса</p>
+                    <p>Київ, вулиця Льва Толстого, 37</p>
+                  </div>
+                  <div class="contacts__info__item">
+                    <p class="contact_item_name">Наш e-mail</p>
+                    <p>іnfo@saga-development.com.ua</p>
+                  </div>
+                </div>
+                <div class="contacts__info_bottom">
+                  <div class="contacts__info__item">
+                  <span class="contact_item_name">Години роботи відділу продажів</span>
+                  <span>Пн-пт: 09.00 - 19.00		Сб-нд: 10.00 - 18.00</span>
+                </div>
+              </div>
               </div>
             </div>
            </div>
