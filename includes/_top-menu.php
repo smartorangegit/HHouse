@@ -35,42 +35,30 @@
     <div class="top-menu__left">
       <div class="top-menu__logo">
         <a href="/">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/HH_logo.svg" alt="Happy House">
+          <img src="img/HH_logo.svg" alt="Happy House">
         </a>
       </div>
     </div>
-      <?
-      $locale = get_locale();
-      if($locale=='uk'){
-          $locale = 'ua';
-      }
-      $requestU = $_SERVER['REQUEST_URI'];
-      if($locale=='ru_RU'){
-          $locale = 'ru';
-          $requestU = str_replace('/ru','',$_SERVER['REQUEST_URI']);
-      }
-      $uaUri = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].'/'.'ua'.$requestU;
-      $ruUri = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].'/'.'ru'.$requestU;
-      ?>
+
     <div class="top-menu__right flex">
       <div class="top-menu__item is_desktop">
         <a href="#" class="top-menu__link" style="color:#ed1c24">▼</a>
 
         <ul class="lang_list">
-          <li class="lang_item lang_item_active" style="padding-bottom:3px;"><a href="<?=$uaUri?>">Укр</a> </li>
-          <li class="lang_item" style="padding-bottom:3px;"><a href="<?=$ruUri?>">Рус</a> </li>
+          <li class="lang_item lang_item_active"><a href="#">Укр</a> </li>
+          <li class="lang_item"><a href="#">Рус</a> </li>
         </ul>
         <!-- <span>Укр</span> -->
 
       </div>
       <div class="top-menu__item is_desktop">
-        <a href="/webcam/" class="top-menu__link">
+        <a href="/webcam.php" class="top-menu__link">
           <svg enable-background="new 0 0 370 370" viewBox="0 0 370 370" xmlns="http://www.w3.org/2000/svg" fill="#ed1c24"><path d="m274.221 284.781c40.578-28.245 67.146-75.225 67.146-128.415 0-86.358-70.009-156.366-156.367-156.366-86.357 0-156.367 70.008-156.367 156.365 0 53.19 26.568 100.17 67.146 128.415l-37.202 38.376c-2.58 3.626-3.972 7.965-3.972 12.416v13.031c0 11.817 9.58 21.396 21.396 21.396h217.998c11.815 0 21.395-9.579 21.395-21.396v-13.031c0-4.451-1.392-8.79-3.972-12.416zm-89.221-201.398c40.309 0 72.983 32.676 72.983 72.982 0 40.307-32.674 72.983-72.983 72.983s-72.982-32.676-72.982-72.983c0-40.306 32.673-72.982 72.982-72.982zm-83.048 249.033 28.549-29.454c16.969 6.314 35.328 9.769 54.499 9.769s37.53-3.455 54.499-9.769l28.549 29.454z"/><path d="m185 201.689c25.033 0 45.322-20.291 45.322-45.324 0-16.152-8.456-30.32-21.177-38.349-.274 7.068-10.968 12.752-24.145 12.752-13.176 0-23.871-5.684-24.145-12.752-12.721 8.028-21.177 22.197-21.177 38.349 0 25.033 20.289 45.324 45.322 45.324z"/></svg>
         <span>Камера</span>
       </a>
       </div>
       <div class="top-menu__item is_desktop">
-        <a href="/gallery/" class="top-menu__link">
+        <a href="/gallery.php" class="top-menu__link">
           <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 440 440" viewBox="0 0 440 440" fill="#ed1c24"><path d="m421.376 46.336h-403.456c-9.728 0-17.92 8.192-17.92 17.92v310.784c0 9.728 8.192 17.92 17.92 17.92h403.456c9.728 0 17.92-8.192 17.92-17.92v-310.784c0-10.24-7.68-17.92-17.92-17.92zm-17.92 214.528-73.216-58.368c-6.656-5.12-16.384-5.12-23.04.512l-82.432 71.68-109.056-122.88c-3.584-3.584-8.704-6.144-13.824-6.144s-9.728 2.048-13.312 5.632l-52.736 57.344v-126.464h367.616z"/><path d="m219.648 92.928c-32.256 0-58.88 26.624-58.88 58.88s26.112 58.88 58.88 58.88 58.88-26.624 58.88-58.88c0-32.768-26.624-58.88-58.88-58.88z"/></svg>
         <span>Галерея</span>
       </a>
@@ -111,81 +99,42 @@
 
         <a href="/" class="nav_name">Головна</a>
         <ul>
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu-left',
-                'container'      => '',
-                'container_class'=>'',
-                'menu_class'     => '   ',
-                'menu_id'     => '   ',
-                'depth' =>1,
-                'walker'=> new Foter_Walker_Nav_Menu()
-            ));
-            ?>
+          <li><a href="/news.php">Новини</a></li>
+          <li><a href="/gallery.php">Галерея</a></li>
         </ul>
       </li>
       <li class="nav_item">
         <p class="nav_name">Проект:</p>
         <ul>
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu-2',
-                'container'      => '',
-                'container_class'=>'',
-                'menu_class'     => '   ',
-                'menu_id'     => '   ',
-                'depth' =>1,
-                'walker'=> new Foter_Walker_Nav_Menu()
-            ));
-            ?>
+          <li><a href="/about.php">Про Happy House</a></li>
+          <li><a href="/advantages.php">Переваги</a></li>
+          <li><a href="/values.php">Цінності</a></li>
+          <li><a href="/infrastructura.php">Інфраструктура</a></li>
         </ul>
       </li>
       <li class="nav_item">
         <p class="nav_name">Обрати квартиру</p>
         <ul>
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu-3',
-                'container'      => '',
-                'container_class'=>'',
-                'menu_class'     => '   ',
-                'menu_id'     => '   ',
-                'depth' =>1,
-                'walker'=> new Foter_Walker_Nav_Menu()
-            ));
-            ?>
+          <li><a href="/level-floor.php">Обрати за поверхом</a></li>
+          <li><a href="/filter.php">Обрати за параметрами</a></li>
+          <li><a href="/filter.php">1-кімнатні</a></li>
+          <li><a href="/filter.php">2-кімнатні</a></li>
+          <li><a href="/filter.php">3-кімнатні</a></li>
+          <li><a href="/special.php">Спеціальні умови</a></li>
         </ul>
       </li>
       <li class="nav_item">
         <p class="nav_name">Хід проекту</p>
         <ul>
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu-4',
-                'container'      => '',
-                'container_class'=>'',
-                'menu_class'     => '   ',
-                'menu_id'     => '   ',
-                'depth' =>1,
-                'walker'=> new Foter_Walker_Nav_Menu()
-            ));
-            ?>
+          <li><a href="/developer.php">Забудовник</a></li>
+          <li><a href="/building.php">Хід будівництва</a></li>
+          <li><a href="/webcam.php">Веб-камера</a></li>
         </ul>
       </li>
       <li class="nav_item">
         <p class="nav_name">Контакти</p>
         <ul>
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu-5',
-                'container'      => '',
-                'container_class'=>'',
-                'menu_class'     => '   ',
-                'menu_id'     => '   ',
-                'depth' =>1,
-                'walker'=> new Foter_Walker_Nav_Menu()
-            ));
-            ?>
+          <li><a href="/location.php">Розташування</a></li>
           <li>метро Нивки</li>
           <li>
             <div class="phone_box">
@@ -202,7 +151,7 @@
     </ul>
     <div class="nav_logo">
       <a href="/">
-        <img src="<?php bloginfo('template_url'); ?>/assets/img/HH_logo.svg" alt="Happy House">
+        <img src="img/HH_logo.svg" alt="Happy House">
       </a>
     </div>
     <div class="close_btn open-overlay">

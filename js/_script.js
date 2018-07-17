@@ -35,22 +35,14 @@ $('.lang_item_active, .lang_list, .lang_item').hover(
 );
 
 
+
 //open modal window
 var call = $('#phone_call');
-var call2 = $('.btn_red');
 var close = $('#close_form');
 var modal = $('#form_callback');
 var line = $('.smile_line');
 
 call.click(function(){
-  modal.velocity('transition.slideUpBigIn',{
-    // duration: 650,
-    complete:function() {
-      line.addClass('open')
-      }
-  })
-});
-call2.click(function(){
   modal.velocity('transition.slideUpBigIn',{
     // duration: 650,
     complete:function() {
@@ -315,7 +307,7 @@ $('.day_time').hover(function(){
   var image = this.dataset.image
   var info = this.dataset.info
   var time = this.dataset.time
-  $('.day_block').css('backgroundImage','url(/wp-content/themes/happy-house/assets/img/day/' + image + '.jpg)');
+  $('.day_block').css('backgroundImage','url(img/day/' + image + '.jpg)');
   $('.day_looktime').html(time);
   $('.day_round span').html(info);
   $('.day_time').removeClass('day_time_active');
