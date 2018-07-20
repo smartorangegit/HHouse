@@ -111,7 +111,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("/wp-content/themes/happy-house/assets/img/menu_bg.jpg");
+  background: url("/img/menu_bg.jpg");
   background-size: cover;
   display: none;
   opacity: 0;
@@ -713,35 +713,35 @@ a {
 
 /* line 148, ../sass/style.scss */
 .gitem__1 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal1.jpg") center no-repeat;
+  background: url("/img/gallery/gal1.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 152, ../sass/style.scss */
 .gitem__2 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal2.jpg") center no-repeat;
+  background: url("/img/gallery/gal2.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 156, ../sass/style.scss */
 .gitem__3 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal3.jpg") center no-repeat;
+  background: url("/img/gallery/gal3.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 160, ../sass/style.scss */
 .gitem__4 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal4.jpg") center no-repeat;
+  background: url("/img/gallery/gal4.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .gitem__6 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal6.jpg") center no-repeat;
+  background: url("/img/gallery/gal6.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 169, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .one__box {
   font-size: 48px;
   font-family: "GothaProLig";
@@ -755,7 +755,7 @@ a {
   color: #ffffff;
 }
 
-/* line 181, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .arrow_down {
   width: 12px;
   margin: 30px auto;
@@ -803,7 +803,7 @@ a {
     transform: translateY(-15px);
   }
 }
-/* line 231, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 .one__line {
   width: 100%;
   background: #f0f0f0;
@@ -811,9 +811,9 @@ a {
   bottom: 0;
 }
 
-/* line 237, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 .line_fanny {
-  background: url("/wp-content/themes/happy-house/assets/img/pattern_grey.png");
+  background: url(../img/pattern_grey.png);
   height: 36px;
   background-size: auto 100%;
   -moz-animation: content_custom8 50s infinite linear;
@@ -847,7 +847,7 @@ a {
     background-position: 500px 0;
   }
 }
-/* line 258, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .main .wrapper {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
@@ -855,7 +855,7 @@ a {
   -webkit-align-items: flex-start;
 }
 
-/* line 264, ../sass/style.scss */
+/* line 288, ../sass/style.scss */
 .block_double,
 .block_single {
   width: 47%;
@@ -864,12 +864,12 @@ a {
   overflow: hidden;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .block_single {
   width: 100%;
 }
 
-/* line 274, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 .block__name {
   font-size: 32px;
   font-family: "GothaProLig";
@@ -881,7 +881,7 @@ a {
   background: #fff;
 }
 
-/* line 284, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .icon_smile {
   width: 30px;
   height: 30px;
@@ -890,14 +890,14 @@ a {
   right: 30px;
 }
 
-/* line 291, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 .icon_line_box {
   width: 88px;
   height: 40px;
   overflow: hidden;
 }
 
-/* line 296, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 .icon_line {
   height: 40px;
   width: 88px;
@@ -907,18 +907,18 @@ a {
   -webkit-transition: 0.8s;
 }
 
-/* line 304, ../sass/style.scss */
+/* line 328, ../sass/style.scss */
 .line_active {
   stroke-dasharray: 118;
 }
 
-/* line 309, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 figcaption {
   font-family: "GothaPro";
   font-size: 14px;
 }
 
-/* line 313, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .main figcaption {
   width: 100%;
   background: #fff;
@@ -930,7 +930,7 @@ figcaption {
   -webkit-align-items: center;
 }
 
-/* line 318, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .block_prev {
   padding: 0px 20px 0px;
   line-height: 2;
@@ -943,7 +943,7 @@ figcaption {
   transition: 0.7s;
   -webkit-transition: 0.7s;
 }
-/* line 329, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 .block_prev:before {
   content: '';
   position: absolute;
@@ -954,12 +954,12 @@ figcaption {
   background: #ccc;
 }
 
-/* line 339, ../sass/style.scss */
+/* line 363, ../sass/style.scss */
 .link_round {
   display: block;
   text-align: center;
 }
-/* line 342, ../sass/style.scss */
+/* line 366, ../sass/style.scss */
 .link_round p {
   text-transform: uppercase;
   color: #ed1c24;
@@ -969,14 +969,14 @@ figcaption {
   line-height: 1.5;
 }
 
-/* line 351, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .block_img {
   height: 230px;
   margin-bottom: 20px;
   overflow: hidden;
 }
 
-/* line 358, ../sass/style.scss */
+/* line 382, ../sass/style.scss */
 .block__info {
   position: absolute;
   top: 0;
@@ -989,7 +989,7 @@ figcaption {
   text-align: center;
 }
 
-/* line 369, ../sass/style.scss */
+/* line 393, ../sass/style.scss */
 .block__number {
   position: absolute;
   font-size: 42px;
@@ -999,7 +999,7 @@ figcaption {
   padding: 40px 60px 40px 80px;
   z-index: 1;
 }
-/* line 377, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
 .block__number:before {
   content: '';
   position: absolute;
@@ -1013,32 +1013,32 @@ figcaption {
   z-index: -1;
 }
 
-/* line 395, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 .block_about .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/proj_bg.jpg") center no-repeat;
+  background: url("../img/proj_bg.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 401, ../sass/style.scss */
+/* line 425, ../sass/style.scss */
 .block_location .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/locat_bg.jpg") center no-repeat;
+  background: url("../img/locat_bg.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 407, ../sass/style.scss */
+/* line 431, ../sass/style.scss */
 .block_genplan .block_img {
   height: 290px;
-  background: url("/wp-content/themes/happy-house/assets/img/plan_bg.jpg") center no-repeat;
+  background: url("../img/plan_bg.jpg") center no-repeat;
   background-position-x: 100%;
   transition: 2s;
   -webkit-transition: 2s;
 }
-/* line 414, ../sass/style.scss */
+/* line 438, ../sass/style.scss */
 .block_genplan .block_img_active {
   background-position-x: 0%;
 }
 
-/* line 419, ../sass/style.scss */
+/* line 443, ../sass/style.scss */
 .block_single .link_round {
   width: 90px;
   height: 90px;
@@ -1050,32 +1050,32 @@ figcaption {
   padding-top: 14px;
 }
 
-/* line 433, ../sass/style.scss */
+/* line 457, ../sass/style.scss */
 .block_hub .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/mama_bg.jpg") center no-repeat;
+  background: url("../img/mama_bg.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 439, ../sass/style.scss */
+/* line 463, ../sass/style.scss */
 .block_infra .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/infra_bg.jpg") center no-repeat;
+  background: url("../img/infra_bg.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 445, ../sass/style.scss */
+/* line 469, ../sass/style.scss */
 .block_double .bx-wrapper .bx-caption {
   bottom: 0;
   text-align: left;
   padding-right: 90px;
 }
-/* line 450, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
 .block_double .bx-controls-direction {
   position: absolute;
   left: auto;
   right: 14px;
   bottom: 4px;
 }
-/* line 456, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 .block_double .bx-controls-direction a {
   width: 32px;
   height: 32px;
@@ -1083,88 +1083,88 @@ figcaption {
   bottom: 10px;
   padding: 10px;
 }
-/* line 463, ../sass/style.scss */
+/* line 487, ../sass/style.scss */
 .block_double .bx-wrapper .bx-next {
   right: 0px;
 }
-/* line 466, ../sass/style.scss */
+/* line 490, ../sass/style.scss */
 .block_double .bx-wrapper .bx-prev {
   left: auto;
   right: 45px;
 }
 
-/* line 473, ../sass/style.scss */
+/* line 497, ../sass/style.scss */
 .block_gallery .block_img {
   height: 320px;
   overflow: hidden;
 }
-/* line 478, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 .block_gallery .bx-wrapper img {
   max-width: 100%;
   display: block;
   width: 100%;
 }
-/* line 483, ../sass/style.scss */
+/* line 507, ../sass/style.scss */
 .block_gallery .bx-controls-direction {
   position: absolute;
   left: 20px;
   bottom: 20px;
 }
-/* line 488, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 .block_gallery .bx-wrapper .bx-prev {
   left: 0px;
 }
-/* line 491, ../sass/style.scss */
+/* line 515, ../sass/style.scss */
 .block_gallery .bx-wrapper .bx-next {
   left: 50px;
 }
-/* line 494, ../sass/style.scss */
+/* line 518, ../sass/style.scss */
 .block_gallery .bx-wrapper .bx-controls-direction a {
   width: 32px;
   height: 32px;
   padding: 10px;
   margin-top: -32px;
 }
-/* line 500, ../sass/style.scss */
+/* line 524, ../sass/style.scss */
 .block_gallery .link_round {
   padding-top: 10px;
 }
 
-/* line 509, ../sass/style.scss */
+/* line 533, ../sass/style.scss */
 .double_slider_item {
   height: 230px;
 }
 
-/* line 516, ../sass/style.scss */
+/* line 540, ../sass/style.scss */
 .block_advantages .block_img {
   height: 320px;
 }
-/* line 519, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
 .block_advantages .bx-wrapper img {
   width: 100%;
 }
-/* line 522, ../sass/style.scss */
+/* line 546, ../sass/style.scss */
 .block_advantages .bx-controls-direction {
   position: absolute;
   left: 20px;
   bottom: 20px;
 }
-/* line 527, ../sass/style.scss */
+/* line 551, ../sass/style.scss */
 .block_advantages .bx-wrapper .bx-prev {
   left: 0px;
 }
-/* line 530, ../sass/style.scss */
+/* line 554, ../sass/style.scss */
 .block_advantages .bx-wrapper .bx-next {
   left: 50px;
 }
-/* line 533, ../sass/style.scss */
+/* line 557, ../sass/style.scss */
 .block_advantages .bx-wrapper .bx-controls-direction a {
   width: 32px;
   height: 32px;
   padding: 10px;
   margin-top: -32px;
 }
-/* line 539, ../sass/style.scss */
+/* line 563, ../sass/style.scss */
 .block_advantages .block_prev {
   background: #fff;
   position: absolute;
@@ -1177,27 +1177,15 @@ figcaption {
   font-family: "GothaPro";
   font-size: 14px;
 }
-/* line 551, ../sass/style.scss */
-.block_advantages .bx-wrapper .bx-caption {
-  top: 40px;
-  padding: 20px;
-  font-size: 16px;
-  bottom: auto;
-  width: 32%;
-  min-height: 110px;
-  text-align: left;
-  line-height: 1.8;
-  background: rgba(255, 255, 255, 0.9);
-}
 
-/* line 564, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 .block_flats .block_img {
   height: 320px;
-  background: url("/wp-content/themes/happy-house/assets/img/flat_bg.jpg") center no-repeat;
+  background: url("../img/flat_bg.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 570, ../sass/style.scss */
+/* line 583, ../sass/style.scss */
 .block_flats figcaption {
   position: absolute;
   width: 330px;
@@ -1211,7 +1199,7 @@ figcaption {
   padding: 20px;
 }
 
-/* line 583, ../sass/style.scss */
+/* line 596, ../sass/style.scss */
 .link_keys {
   background: #ed1c24;
   color: #fff;
@@ -1224,31 +1212,31 @@ figcaption {
   align-items: center;
 }
 
-/* line 595, ../sass/style.scss */
+/* line 608, ../sass/style.scss */
 .block_commerc .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/commerc_bg.jpg") center no-repeat;
+  background: url("../img/commerc_bg.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 601, ../sass/style.scss */
+/* line 614, ../sass/style.scss */
 .block_atmosfera .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/sfera_bg.jpg") center no-repeat;
+  background: url("../img/sfera_bg.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 607, ../sass/style.scss */
+/* line 620, ../sass/style.scss */
 .block_building .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/build_bg.jpg") center no-repeat;
+  background: url("../img/build_bg.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 613, ../sass/style.scss */
+/* line 626, ../sass/style.scss */
 .block_developer .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/develop_bg.jpg") center no-repeat;
+  background: url("../img/develop_bg.jpg") center no-repeat;
   background-size: cover;
 }
 
-/* line 618, ../sass/style.scss */
+/* line 631, ../sass/style.scss */
 .develop__img {
   position: absolute;
   top: 50%;
@@ -1258,21 +1246,21 @@ figcaption {
   -webkit-transform: translate(-50%, -50%);
 }
 
-/* line 632, ../sass/style.scss */
+/* line 645, ../sass/style.scss */
 .block_day .block_img {
   height: 320px;
-  background: url("/wp-content/themes/happy-house/assets/img/day_bg.jpg") no-repeat;
+  background: url("../img/day_bg.jpg") no-repeat;
   background-size: cover;
   position: relative;
   background-position-y: 90%;
   transition: 2s;
   -webkit-transition: 2s;
 }
-/* line 641, ../sass/style.scss */
+/* line 654, ../sass/style.scss */
 .block_day .block_img_active {
   background-position: 10%;
 }
-/* line 644, ../sass/style.scss */
+/* line 657, ../sass/style.scss */
 .block_day .block_prev {
   width: 300px;
   position: absolute;
@@ -1285,114 +1273,114 @@ figcaption {
   font-size: 14px;
 }
 
-/* line 662, ../sass/style.scss */
+/* line 675, ../sass/style.scss */
 .projects {
   color: #000000;
   text-align: center;
   padding: 20px 0;
 }
-/* line 666, ../sass/style.scss */
+/* line 679, ../sass/style.scss */
 .projects .wrapper {
   border: 1px solid #cdcdcd;
   max-width: 1160px;
   padding: 50px 0;
 }
-/* line 671, ../sass/style.scss */
+/* line 684, ../sass/style.scss */
 .projects .bx-wrapper .bx-prev,
 .projects .bx-wrapper .bx-next {
   background: #ed1c24;
 }
-/* line 674, ../sass/style.scss */
+/* line 687, ../sass/style.scss */
 .projects .bx-wrapper .bx-prev svg,
 .projects .bx-wrapper .bx-next svg {
   fill: #fff;
 }
-/* line 678, ../sass/style.scss */
+/* line 691, ../sass/style.scss */
 .projects .bx-wrapper .bx-prev:hover,
 .projects .bx-wrapper .bx-next:hover {
   background: #FFF;
 }
-/* line 681, ../sass/style.scss */
+/* line 694, ../sass/style.scss */
 .projects .bx-wrapper .bx-prev:hover svg,
 .projects .bx-wrapper .bx-next:hover svg {
   fill: #ed1c24;
 }
-/* line 685, ../sass/style.scss */
+/* line 698, ../sass/style.scss */
 .projects .bx-next {
   right: -50px;
 }
-/* line 686, ../sass/style.scss */
+/* line 699, ../sass/style.scss */
 .projects .bx-prev {
   left: -50px;
 }
 
-/* line 688, ../sass/style.scss */
+/* line 701, ../sass/style.scss */
 .projects__slider {
   height: 100%;
 }
 
-/* line 691, ../sass/style.scss */
+/* line 704, ../sass/style.scss */
 .projects__item {
   display: flex;
   height: 100%;
   padding: 20px;
 }
-/* line 695, ../sass/style.scss */
+/* line 708, ../sass/style.scss */
 .projects__item img {
   max-width: 100%;
   margin: 0 auto;
 }
 
-/* line 700, ../sass/style.scss */
+/* line 713, ../sass/style.scss */
 .projects__item_kandinskiy {
   top: -6px;
 }
 
-/* line 703, ../sass/style.scss */
+/* line 716, ../sass/style.scss */
 .projects__item_rybalsky {
   max-width: 180px;
 }
 
-/* line 706, ../sass/style.scss */
+/* line 719, ../sass/style.scss */
 .projects__item_san-francisco {
   top: -7px;
 }
 
-/* line 711, ../sass/style.scss */
+/* line 724, ../sass/style.scss */
 .contacts {
   margin-bottom: 20px;
 }
-/* line 713, ../sass/style.scss */
+/* line 726, ../sass/style.scss */
 .contacts .logo {
   background: #ffffff;
   padding: 20px;
   width: 160px;
 }
-/* line 717, ../sass/style.scss */
+/* line 730, ../sass/style.scss */
 .contacts .logo img {
   width: 100%;
   height: auto;
 }
 
-/* line 723, ../sass/style.scss */
+/* line 736, ../sass/style.scss */
 .contacts__info__item {
   position: relative;
   padding-left: 40px;
   text-align: left;
   margin-bottom: 24px;
 }
-/* line 728, ../sass/style.scss */
+/* line 741, ../sass/style.scss */
 .contacts__info__item p {
   margin: 10px auto;
   line-height: 1.5;
 }
-/* line 732, ../sass/style.scss */
+/* line 745, ../sass/style.scss */
 .contacts__info__item span {
   line-height: 1.5;
 }
-/* line 735, ../sass/style.scss */
+/* line 748, ../sass/style.scss */
 .contacts__info__item:before {
-  content: url("/wp-content/themes/happy-house/assets/img/icons/location.svg");
+  content: url("/img/icons/location.svg");
   position: absolute;
   width: 20px;
   left: 0;
@@ -1401,38 +1389,38 @@ figcaption {
   transform: translateY(-50%);
 }
 
-/* line 745, ../sass/style.scss */
+/* line 758, ../sass/style.scss */
 .contacts__info__item:nth-child(1):before {
-  content: url("/wp-content/themes/happy-house/assets/img/icons/phone1.svg");
+  content: url("/img/icons/phone1.svg");
 }
 
-/* line 748, ../sass/style.scss */
+/* line 761, ../sass/style.scss */
 .contacts__info__item:nth-child(3):before {
-  content: url("/wp-content/themes/happy-house/assets/img/icons/mail.svg");
+  content: url("/img/icons/mail.svg");
 }
 
-/* line 751, ../sass/style.scss */
+/* line 764, ../sass/style.scss */
 .contacts__info_bottom
 .contacts__info__item:before {
-  content: url("/wp-content/themes/happy-house/assets/img/icons/clock.svg");
+  content: url("/img/icons/clock.svg");
 }
 
-/* line 755, ../sass/style.scss */
+/* line 768, ../sass/style.scss */
 .contact_item_name {
   font-size: 20px;
 }
 
-/* line 758, ../sass/style.scss */
+/* line 771, ../sass/style.scss */
 .tabs__content {
   width: 100%;
 }
 
-/* line 761, ../sass/style.scss */
+/* line 774, ../sass/style.scss */
 .contacts__box {
   margin-top: 20px;
 }
 
-/* line 764, ../sass/style.scss */
+/* line 777, ../sass/style.scss */
 .tabs__inner {
   width: 100%;
   height: 100%;
@@ -1440,7 +1428,7 @@ figcaption {
   padding: 40px 70px;
 }
 
-/* line 770, ../sass/style.scss */
+/* line 783, ../sass/style.scss */
 .tabs__name li {
   width: 33.33%;
   text-align: center;
@@ -1451,17 +1439,17 @@ figcaption {
   -webkit-transition: 0.33s;
 }
 
-/* line 779, ../sass/style.scss */
+/* line 792, ../sass/style.scss */
 .tabs__name li.active {
   background: #ed1c24;
   color: #f8f5f4;
 }
 
-/* line 783, ../sass/style.scss */
+/* line 796, ../sass/style.scss */
 .contact_form {
   margin-top: 20px;
 }
-/* line 785, ../sass/style.scss */
+/* line 798, ../sass/style.scss */
 .contact_form input {
   width: 100%;
   height: 50px;
@@ -1472,7 +1460,7 @@ figcaption {
   text-indent: 60px;
   letter-spacing: 1px;
 }
-/* line 796, ../sass/style.scss */
+/* line 809, ../sass/style.scss */
 .contact_form input[type="submit"] {
   background: #ed1c24;
   color: white;
@@ -1485,7 +1473,7 @@ figcaption {
   text-transform: uppercase;
 }
 
-/* line 808, ../sass/style.scss */
+/* line 821, ../sass/style.scss */
 .form__img {
   position: absolute;
   left: 20px;
@@ -1497,23 +1485,23 @@ figcaption {
   border-radius: 100%;
   padding: 8px;
 }
-/* line 818, ../sass/style.scss */
+/* line 831, ../sass/style.scss */
 .form__img svg {
   fill: #ffffff;
   width: 100%;
   height: 100%;
 }
 
-/* line 824, ../sass/style.scss */
+/* line 837, ../sass/style.scss */
 .input_wrapper {
   position: relative;
 }
 
-/* line 827, ../sass/style.scss */
+/* line 840, ../sass/style.scss */
 .required_input {
   position: relative;
 }
-/* line 829, ../sass/style.scss */
+/* line 842, ../sass/style.scss */
 .required_input:before {
   content: '*';
   position: absolute;
@@ -1521,7 +1509,7 @@ figcaption {
   right: 4px;
   z-index: 2;
 }
-/* line 836, ../sass/style.scss */
+/* line 849, ../sass/style.scss */
 .required_input:after {
   content: '';
   position: absolute;
@@ -1533,47 +1521,47 @@ figcaption {
   z-index: 1;
 }
 
-/* line 850, ../sass/style.scss */
+/* line 863, ../sass/style.scss */
 .bottom-menu {
   width: 100%;
   background: #f0f0f0;
   line-height: 2.1;
 }
-/* line 854, ../sass/style.scss */
+/* line 867, ../sass/style.scss */
 .bottom-menu .wrapper {
   align-items: flex-start;
   -webkit-align-items: flex-start;
   padding: 40px 20px;
 }
 
-/* line 860, ../sass/style.scss */
+/* line 873, ../sass/style.scss */
 .bottom-menu_name {
   font-size: 20px;
 }
 
-/* line 863, ../sass/style.scss */
+/* line 876, ../sass/style.scss */
 .bottom-menu__item {
   width: 25%;
 }
 
-/* line 866, ../sass/style.scss */
+/* line 879, ../sass/style.scss */
 .bottom-menu__item li {
   color: #676767;
   font-family: "GothaPro";
   line-height: 2.5;
 }
 
-/* line 871, ../sass/style.scss */
+/* line 884, ../sass/style.scss */
 .bottom-menu__item li a {
   color: #676767;
   transition: 0.3s;
 }
-/* line 874, ../sass/style.scss */
+/* line 887, ../sass/style.scss */
 .bottom-menu__item li a:hover {
   color: #ed1c24;
 }
 
-/* line 878, ../sass/style.scss */
+/* line 891, ../sass/style.scss */
 .phone_box {
   background: #fff;
   text-align: center;
@@ -1583,13 +1571,13 @@ figcaption {
   z-index: 1;
   margin-top: 20px;
 }
-/* line 886, ../sass/style.scss */
+/* line 899, ../sass/style.scss */
 .phone_box .flex {
   justify-content: space-evenly;
   -webkit-justify-content: space-evenly;
 }
 
-/* line 906, ../sass/style.scss */
+/* line 919, ../sass/style.scss */
 .btn_red {
   display: block;
   text-align: center;
@@ -1602,7 +1590,7 @@ figcaption {
   margin-top: 12px;
 }
 
-/* line 917, ../sass/style.scss */
+/* line 930, ../sass/style.scss */
 .footer {
   width: 100%;
   background: #e5e5e5;
@@ -1610,56 +1598,56 @@ figcaption {
   font-family: "GothaPro";
 }
 
-/* line 923, ../sass/style.scss */
+/* line 936, ../sass/style.scss */
 .footer__right {
   width: 100px;
 }
 
-/* line 929, ../sass/style.scss */
+/* line 942, ../sass/style.scss */
 .form_box {
   position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background: url("/wp-content/themes/happy-house/assets/img/menu_bg.jpg");
+  background: url(/img/menu_bg.jpg);
   background-size: cover;
   display: none;
   opacity: 0;
   z-index: 1000;
 }
-/* line 940, ../sass/style.scss */
+/* line 953, ../sass/style.scss */
 .form_box .main_name {
   margin-top: 67px;
 }
-/* line 943, ../sass/style.scss */
+/* line 956, ../sass/style.scss */
 .form_box .contact_form {
   width: 95%;
   margin: 70px auto 10px;
   max-width: 1000px;
 }
-/* line 947, ../sass/style.scss */
+/* line 960, ../sass/style.scss */
 .form_box .contact_form input {
   border: 1px solid #cbcbcb;
   background-color: #fff;
 }
-/* line 951, ../sass/style.scss */
+/* line 964, ../sass/style.scss */
 .form_box .contact_form input[type="submit"] {
   border: 1px solid #ed1c24;
   background-color: #ed1c24;
 }
-/* line 956, ../sass/style.scss */
+/* line 969, ../sass/style.scss */
 .form_box .close_btn {
   opacity: 1;
   top: auto;
   bottom: -70px;
 }
-/* line 960, ../sass/style.scss */
+/* line 973, ../sass/style.scss */
 .form_box .close_btn svg {
   width: inherit;
 }
 
-/* line 965, ../sass/style.scss */
+/* line 978, ../sass/style.scss */
 .smile_line {
   width: 0px;
   transition-duration: 0.8s;
@@ -1669,58 +1657,58 @@ figcaption {
   vertical-align: middle;
 }
 
-/* line 973, ../sass/style.scss */
+/* line 986, ../sass/style.scss */
 .smile_line.open {
   width: 90px;
 }
 
-/* line 979, ../sass/style.scss */
+/* line 992, ../sass/style.scss */
 .header {
   margin-top: 70px;
 }
-/* line 981, ../sass/style.scss */
+/* line 994, ../sass/style.scss */
 .header .one__line {
   position: static;
   padding: 1px 0;
 }
-/* line 985, ../sass/style.scss */
+/* line 998, ../sass/style.scss */
 .header .line_fanny {
   margin: 12px 0;
 }
-/* line 988, ../sass/style.scss */
+/* line 1001, ../sass/style.scss */
 .header .menu_line {
   width: 90px;
 }
 
-/* line 993, ../sass/style.scss */
+/* line 1006, ../sass/style.scss */
 .line_link {
   margin-bottom: 40px;
   color: #808080;
   margin-top: 20px;
 }
 
-/* line 998, ../sass/style.scss */
+/* line 1011, ../sass/style.scss */
 .link_active {
   color: #808080;
   line-height: 2;
 }
 
-/* line 1002, ../sass/style.scss */
+/* line 1015, ../sass/style.scss */
 .link_no_active {
   color: #ed1c24;
   line-height: 2;
 }
 
-/* line 1006, ../sass/style.scss */
+/* line 1019, ../sass/style.scss */
 .name_box {
   position: relative;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 1011, ../sass/style.scss */
+/* line 1024, ../sass/style.scss */
 .name_box:before, .name_box:after {
-  content: url("/wp-content/themes/happy-house/assets/img/smile_grey.svg");
+  content: url("/img/smile_grey.svg");
   position: absolute;
   width: 20px;
   height: 24px;
@@ -1728,13 +1716,13 @@ figcaption {
   left: 5%;
   margin-top: -14px;
 }
-/* line 1021, ../sass/style.scss */
+/* line 1034, ../sass/style.scss */
 .name_box:after {
   left: auto;
   right: 5%;
 }
 
-/* line 1032, ../sass/style.scss */
+/* line 1045, ../sass/style.scss */
 .day_block {
   width: 100%;
   height: 100vh;
@@ -1743,7 +1731,7 @@ figcaption {
   transition: 0.4s;
   -webkit-transition: 0.4s;
 }
-/* line 1039, ../sass/style.scss */
+/* line 1052, ../sass/style.scss */
 .day_block:after {
   content: '';
   position: absolute;
@@ -1756,7 +1744,7 @@ figcaption {
   background: repeating-linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
   background: -ms-repeating-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
 }
-/* line 1051, ../sass/style.scss */
+/* line 1064, ../sass/style.scss */
 .day_block .wrapper {
   height: 100%;
   padding: 100px 30px 50px;
@@ -1765,7 +1753,7 @@ figcaption {
   justify-content: space-between;
 }
 
-/* line 1060, ../sass/style.scss */
+/* line 1073, ../sass/style.scss */
 .day_controls {
   display: flex;
   display: -webkit-flex;
@@ -1777,7 +1765,7 @@ figcaption {
   z-index: 1;
 }
 
-/* line 1070, ../sass/style.scss */
+/* line 1083, ../sass/style.scss */
 .day_round {
   width: 260px;
   height: 260px;
@@ -1789,12 +1777,12 @@ figcaption {
   overflow: hidden;
   line-height: 1.6;
 }
-/* line 1080, ../sass/style.scss */
+/* line 1093, ../sass/style.scss */
 .day_round .icon_line {
   height: 20px;
   width: 88px;
 }
-/* line 1084, ../sass/style.scss */
+/* line 1097, ../sass/style.scss */
 .day_round::after {
   content: '';
   position: absolute;
@@ -1807,7 +1795,7 @@ figcaption {
   border: 1px solid #fff;
 }
 
-/* line 1096, ../sass/style.scss */
+/* line 1109, ../sass/style.scss */
 .day_looktime {
   width: 200px;
   height: 100px;
@@ -1820,11 +1808,11 @@ figcaption {
   border-radius: 100%;
 }
 
-/* line 1107, ../sass/style.scss */
+/* line 1120, ../sass/style.scss */
 .day_line {
   position: relative;
 }
-/* line 1109, ../sass/style.scss */
+/* line 1122, ../sass/style.scss */
 .day_line:before {
   content: '';
   position: absolute;
@@ -1834,7 +1822,7 @@ figcaption {
   top: 50%;
   margin-top: -1px;
 }
-/* line 1118, ../sass/style.scss */
+/* line 1131, ../sass/style.scss */
 .day_line ul {
   width: 530px;
   display: flex;
@@ -1843,7 +1831,7 @@ figcaption {
   -webkit-justify-content: space-between;
 }
 
-/* line 1126, ../sass/style.scss */
+/* line 1139, ../sass/style.scss */
 .day_time {
   width: 20px;
   height: 20px;
@@ -1855,7 +1843,7 @@ figcaption {
   position: relative;
   cursor: pointer;
 }
-/* line 1136, ../sass/style.scss */
+/* line 1149, ../sass/style.scss */
 .day_time:after {
   content: attr(data-time);
   position: absolute;
@@ -1870,7 +1858,7 @@ figcaption {
   transition: 0.35s;
   -webkit-transition: 0.35s;
 }
-/* line 1150, ../sass/style.scss */
+/* line 1163, ../sass/style.scss */
 .day_time:before {
   content: '';
   position: absolute;
@@ -1882,19 +1870,19 @@ figcaption {
   -webkit-transition: 0.35s;
 }
 
-/* line 1161, ../sass/style.scss */
+/* line 1174, ../sass/style.scss */
 .day_time:hover,
 .day_time_active {
   background: #ed1c24;
 }
-/* line 1164, ../sass/style.scss */
+/* line 1177, ../sass/style.scss */
 .day_time:hover:before, .day_time:hover:after,
 .day_time_active:before,
 .day_time_active:after {
   opacity: 1;
 }
 
-/* line 1169, ../sass/style.scss */
+/* line 1182, ../sass/style.scss */
 .clearfix:after,
 .clearfix:before {
   content: '';
@@ -1902,7 +1890,7 @@ figcaption {
   clear: both;
 }
 
-/* line 1175, ../sass/style.scss */
+/* line 1188, ../sass/style.scss */
 .under {
   text-align: center;
   font-size: 24px;
@@ -1910,77 +1898,77 @@ figcaption {
 }
 
 @media only screen and (max-width: 1024px) {
-  /* line 1182, ../sass/style.scss */
+  /* line 1195, ../sass/style.scss */
   .top-menu__item.is_desktop span {
     display: none;
   }
 
-  /* line 1186, ../sass/style.scss */
+  /* line 1199, ../sass/style.scss */
   .one__box {
     font-size: 36px;
     padding: 20px 40px 20px;
   }
 
-  /* line 1190, ../sass/style.scss */
+  /* line 1203, ../sass/style.scss */
   .projects .bx-wrapper {
     width: 88%;
   }
 
-  /* line 1193, ../sass/style.scss */
+  /* line 1206, ../sass/style.scss */
   .day_line ul {
     width: 400px;
   }
 }
 @media only screen and (max-width: 842px) {
-  /* line 1200, ../sass/style.scss */
+  /* line 1213, ../sass/style.scss */
   .is_desktop {
     display: none;
   }
 
-  /* line 1203, ../sass/style.scss */
+  /* line 1216, ../sass/style.scss */
   .form_box {
     overflow: auto;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 1209, ../sass/style.scss */
+  /* line 1222, ../sass/style.scss */
   .is_desktop {
     display: none;
   }
 
-  /* line 1212, ../sass/style.scss */
+  /* line 1225, ../sass/style.scss */
   .wrapper {
     padding: 0 6px;
   }
 
-  /* line 1215, ../sass/style.scss */
+  /* line 1228, ../sass/style.scss */
   .header {
     margin-top: 50px;
   }
 
-  /* line 1218, ../sass/style.scss */
+  /* line 1231, ../sass/style.scss */
   .header .menu_line {
     width: 60px;
   }
 
-  /* line 1221, ../sass/style.scss */
+  /* line 1234, ../sass/style.scss */
   .top-menu__logo {
     width: 112px;
   }
 
-  /* line 1224, ../sass/style.scss */
+  /* line 1237, ../sass/style.scss */
   .top-menu__item.phone-number {
     white-space: nowrap;
     font-size: 14px;
     margin: 0 2px;
   }
 
-  /* line 1229, ../sass/style.scss */
+  /* line 1242, ../sass/style.scss */
   .big_letter {
     font-size: 14px;
   }
 
-  /* line 1232, ../sass/style.scss */
+  /* line 1245, ../sass/style.scss */
   .menu__link {
     width: 40px;
     height: 36px;
@@ -1989,88 +1977,88 @@ figcaption {
     margin-left: 4px;
   }
 
-  /* line 1239, ../sass/style.scss */
+  /* line 1252, ../sass/style.scss */
   .top-menu__item.menu__link.open-overlay {
     width: 40px;
     font-size: 10px;
   }
 
-  /* line 1243, ../sass/style.scss */
+  /* line 1256, ../sass/style.scss */
   .main_name {
     font-size: 24px;
   }
-  /* line 1245, ../sass/style.scss */
+  /* line 1258, ../sass/style.scss */
   .main_name span {
     margin: 0 4px;
   }
 
-  /* line 1249, ../sass/style.scss */
+  /* line 1262, ../sass/style.scss */
   .menu_line.open {
     width: 65px;
   }
 
-  /* line 1252, ../sass/style.scss */
+  /* line 1265, ../sass/style.scss */
   .nav_logo img {
     width: 90%;
     max-width: 250px;
   }
 
-  /* line 1256, ../sass/style.scss */
+  /* line 1269, ../sass/style.scss */
   .name_box:before, .name_box:after {
     content: none;
   }
 
-  /* line 1259, ../sass/style.scss */
+  /* line 1272, ../sass/style.scss */
   .line_fanny {
     height: 18px;
   }
 
-  /* line 1262, ../sass/style.scss */
+  /* line 1275, ../sass/style.scss */
   .header .line_fanny {
     margin: 0px;
   }
 
-  /* line 1265, ../sass/style.scss */
+  /* line 1278, ../sass/style.scss */
   .form_box .main_name {
     margin-top: 0;
   }
 
-  /* line 1268, ../sass/style.scss */
+  /* line 1281, ../sass/style.scss */
   .bottom-menu .wrapper {
     padding: 12px 20px;
     flex-direction: column;
     -webkit-flex-direction: column;
   }
 
-  /* line 1273, ../sass/style.scss */
+  /* line 1286, ../sass/style.scss */
   .bottom-menu__item {
     width: 100%;
   }
 
-  /* line 1276, ../sass/style.scss */
+  /* line 1289, ../sass/style.scss */
   .footer__left {
     font-size: 10px;
     text-align: center;
     line-height: 1.6;
   }
 
-  /* line 1283, ../sass/style.scss */
+  /* line 1296, ../sass/style.scss */
   .bx-wrapper .bx-controls-direction a svg {
     width: 12px;
     height: 12px;
   }
 
-  /* line 1288, ../sass/style.scss */
+  /* line 1301, ../sass/style.scss */
   .one .bx-wrapper, .projects .bx-wrapper {
     width: 100%;
   }
-  /* line 1290, ../sass/style.scss */
+  /* line 1303, ../sass/style.scss */
   .one .bx-wrapper .bx-controls-direction a svg, .projects .bx-wrapper .bx-controls-direction a svg {
     width: 18px;
     height: 18px;
   }
 
-  /* line 1297, ../sass/style.scss */
+  /* line 1310, ../sass/style.scss */
   .one__box {
     font-size: 26px;
     bottom: 24px;
@@ -2078,33 +2066,33 @@ figcaption {
     line-height: 1.3;
   }
 
-  /* line 1303, ../sass/style.scss */
+  /* line 1316, ../sass/style.scss */
   .bx-wrapper .bx-next {
     right: 10px;
   }
 
-  /* line 1306, ../sass/style.scss */
+  /* line 1319, ../sass/style.scss */
   .bx-wrapper .bx-prev {
     left: 10px;
   }
 
-  /* line 1309, ../sass/style.scss */
+  /* line 1322, ../sass/style.scss */
   .block_double, .block_single {
     width: 100%;
   }
 
-  /* line 1312, ../sass/style.scss */
+  /* line 1325, ../sass/style.scss */
   .gitem__2 {
-    background: url("/wp-content/themes/happy-house/assets/img/house_render.jpg") center no-repeat;
+    background: url(../img/house_render.jpg) center no-repeat;
     background-size: cover;
   }
 
-  /* line 1316, ../sass/style.scss */
+  /* line 1329, ../sass/style.scss */
   .block__name {
     font-size: 20px;
   }
 
-  /* line 1319, ../sass/style.scss */
+  /* line 1332, ../sass/style.scss */
   .icon_smile {
     width: 20px;
     height: 20px;
@@ -2112,7 +2100,7 @@ figcaption {
     right: 10px;
   }
 
-  /* line 1325, ../sass/style.scss */
+  /* line 1338, ../sass/style.scss */
   .block_prev {
     padding: 0px 10px 0px;
     line-height: 1.6;
@@ -2120,22 +2108,22 @@ figcaption {
     font-size: 12px;
   }
 
-  /* line 1331, ../sass/style.scss */
+  /* line 1344, ../sass/style.scss */
   .bx-wrapper {
     height: auto;
   }
 
-  /* line 1334, ../sass/style.scss */
+  /* line 1347, ../sass/style.scss */
   .gallery_slider {
     height: 100%;
   }
 
-  /* line 1337, ../sass/style.scss */
+  /* line 1350, ../sass/style.scss */
   .block_gallery .block_img {
     height: auto;
   }
 
-  /* line 1343, ../sass/style.scss */
+  /* line 1356, ../sass/style.scss */
   .bx-wrapper img {
     max-width: none;
     display: block;
@@ -2143,12 +2131,12 @@ figcaption {
     min-height: 100%;
   }
 
-  /* line 1349, ../sass/style.scss */
+  /* line 1362, ../sass/style.scss */
   .block_advantages .block_img {
     height: 230px;
   }
 
-  /* line 1352, ../sass/style.scss */
+  /* line 1365, ../sass/style.scss */
   .block_advantages .block_prev {
     font-size: 12px;
     top: auto;
@@ -2159,19 +2147,19 @@ figcaption {
     width: 80%;
   }
 
-  /* line 1361, ../sass/style.scss */
+  /* line 1374, ../sass/style.scss */
   .block_advantages .link_round {
     bottom: -16px;
     top: auto;
     right: 0;
   }
 
-  /* line 1366, ../sass/style.scss */
+  /* line 1379, ../sass/style.scss */
   .block_advantages .bx-controls-direction {
     bottom: 60px;
   }
 
-  /* line 1369, ../sass/style.scss */
+  /* line 1382, ../sass/style.scss */
   .block_flats figcaption {
     width: 100%;
     height: auto;
@@ -2181,30 +2169,30 @@ figcaption {
     padding: 0;
   }
 
-  /* line 1377, ../sass/style.scss */
+  /* line 1390, ../sass/style.scss */
   .link_keys {
     margin: 10px auto;
   }
 
-  /* line 1380, ../sass/style.scss */
+  /* line 1393, ../sass/style.scss */
   .content_subname {
     font-size: 24px;
   }
 
-  /* line 1384, ../sass/style.scss */
+  /* line 1397, ../sass/style.scss */
   .projects .bx-wrapper {
     width: 200px;
   }
-  /* line 1387, ../sass/style.scss */
+  /* line 1400, ../sass/style.scss */
   .projects .bx-wrapper .bx-prev {
     left: -50px;
   }
-  /* line 1390, ../sass/style.scss */
+  /* line 1403, ../sass/style.scss */
   .projects .bx-wrapper .bx-next {
     right: -50px;
   }
 
-  /* line 1396, ../sass/style.scss */
+  /* line 1407, ../sass/style.scss */
   .block_day .block_prev {
     width: 180px;
     top: 0;
@@ -2212,18 +2200,18 @@ figcaption {
     padding: 20px;
   }
 
-  /* line 1402, ../sass/style.scss */
+  /* line 1413, ../sass/style.scss */
   .tabs__name li {
     font-size: 10px;
     min-height: 69px;
   }
 
-  /* line 1406, ../sass/style.scss */
+  /* line 1417, ../sass/style.scss */
   .tabs__inner {
     padding: 30px 0px;
   }
 
-  /* line 1409, ../sass/style.scss */
+  /* line 1420, ../sass/style.scss */
   .contacts__info_top {
     flex-direction: column;
     -webkit-flex-direction: column;
@@ -2231,38 +2219,38 @@ figcaption {
     -webkit-align-items: flex-start;
   }
 
-  /* line 1415, ../sass/style.scss */
+  /* line 1426, ../sass/style.scss */
   .contacts__info__item {
     margin-bottom: 6px;
   }
 
-  /* line 1418, ../sass/style.scss */
+  /* line 1429, ../sass/style.scss */
   .contacts__info__item span {
     display: block;
   }
 
-  /* line 1424, ../sass/style.scss */
+  /* line 1435, ../sass/style.scss */
   .day_block {
     overflow: hidden;
   }
-  /* line 1426, ../sass/style.scss */
+  /* line 1437, ../sass/style.scss */
   .day_block .wrapper {
     padding: 40px 10px 0px;
     position: relative;
   }
-  /* line 1430, ../sass/style.scss */
+  /* line 1441, ../sass/style.scss */
   .day_block:after {
     content: none;
   }
 
-  /* line 1435, ../sass/style.scss */
+  /* line 1446, ../sass/style.scss */
   .day_controls {
     flex-direction: column;
     -webkit-flex-direction: column;
     margin-bottom: 24px;
   }
 
-  /* line 1440, ../sass/style.scss */
+  /* line 1451, ../sass/style.scss */
   .day_round {
     width: 220px;
     height: 220px;
@@ -2270,51 +2258,51 @@ figcaption {
     padding: 60px 24px 50px;
   }
 
-  /* line 1446, ../sass/style.scss */
+  /* line 1457, ../sass/style.scss */
   .day_looktime {
     width: 160px;
     height: 80px;
     font-size: 20px;
   }
 
-  /* line 1451, ../sass/style.scss */
+  /* line 1462, ../sass/style.scss */
   .day_line {
     width: 100%;
     max-width: 500px;
   }
-  /* line 1454, ../sass/style.scss */
+  /* line 1465, ../sass/style.scss */
   .day_line ul {
     width: 100%;
   }
 }
 @media only screen and (max-width: 460px) {
-  /* line 1461, ../sass/style.scss */
+  /* line 1472, ../sass/style.scss */
   .header .menu_line {
     width: 90px;
     display: block;
     margin: 14px auto;
   }
 
-  /* line 1466, ../sass/style.scss */
+  /* line 1477, ../sass/style.scss */
   .contact_form input {
     font-size: 12px;
     letter-spacing: 0.5px;
   }
 }
 @media only screen and (max-width: 360px) {
-  /* line 1473, ../sass/style.scss */
+  /* line 1484, ../sass/style.scss */
   .top-menu__item.phone-number {
     font-size: 10px;
   }
 
-  /* line 1476, ../sass/style.scss */
+  /* line 1487, ../sass/style.scss */
   .big_letter {
     font-size: 10px;
   }
 }
 /* line 1, ../sass/_about.scss */
 .about_block {
-  background: url("/wp-content/themes/happy-house/assets/img/bg_1.jpg") center no-repeat;
+  background: url("../img/bg_1.jpg") center no-repeat;
   background-size: cover;
   padding-top: 80px;
   margin-bottom: 20px;
@@ -2570,7 +2558,7 @@ figcaption {
 
 /* line 63, ../sass/_infra.scss */
 .infra__item__1 {
-  background: url("/wp-content/themes/happy-house/assets/img/infra/1.jpg") center no-repeat;
+  background: url("/img/infra/1.jpg") center no-repeat;
   background-size: cover;
   margin-top: 0;
 }
@@ -2581,25 +2569,25 @@ figcaption {
 
 /* line 71, ../sass/_infra.scss */
 .infra__item__2 {
-  background: url("/wp-content/themes/happy-house/assets/img/infra/2.jpg") center no-repeat;
+  background: url("/img/infra/2.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 75, ../sass/_infra.scss */
 .infra__item__3 {
-  background: url("/wp-content/themes/happy-house/assets/img/infra/3.jpg") center no-repeat;
+  background: url("/img/infra/3.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 79, ../sass/_infra.scss */
 .infra__item__4 {
-  background: url("/wp-content/themes/happy-house/assets/img/infra/4.jpg") center no-repeat;
+  background: url("/img/infra/4.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 83, ../sass/_infra.scss */
 .infra__item__5 {
-  background: url("/wp-content/themes/happy-house/assets/img/infra/5.jpg") center top no-repeat;
+  background: url("/img/infra/5.jpg") center top no-repeat;
   background-size: cover;
 }
 /* line 86, ../sass/_infra.scss */
@@ -2609,13 +2597,13 @@ figcaption {
 
 /* line 90, ../sass/_infra.scss */
 .infra__item__6 {
-  background: url("/wp-content/themes/happy-house/assets/img/infra/6.jpg") center no-repeat;
+  background: url("/img/infra/6.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 94, ../sass/_infra.scss */
 .infra__item__7 {
-  background: url("/wp-content/themes/happy-house/assets/img/infra/7.jpg") center bottom no-repeat;
+  background: url("/img/infra/7.jpg") center bottom no-repeat;
   background-size: cover;
 }
 /* line 97, ../sass/_infra.scss */
@@ -2697,13 +2685,13 @@ figcaption {
 
 /* line 61, ../sass/_values.scss */
 .values_item__1 {
-  background: url("/wp-content/themes/happy-house/assets/img/values/1.jpg") center no-repeat;
+  background: url("/img/values/1.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 65, ../sass/_values.scss */
 .values_item__2 {
-  background: url("/wp-content/themes/happy-house/assets/img/values/2.jpg") center no-repeat;
+  background: url("/img/values/2.jpg") center no-repeat;
   background-size: cover;
 }
 /* line 68, ../sass/_values.scss */
@@ -2713,7 +2701,7 @@ figcaption {
 
 /* line 72, ../sass/_values.scss */
 .values_item__3 {
-  background: url("/wp-content/themes/happy-house/assets/img/values/3.jpg") center no-repeat;
+  background: url("/img/values/3.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -3008,43 +2996,43 @@ figcaption {
 
 /* line 138, ../sass/_advantages.scss */
 .advantages_item__1 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv/1.jpg") center no-repeat;
+  background: url("/img/adv/1.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 142, ../sass/_advantages.scss */
 .advantages_item__2 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv/2.jpg") center no-repeat;
+  background: url("/img/adv/2.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 146, ../sass/_advantages.scss */
 .advantages_item__3 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv/3.jpg") center no-repeat;
+  background: url("/img/adv/3.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 150, ../sass/_advantages.scss */
 .advantages_item__4 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv/4.jpg") center no-repeat;
+  background: url("/img/adv/4.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 154, ../sass/_advantages.scss */
 .advantages_item__5 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv/5.jpg") center no-repeat;
+  background: url("/img/adv/5.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 158, ../sass/_advantages.scss */
 .advantages_item__6 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv/6.jpg") center no-repeat;
+  background: url("/img/adv/6.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 162, ../sass/_advantages.scss */
 .advantages_item__7 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv/7.jpg") center no-repeat;
+  background: url("/img/adv/7.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -4331,25 +4319,25 @@ input::-webkit-inner-spin-button {
 
 /* line 25, ../sass/_special.scss */
 .special_item__1 {
-  background: url("/wp-content/themes/happy-house/assets/img/special/1.jpg") center no-repeat;
+  background: url("/img/special/1.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 29, ../sass/_special.scss */
 .special_item__2 {
-  background: url("/wp-content/themes/happy-house/assets/img/special/2.jpg") center no-repeat;
+  background: url("/img/special/2.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 33, ../sass/_special.scss */
 .special_item__3 {
-  background: url("/wp-content/themes/happy-house/assets/img/special/3.jpg") center no-repeat;
+  background: url("/img/special/3.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 37, ../sass/_special.scss */
 .special_item__4 {
-  background: url("/wp-content/themes/happy-house/assets/img/special/4.jpg") center no-repeat;
+  background: url("/img/special/4.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -4495,13 +4483,13 @@ input::-webkit-inner-spin-button {
 
 /* line 11, ../sass/_location.scss */
 .location_item_1 {
-  background: url("/wp-content/themes/happy-house/assets/img/location/1.jpg") center no-repeat;
+  background: url("/img/location/1.jpg") center no-repeat;
   background-size: cover;
 }
 
 /* line 15, ../sass/_location.scss */
 .location_item_2 {
-  background: url("/wp-content/themes/happy-house/assets/img/location/2.jpg") center no-repeat;
+  background: url("/img/location/2.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -4661,32 +4649,32 @@ input::-webkit-inner-spin-button {
 
 /* line 23, ../sass/_gallery.scss */
 .gallery1 .gitem__1 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal1.jpg") center no-repeat;
+  background: url("/img/gallery/gal1.jpg") center no-repeat;
   background-size: cover;
 }
 /* line 27, ../sass/_gallery.scss */
 .gallery1 .gitem__2 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal2.jpg") center no-repeat;
+  background: url("/img/gallery/gal2.jpg") center no-repeat;
   background-size: cover;
 }
 /* line 31, ../sass/_gallery.scss */
 .gallery1 .gitem__3 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal3.jpg") center no-repeat;
+  background: url("/img/gallery/gal3.jpg") center no-repeat;
   background-size: cover;
 }
 /* line 35, ../sass/_gallery.scss */
 .gallery1 .gitem__4 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal4.jpg") center no-repeat;
+  background: url("/img/gallery/gal4.jpg") center no-repeat;
   background-size: cover;
 }
 /* line 39, ../sass/_gallery.scss */
 .gallery1 .gitem__5 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal5.jpg") center no-repeat;
+  background: url("/img/gallery/gal5.jpg") center no-repeat;
   background-size: contain;
 }
 /* line 43, ../sass/_gallery.scss */
 .gallery1 .gitem__6 {
-  background: url("/wp-content/themes/happy-house/assets/img/gallery/gal6.jpg") center no-repeat;
+  background: url("/img/gallery/gal6.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -4729,25 +4717,25 @@ input::-webkit-inner-spin-button {
 
 /* line 22, ../sass/_news.scss */
 .news_item__1 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv_bg.jpg") center no-repeat;
+  background: url(/img/adv_bg.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* line 27, ../sass/_news.scss */
 .news_item__2 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv_bg.jpg") center no-repeat;
+  background: url(/img/adv_bg.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* line 31, ../sass/_news.scss */
 .news_item__3 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv_bg.jpg") center no-repeat;
+  background: url(/img/adv_bg.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* line 35, ../sass/_news.scss */
 .news_item__4 {
-  background: url("/wp-content/themes/happy-house/assets/img/adv_bg.jpg") center no-repeat;
+  background: url(/img/adv_bg.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -5053,37 +5041,37 @@ input::-webkit-inner-spin-button {
 
 /* line 165, ../sass/_building.scss */
 .stroy_item__1 {
-  background: url("/wp-content/themes/happy-house/assets/img/hod/1.jpg") center no-repeat;
+  background: url(../img/hod/1.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* line 169, ../sass/_building.scss */
 .stroy_item__2 {
-  background: url("/wp-content/themes/happy-house/assets/img/hod/2.jpg") center no-repeat;
+  background: url(../img/hod/2.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* line 173, ../sass/_building.scss */
 .stroy_item__3 {
-  background: url("/wp-content/themes/happy-house/assets/img/hod/3.jpg") center no-repeat;
+  background: url(../img/hod/3.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* line 177, ../sass/_building.scss */
 .stroy_item__4 {
-  background: url("/wp-content/themes/happy-house/assets/img/hod/4.jpg") center no-repeat;
+  background: url(../img/hod/4.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* line 181, ../sass/_building.scss */
 .stroy_item__5 {
-  background: url("/wp-content/themes/happy-house/assets/img/hod/5.jpg") center no-repeat;
+  background: url(../img/hod/5.jpg) center no-repeat;
   background-size: cover;
 }
 
 /* line 185, ../sass/_building.scss */
 .stroy_item__6 {
-  background: url("/wp-content/themes/happy-house/assets/img/hod/6.jpg") center no-repeat;
+  background: url(../img/hod/6.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -5523,7 +5511,7 @@ input::-webkit-inner-spin-button {
 .not-found__container {
   position: relative;
   height: calc(100vh - 125px);
-  background: url("/wp-content/themes/happy-house/assets/img/404/404-bg.jpg") center -100px no-repeat;
+  background: url(../img/404/404-bg.jpg) center -100px no-repeat;
   background-size: cover;
 }
 
@@ -5653,7 +5641,7 @@ input::-webkit-inner-spin-button {
   .not-found__container {
     position: relative;
     height: 100vh;
-    background: url("/wp-content/themes/happy-house/assets/img/404/404-bg.jpg") center center no-repeat;
+    background: url(../img/404/404-bg.jpg) center center no-repeat;
     background-size: cover;
   }
 
@@ -8679,14 +8667,14 @@ input::-webkit-inner-spin-button {
   animation-name: slideOutUp;
 }
 
-/* line 1497, ../sass/style.scss */
+/* line 1508, ../sass/style.scss */
 .scaleimage {
   background-size: cover;
   transition: background-size 2s ease-in;
   -webkit-transition: background-size 2s ease-in;
 }
 
-/* line 1502, ../sass/style.scss */
+/* line 1513, ../sass/style.scss */
 .scaleimage_active {
   background-size: 120%;
   transition: background-size 2s ease-in;
@@ -8694,7 +8682,7 @@ input::-webkit-inner-spin-button {
   -webkit-transition: background-size 2s ease-in;
 }
 
-/* line 1510, ../sass/style.scss */
+/* line 1521, ../sass/style.scss */
 .btn-11,
 .btn-10 {
   position: relative;
@@ -8707,7 +8695,7 @@ input::-webkit-inner-spin-button {
   padding: 18px 0;
   text-align: center;
 }
-/* line 1521, ../sass/style.scss */
+/* line 1532, ../sass/style.scss */
 .btn-11:before, .btn-11:after,
 .btn-10:before,
 .btn-10:after {
@@ -8715,7 +8703,7 @@ input::-webkit-inner-spin-button {
   transition: 0.5s ease-in-out;
   z-index: -1;
 }
-/* line 1527, ../sass/style.scss */
+/* line 1538, ../sass/style.scss */
 .btn-11 i, .btn-11 em,
 .btn-11 b, .btn-11 strong,
 .btn-11 span,
@@ -8772,19 +8760,19 @@ input::-webkit-inner-spin-button {
     height: 375px;
   }
 }
-/* line 1584, ../sass/style.scss */
+/* line 1595, ../sass/style.scss */
 .btn-11 {
   position: relative;
   color: #ed1c24;
 }
 
-/* line 1588, ../sass/style.scss */
+/* line 1599, ../sass/style.scss */
 .btn-10 {
   position: relative;
   color: white;
 }
 
-/* line 1592, ../sass/style.scss */
+/* line 1603, ../sass/style.scss */
 .btn-11:before, .btn-11:after {
   position: absolute;
   top: 50%;
@@ -8798,30 +8786,30 @@ input::-webkit-inner-spin-button {
   z-index: -1;
 }
 
-/* line 1604, ../sass/style.scss */
+/* line 1615, ../sass/style.scss */
 .btn-11:before {
   left: -20px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
-/* line 1609, ../sass/style.scss */
+/* line 1620, ../sass/style.scss */
 .btn-11:after {
   right: -20px;
   -webkit-transform: translate(50%, -50%);
   transform: translate(50%, -50%);
 }
 
-/* line 1614, ../sass/style.scss */
+/* line 1625, ../sass/style.scss */
 .btn-11:hover {
   color: #ffffff;
 }
-/* line 1616, ../sass/style.scss */
+/* line 1627, ../sass/style.scss */
 .btn-11:hover svg {
   fill: #ffffff;
 }
 
-/* line 1620, ../sass/style.scss */
+/* line 1631, ../sass/style.scss */
 .btn-11:hover:before {
   -webkit-animation: criss-cross-left 0.8s both;
   animation: criss-cross-left 0.8s both;
@@ -8829,7 +8817,7 @@ input::-webkit-inner-spin-button {
   animation-direction: alternate;
 }
 
-/* line 1626, ../sass/style.scss */
+/* line 1637, ../sass/style.scss */
 .btn-11:hover:after {
   -webkit-animation: criss-cross-right 0.8s both;
   animation: criss-cross-right 0.8s both;
@@ -8839,7 +8827,7 @@ input::-webkit-inner-spin-button {
 
 /* //// Default effect: Slide from Top  //// */
 /* //// Slide Corner  //// */
-/* line 1637, ../sass/style.scss */
+/* line 1648, ../sass/style.scss */
 .slidebottomleft {
   color: white;
   background: transparent;
@@ -8850,12 +8838,12 @@ input::-webkit-inner-spin-button {
   overflow: hidden;
   transition: all .5s;
 }
-/* line 1646, ../sass/style.scss */
+/* line 1657, ../sass/style.scss */
 .slidebottomleft svg {
   transition: all .5s;
 }
 
-/* line 1651, ../sass/style.scss */
+/* line 1662, ../sass/style.scss */
 .slidebottomleft:before,
 .slidebottomleft:after {
   content: '';
@@ -8871,42 +8859,42 @@ input::-webkit-inner-spin-button {
   transition: all .5s;
 }
 
-/* line 1665, ../sass/style.scss */
+/* line 1676, ../sass/style.scss */
 .slidebottomleft:before {
   background: #ed1c24;
   z-index: -2;
   transform: translate3D(0, 0, 0);
 }
 
-/* line 1670, ../sass/style.scss */
+/* line 1681, ../sass/style.scss */
 .slidebottomleft:hover {
   color: #ed1c24;
   border: 1px solid #ed1c24;
 }
-/* line 1673, ../sass/style.scss */
+/* line 1684, ../sass/style.scss */
 .slidebottomleft:hover svg {
   fill: #ed1c24;
 }
 
-/* line 1677, ../sass/style.scss */
+/* line 1688, ../sass/style.scss */
 .slidebottomleft:hover:after {
   transform: translate3D(0, 0, 0);
   transition: all .5s;
 }
 
-/* line 1681, ../sass/style.scss */
+/* line 1692, ../sass/style.scss */
 .slidebottomleft:after {
   transform: translate3D(-100%, 100%, 0);
 }
 
-/* line 1684, ../sass/style.scss */
+/* line 1695, ../sass/style.scss */
 .slidebottomleft:hover:after {
   transform: translate3D(0, 0, 0);
   transition: all .5s;
 }
 
 /* Prelaoder sga start */
-/* line 1691, ../sass/style.scss */
+/* line 1702, ../sass/style.scss */
 .preloader-container {
   width: 100%;
   height: 100vh;
@@ -8925,7 +8913,7 @@ input::-webkit-inner-spin-button {
     stroke-width: 550;
   }
 }
-/* line 1707, ../sass/style.scss */
+/* line 1718, ../sass/style.scss */
 .svg-circle {
   stroke: #ffffff;
   stroke-linecap: round;
@@ -8953,7 +8941,7 @@ input::-webkit-inner-spin-button {
 } */
 /* Circle end */
 /* Letters start */
-/* line 1736, ../sass/style.scss */
+/* line 1747, ../sass/style.scss */
 .svg-letters {
   fill: #405174;
 }
@@ -8966,7 +8954,7 @@ input::-webkit-inner-spin-button {
     opacity: 1;
   }
 }
-/* line 1744, ../sass/style.scss */
+/* line 1755, ../sass/style.scss */
 .svg-letters_upper path {
   opacity: 0;
   animation-name: svg-letters_upper;
@@ -8974,27 +8962,27 @@ input::-webkit-inner-spin-button {
   animation-duration: 1s;
 }
 
-/* line 1751, ../sass/style.scss */
+/* line 1762, ../sass/style.scss */
 .svg-Saga {
   animation-delay: 1.6s;
 }
 
-/* line 1752, ../sass/style.scss */
+/* line 1763, ../sass/style.scss */
 .svg-sAga {
   animation-delay: 1.8s;
 }
 
-/* line 1753, ../sass/style.scss */
+/* line 1764, ../sass/style.scss */
 .svg-saGa {
   animation-delay: 2s;
 }
 
-/* line 1754, ../sass/style.scss */
+/* line 1765, ../sass/style.scss */
 .svg-sagA {
   animation-delay: 2.2s;
 }
 
-/* line 1757, ../sass/style.scss */
+/* line 1768, ../sass/style.scss */
 .svg-letters_lower {
   opacity: 0;
   animation-name: svg-letters_upper;
@@ -9013,7 +9001,7 @@ input::-webkit-inner-spin-button {
     stroke-dashoffset: 0;
   }
 }
-/* line 1772, ../sass/style.scss */
+/* line 1783, ../sass/style.scss */
 .svg-loading-circle {
   stroke: #b5b5b5;
   stroke-width: 2px;
@@ -9025,7 +9013,7 @@ input::-webkit-inner-spin-button {
   animation-duration: 7s;
 }
 
-/* line 1783, ../sass/style.scss */
+/* line 1794, ../sass/style.scss */
 .svg-loading-circle__text {
   font-family: sans-serif;
   font-size: 30px;
@@ -9047,7 +9035,7 @@ input::-webkit-inner-spin-button {
     opacity: 0;
   }
 }
-/* line 1797, ../sass/style.scss */
+/* line 1808, ../sass/style.scss */
 .svg-outer-lines path {
   stroke: #ffffff;
   stroke-width: 2;
@@ -9059,32 +9047,32 @@ input::-webkit-inner-spin-button {
   animation-fill-mode: forwards;
 }
 
-/* line 1807, ../sass/style.scss */
+/* line 1818, ../sass/style.scss */
 path.svg-outer_s {
   animation-delay: 3s;
 }
 
-/* line 1808, ../sass/style.scss */
+/* line 1819, ../sass/style.scss */
 path.svg-outer_a_1_3 {
   animation-delay: 3.2s;
 }
 
-/* line 1809, ../sass/style.scss */
+/* line 1820, ../sass/style.scss */
 path.svg-outer_a_2 {
   animation-delay: 3.4s;
 }
 
-/* line 1810, ../sass/style.scss */
+/* line 1821, ../sass/style.scss */
 path.svg-outer_a_1_1 {
   animation-delay: 3.6;
 }
 
-/* line 1811, ../sass/style.scss */
+/* line 1822, ../sass/style.scss */
 path.svg-outer_g {
   animation-delay: 3.8s;
 }
 
-/* line 1812, ../sass/style.scss */
+/* line 1823, ../sass/style.scss */
 path.svg-outer_a_1_2 {
   animation-delay: 4s;
 }
@@ -9099,7 +9087,7 @@ path.svg-outer_a_1_2 {
     stroke-dashoffset: 0;
   }
 }
-/* line 1821, ../sass/style.scss */
+/* line 1832, ../sass/style.scss */
 .svg-inner-lines path {
   stroke: #405174;
   stroke-width: 2;
@@ -9111,32 +9099,32 @@ path.svg-outer_a_1_2 {
   animation-fill-mode: forwards;
 }
 
-/* line 1832, ../sass/style.scss */
+/* line 1843, ../sass/style.scss */
 path.svg-inner_s {
   animation-delay: 3.1s;
 }
 
-/* line 1833, ../sass/style.scss */
+/* line 1844, ../sass/style.scss */
 path.svg-inner_a_1_3 {
   animation-delay: 3.3s;
 }
 
-/* line 1834, ../sass/style.scss */
+/* line 1845, ../sass/style.scss */
 path.svg-inner_a_2 {
   animation-delay: 3.5s;
 }
 
-/* line 1835, ../sass/style.scss */
+/* line 1846, ../sass/style.scss */
 path.svg-inner_a_1_1 {
   animation-delay: 3.7;
 }
 
-/* line 1836, ../sass/style.scss */
+/* line 1847, ../sass/style.scss */
 path.svg-inner_g {
   animation-delay: 3.9s;
 }
 
-/* line 1837, ../sass/style.scss */
+/* line 1848, ../sass/style.scss */
 path.svg-inner_a_1_2 {
   animation-delay: 4.1s;
 }
@@ -9153,14 +9141,14 @@ path.svg-inner_a_1_2 {
     opacity: 0;
   }
 }
-/* line 1847, ../sass/style.scss */
+/* line 1858, ../sass/style.scss */
 .remove-svg .svg-circle {
   animation-name: removeCircle;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
-/* line 1853, ../sass/style.scss */
+/* line 1864, ../sass/style.scss */
 .remove-svg .svg-loading-circle-container {
   animation-name: removeCircle;
   animation-duration: 1s;
@@ -9168,12 +9156,12 @@ path.svg-inner_a_1_2 {
   animation-fill-mode: forwards;
 }
 
-/* line 1860, ../sass/style.scss */
+/* line 1871, ../sass/style.scss */
 .preloader-container {
   transition: all 1s 1.2s;
 }
 
-/* line 1864, ../sass/style.scss */
+/* line 1875, ../sass/style.scss */
 .remove-svg.preloader-container {
   opacity: 0;
   transform: translateY(-100%);
@@ -9182,20 +9170,14 @@ path.svg-inner_a_1_2 {
 /* Svg remove content end */
 /* Responsive svg start */
 @media only screen and (max-width: 870px) {
-  /* line 1873, ../sass/style.scss */
+  /* line 1884, ../sass/style.scss */
   .svg-all-content {
     transform: translate(-20%, 35%) scale(1.5);
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 1878, ../sass/style.scss */
+  /* line 1889, ../sass/style.scss */
   .svg-all-content {
     transform: translate(-45%, 35%) scale(2);
   }
-}
-/* line 1882, ../sass/style.scss */
-.block_single .bx-wrapper .bx-controls-direction a svg,
-.block_double .bx-wrapper .bx-controls-direction a svg {
-  max-width: 12px;
-  max-height: 12px;
 }

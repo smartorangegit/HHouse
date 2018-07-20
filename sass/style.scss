@@ -146,49 +146,25 @@ a{
   height: 100vh;
 }
 .gitem__1{
-  background: url('/img/gallery/gal1.jpg') center no-repeat;
+  background: url('/wp-content/themes/happy-house/assets/img/gallery/gal1.jpg') center no-repeat;
   background-size:cover;
   }
 .gitem__2{
-  background: url('/img/gallery/gal2.jpg') center no-repeat;
+  background: url('/wp-content/themes/happy-house/assets/img/gallery/gal2.jpg') center no-repeat;
   background-size:cover;
 }
 .gitem__3{
-  background: url('/img/gallery/gal3.jpg') center no-repeat;
+  background: url('/wp-content/themes/happy-house/assets/img/gallery/gal3.jpg') center no-repeat;
   background-size:cover;
 }
 .gitem__4{
-  background: url('/img/gallery/gal4.jpg') center no-repeat;
+  background: url('/wp-content/themes/happy-house/assets/img/gallery/gal4.jpg') center no-repeat;
   background-size:cover;
   }
-// .gitem__5{
-//   background: url('/img/gallery/gal5.jpg') center no-repeat;
-//   background-size:contain;
-//   }
-  .gitem__6{
-    background: url('/img/gallery/gal6.jpg') center no-repeat;
+.gitem__6{
+    background: url('/wp-content/themes/happy-house/assets/img/gallery/gal6.jpg') center no-repeat;
     background-size:cover;
   }
-// .gitem__1{
-//   background: url(../img/bg_1.jpg) center no-repeat;
-//   background-size: cover;
-// }
-// .gitem__2{
-//   background: url(../img/house_render.jpg) center no-repeat;
-//   background-size: contain;
-// }
-// .gitem__3{
-//   background: url(../img/ren.jpg) center no-repeat;
-//   background-size: cover;
-// }
-// .gitem__4{
-//   background: url(../img/infra_bg.jpg) center no-repeat;
-//   background-size: cover;
-// }
-// .gitem__5{
-//   background: url(../img/render1.jpg) center no-repeat;
-//   background-size: cover;
-// }
 
 .one__box{
   font-size: 48px;
@@ -259,7 +235,7 @@ a{
   bottom: 0;
 }
 .line_fanny{
-  background:url(../img/pattern_grey.png);
+  background:url("/wp-content/themes/happy-house/assets/img/pattern_grey.png");
   height: 36px;
 background-size: auto 100%;
  -moz-animation:content_custom8 50s infinite linear;
@@ -417,20 +393,20 @@ figcaption{
 
 .block_about{
   .block_img{
-    background: url('../img/proj_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/proj_bg.jpg') center no-repeat;
     background-size: cover;
   }
 }
 .block_location{
   .block_img{
-    background: url('../img/locat_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/locat_bg.jpg') center no-repeat;
     background-size: cover;
   }
 }
 .block_genplan{
   .block_img{
     height: 290px;
-    background: url('../img/plan_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/plan_bg.jpg') center no-repeat;
     background-position-x: 100%;
     transition: 2s;
     -webkit-transition: 2s;
@@ -455,13 +431,13 @@ figcaption{
 
 .block_hub{
   .block_img{
-    background: url('../img/mama_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/mama_bg.jpg') center no-repeat;
     background-size: cover;
   }
 }
 .block_infra{
   .block_img{
-    background: url('../img/infra_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/infra_bg.jpg') center no-repeat;
     background-size: cover;
   }
 }
@@ -572,11 +548,22 @@ figcaption{
     font-family: "GothaPro";
     font-size: 14px;
   }
+   .bx-wrapper .bx-caption {
+    top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    bottom: auto;
+    width: 32%;
+    min-height: 110px;
+    text-align: left;
+    line-height: 1.8;
+    background: rgba(255, 255, 255, .9);
+  }
 }
 .block_flats{
   .block_img{
     height: 320px;
-    background: url('../img/flat_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/flat_bg.jpg') center no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -606,25 +593,25 @@ figcaption{
 }
 .block_commerc{
   .block_img{
-    background: url('../img/commerc_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/commerc_bg.jpg') center no-repeat;
     background-size: cover;
   }
 }
 .block_atmosfera{
   .block_img{
-    background: url('../img/sfera_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/sfera_bg.jpg') center no-repeat;
     background-size: cover;
   }
 }
 .block_building{
   .block_img{
-    background: url('../img/build_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/build_bg.jpg') center no-repeat;
     background-size: cover;
   }
 }
 .block_developer{
   .block_img{
-    background: url('../img/develop_bg.jpg') center no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/develop_bg.jpg') center no-repeat;
     background-size: cover;
   }
 }
@@ -644,7 +631,7 @@ figcaption{
 .block_day{
   .block_img{
     height: 320px;
-    background: url('../img/day_bg.jpg') no-repeat;
+    background: url('/wp-content/themes/happy-house/assets/img/day_bg.jpg') no-repeat;
     background-size: cover;
     position: relative;
     background-position-y: 90%;
@@ -746,7 +733,7 @@ svg{
     line-height: 1.5;
   }
   &:before{
-    content: url('/img/icons/location.svg');
+    content: url('/wp-content/themes/happy-house/assets/img/icons/location.svg');
     position: absolute;
     width: 20px;
     left: 0;
@@ -756,14 +743,14 @@ svg{
   }
 }
 .contacts__info__item:nth-child(1):before{
-  content: url('/img/icons/phone1.svg');
+  content: url('/wp-content/themes/happy-house/assets/img/icons/phone1.svg');
 }
 .contacts__info__item:nth-child(3):before{
-  content: url('/img/icons/mail.svg');
+  content: url('/wp-content/themes/happy-house/assets/img/icons/mail.svg');
 }
 .contacts__info_bottom
   .contacts__info__item:before{
-    content: url('/img/icons/clock.svg');
+    content: url('/wp-content/themes/happy-house/assets/img/icons/clock.svg');
   }
 .contact_item_name{
   font-size: 20px;
@@ -945,7 +932,7 @@ svg{
   height: 100%;
   top: 0;
   left: 0;
-  background: url(/img/menu_bg.jpg);
+  background: url("/wp-content/themes/happy-house/assets/img/menu_bg.jpg");
   background-size: cover;
   display: none;
   opacity: 0;
@@ -1023,7 +1010,7 @@ svg{
   margin: 0 auto;
   &:before,
   &:after{
-    content: url('/img/smile_grey.svg');
+    content: url('/wp-content/themes/happy-house/assets/img/smile_grey.svg');
     position: absolute;
     width:20px;
     height: 24px;
@@ -1323,7 +1310,7 @@ svg{
   width: 100%;
   }
 .gitem__2 {
-  background: url(../img/house_render.jpg) center no-repeat;
+  background: url("/wp-content/themes/happy-house/assets/img/house_render.jpg") center no-repeat;
   background-size: cover;
   }
 .block__name {
@@ -1404,6 +1391,8 @@ svg{
       right: -50px;
   }
 }
+
+
 .block_day .block_prev {
     width: 180px;
     top: 0;
@@ -1889,4 +1878,9 @@ path.svg-inner_a_1_2 {animation-delay: 4.1s;}
   .svg-all-content {
       transform: translate(-45%, 35%) scale(2);
   }
+}
+.block_single .bx-wrapper .bx-controls-direction a svg,
+.block_double .bx-wrapper .bx-controls-direction a svg{
+  max-width: 12px;
+  max-height: 12px;
 }

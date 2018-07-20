@@ -1,7 +1,7 @@
 .not-found__container {
   position: relative;
   height: calc(100vh - 125px);
-  background: url(../img/404/404-bg.jpg) center -100px no-repeat;
+  background: url("/wp-content/themes/happy-house/assets/img/404/404-bg.jpg") center -100px no-repeat;
   background-size: cover;
 }
 
@@ -124,7 +124,7 @@
   .not-found__container {
     position: relative;
     height: 100vh;
-    background: url(../img/404/404-bg.jpg) center center no-repeat;
+    background: url("/wp-content/themes/happy-house/assets/img/404/404-bg.jpg") center center no-repeat;
     background-size: cover;
   }
 
