@@ -1,56 +1,56 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Sfera Living System Happy House</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="atmosphere.css"> -->
-  </head>
-  <body>
-    <!-- top-menu -->
-    <?php include_once 'includes/top-menu.php';?>
-    <!-- end top-menu -->
-    <?php include_once 'includes/form_callback.php';?>
+<?php
+/*
+Template Name: Атмосфера
+*/
+?>
+<?
+//берем данные из админки, для этог опоста
+$args = array('post_type' =>'page', 'include' => array(18));
+$wp_posts= get_posts($args);
+//текксты
+$links = explode ("\n",$wp_posts[0]->post_content);
+$links = str_replace('<pre>','', $links);
+//изображение (одиночное)
+$img = (get_the_post_thumbnail_url($post->ID, 'full'));
+?>
+<?php get_header(); ?>
 
     <div class="container values_block wow fadeIn">
 
-      <!-- header -->
-      <div class="header">
-        <div class="main_name">
-          <div class="line_grey">
-            <div class="line_fanny"></div>
-          </div>
-          <div class="name_box">
-            <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg" style="transform:scaleX(-1);"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg>
-            <span>Atmosfera</span>
-            <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg>
-          </div>
+        <!-- header -->
+        <div class="header">
+            <div class="main_name">
+                <div class="line_grey">
+                    <div class="line_fanny"></div>
+                </div>
+                <div class="name_box">
+                    <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg" style="transform:scaleX(-1);"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg>
+                    <span><h1>Atmosfera</h1></span>
+                    <svg class="menu_line" height="1.011161mm" viewBox="0 0 23.316424 1.011161" width="23.316425mm" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-10.843172 -11.709181)"><path d="m10.843172 12.209181h17.681462.310205" fill="#ee1c25" stroke="#ee1c25"/><g fill="none"><path d="m30.238531 12.220342h1.322917" stroke="#000"/><path d="m32.836681 12.218563h1.322917" stroke="#ee1c25"/></g></g></svg>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- end header -->
+        <!-- end header -->
 
         <div class="wrapper">
-          <div class="line_link">
-            <a href="/" class="link_active">Головна</a>&#8195;|&#8195;<span class="link_no_active">Atmosfera</span>
-          </div>
-          <!-- <section class="atmosphere_block"> -->
+            <div class="line_link">
+                <a href="/" class="link_active"><?php _e('breadcr-1','happy-house');?></a>&#8195;|&#8195;<span class="link_no_active">Atmosfera</span>
+            </div>
+            <!-- <section class="atmosphere_block"> -->
 
-          <div class="atmosphere-content">
+            <div class="atmosphere-content">
                 <div class="atmosphere-top">
                     <div class="atmosphere-top-text">
                         <div class="atmosphere-top__image-wrap">
-                            <img src="img/atmosphere/logo.png" alt="atmosfera" class="atmosphere-top__image">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/img/atmosphere/logo.png" alt="atmosfera" class="atmosphere-top__image">
                         </div>
                         <p class="atmosphere-top__text">
-                            <span class="atmosphere-top__text_medium">ATMOSFERA</span> – це високотехнологічна керуюча компанія, яка піклується про комфортне та щасливе життя мешканців в усіх будинках, створених компанією SAGA Development.
+                            <span class="atmosphere-top__text_medium"><?=$links[0]?></span> <?=$links[1]?></p>
+                        <p class="atmosphere-top__text atmosphere-top__text_long">
+                            <span class="atmosphere-top__text_medium"><?=$links[2]?></span><?=$links[3]?>
                         </p>
                         <p class="atmosphere-top__text atmosphere-top__text_long">
-                            <span class="atmosphere-top__text_medium">Мета системи ATMOSFERA</span> — вчасно передбачати потреби мешканців та забезпечити їх належне виконання в блискавичний час.
-                        </p>
-                        <p class="atmosphere-top__text atmosphere-top__text_long">
-                            <span class="atmosphere-top__text_medium">ATMOSFERA знаходиться</span> поруч на всіх етапах відносин мешканця із квартирою та домом: від первинного інформування, вводу в експлуатацію, входу у право власності до закінчення ремонту й, наприклад, виклику сантехніка.
+                            <span class="atmosphere-top__text_medium"><?=$links[4]?></span> <?=$links[5]?>
                         </p>
                     </div>
                     <div class="atmosphere-top-video">
@@ -59,9 +59,9 @@
                 </div>
                 <div class="atmosphere-middle">
                     <div class="atmosphere-middle__section atmosphere-middle__section_border-top">
-                        <h1 class="atmosphere-middle__heading">
-                            З ЧОГО СКЛАДАЄТЬСЯ ATMOSFERA
-                        </h1>
+                        <h2 class="atmosphere-middle__heading">
+                            <?=$links[6]?>
+                        </h2>
                         <svg version="1.1" class="atmosphere-middle__icon"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 76 76.3" style="enable-background:new 0 0 76 76.3;" xml:space="preserve">
                             <!-- <style type="text/css">
@@ -137,30 +137,30 @@
                         <div class="atmosphere-middle-list-wrap">
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                    Команда по управлінню будинком
+                                    <?=$links[7]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Мобільний додаток iOS та Android
+                                    <?=$links[8]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                   Чат для вирішення екстрених ситуацій
+                                    <?=$links[9]?>
                                 </li>
                             </ul>
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                    Система «розумний дім»
+                                    <?=$links[10]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Система «розумна квартира»
+                                    <?=$links[11]?>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="atmosphere-middle__section">
-                        <h1 class="atmosphere-middle__heading">
-                            КЕРУЮЧА КОМПАНІЯ ATMOSFERA
-                        </h1>
+                        <h2 class="atmosphere-middle__heading">
+                            <?=$links[12]?>
+                        </h2>
                         <svg version="1.1" class="atmosphere-middle__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 76 77.3" style="enable-background:new 0 0 76 77.3;" xml:space="preserve">
                             <!-- <style type="text/css">
@@ -201,70 +201,70 @@
                         <div class="atmosphere-middle-list-wrap">
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                    Команда професіоналів з укомплектованою матеріально-технічною базою
+                                    <?=$links[13]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Сервіс-менеджер, який вирішить усі питання до заселення
+                                    <?=$links[14]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                   Консьєрж, який вирішує усі запитання після заселення: від доставки продуктів до виклика сантехніка
+                                    <?=$links[15]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Оформлення прав власності на квартиру
+                                    <?=$links[16]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Створення ОСББ
+                                    <?=$links[17]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                   Підписання договорів з постачальниками послуг: тепло, вода, електроенергія
+                                    <?=$links[18]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Формування тарифів та рахунків
+                                    <?=$links[19]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Управління витратами та комунальними послугами
+                                    <?=$links[20]?>
                                 </li>
                             </ul>
 
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                    Автоматизована звітність будинку
+                                    <?=$links[21]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Своєчасне усунення несправностей
+                                    <?=$links[22]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Ремонт у квартирі
+                                    <?=$links[23]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Відповідальність за кожну задачу від мешканця
+                                    <?=$links[24]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Енергозберігаючі технології
+                                    <?=$links[25]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Прибирання місць загального користування
+                                    <?=$links[26]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Контроль якості надання послуг
+                                    <?=$links[27]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                   Безпека у будинку та на його території
+                                    <?=$links[28]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Допомога в устаткуванні системи «розумна квартира»
+                                    <?=$links[29]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Допомога в устаткуванні системи «розумна квартира»
+                                    <?=$links[30]?>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="atmosphere-middle__section">
-                        <h1 class="atmosphere-middle__heading">
-                            МОБІЛЬНИЙ ДОТАТОК SFERA
-                        </h1>
+                        <h2 class="atmosphere-middle__heading">
+                            <?=$links[31]?>
+                        </h2>
                         <svg class="atmosphere-middle__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 76 77" style="enable-background:new 0 0 76 77;" xml:space="preserve">
                             <!-- <style type="text/css">
@@ -292,49 +292,49 @@
                         <div class="atmosphere-middle-list-wrap">
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                    Звітність про будівництво
+                                    <?=$links[32]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Домофон у смартфоні – відкривайте двері з мобільного додатку навіть коли вас немає вдома
+                                    <?=$links[33]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Важливі повідомлення
+                                    <?=$links[34]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Новини будинку
+                                    <?=$links[35]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Фінансова звірка
+                                    <?=$links[36]?>
                                 </li>
                             </ul>
 
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                   Дистанційне відеоспостереження в зонах загального користування
+                                    <?=$links[37]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Контроль над змінами по ремонту чи переплануванню
+                                    <?=$links[38]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Вся документація в одному місці
+                                    <?=$links[39]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Календар запланованих робіт
+                                    <?=$links[40]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Виставлення рахунків
+                                    <?=$links[41]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Контроль спожитої електроенергії
+                                    <?=$links[42]?>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="atmosphere-middle__section">
-                        <h1 class="atmosphere-middle__heading">
-                            ЧАТ SFERA
-                        </h1>
+                        <h2 class="atmosphere-middle__heading">
+                            <?=$links[43]?>
+                        </h2>
                         <svg class="atmosphere-middle__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 76 76.5" style="enable-background:new 0 0 76 76.5;" xml:space="preserve">
                             <!-- <style type="text/css">
@@ -395,28 +395,28 @@
                         <div class="atmosphere-middle-list-wrap">
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                    Вирішення екстрених проблем
+                                     <?=$links[44]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Зворотній зв’язок 24/7
+                                     <?=$links[45]?>
                                 </li>
                             </ul>
 
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                   Виклик сантехніка та інших технічних спеціалістів
+                                     <?=$links[46]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Замовлення послуг та товарів
+                                     <?=$links[47]?>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="atmosphere-middle__section">
-                        <h1 class="atmosphere-middle__heading">
-                            СИСТЕМА «РОЗУМНИЙ ДІМ»
-                        </h1>
+                        <h2 class="atmosphere-middle__heading">
+                            <?=$links[48]?>
+                        </h2>
                         <svg version="1.1" class="atmosphere-middle__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 76 76.5" style="enable-background:new 0 0 76 76.5;" xml:space="preserve">
                             <!-- <style type="text/css">
@@ -474,49 +474,49 @@
                         <div class="atmosphere-middle-list-wrap">
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                    Управління вуличним освітленням
+                                     <?=$links[49]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Автоматизоване освітлення у під’їздах
+                                    <?=$links[50]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                   Відео-нагляд
+                                    <?=$links[51]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Єдина система моніторингу стану будинку
+                                    <?=$links[52]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    ІP-домофонія
+                                    <?=$links[53]?>
                                 </li>
                             </ul>
 
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item">
-                                    Система контролю доступу
+                                    <?=$links[54]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Збір даних з приборів обліку енергоресурсів
+                                    <?=$links[55]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Ремонт у квартирі
+                                    <?=$links[56]?>
+                                </li>
+<!--                                <li class="atmosphere-middle-list__item">-->
+<!--                                    --><?//=$links[57]?>
+<!--                                </li>-->
+                                <li class="atmosphere-middle-list__item">
+                                    <?=$links[58]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Автоматизація та контроль індивідуального теплового пункту
-                                </li>
-                                <li class="atmosphere-middle-list__item">
-                                    Контроль температури у під’їздах
-                                </li>
-                                <li class="atmosphere-middle-list__item">
-                                    Система «розумний ліфт»
+                                    <?=$links[59]?>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="atmosphere-middle__section">
-                        <h1 class="atmosphere-middle__heading">
-                            МОБІЛЬНИЙ ДОТАТОК SFERA
-                        </h1>
+                        <h2 class="atmosphere-middle__heading">
+                            <?=$links[60]?>
+                        </h2>
                         <svg class="atmosphere-middle__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 76 76.5" style="enable-background:new 0 0 76 76.5;" xml:space="preserve">
                             <!-- <style type="text/css">
@@ -548,31 +548,31 @@
                         <div class="atmosphere-middle-list-wrap">
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item atmosphere-middle-list__text">
-                                   Система «розумний дім» встановлена у всіх місцях загального користування. Вона не стосується приватного життя.
+                                    <?=$links[61]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item atmosphere-middle-list__text">
-                                    Система «розумна квартира» є частиною приватного простору, тому вона може бути встановлена лише за бажанням мешканця.
+                                    <?=$links[62]?>
                                 </li>
                             </ul>
 
                             <ul class="atmosphere-middle-list">
                                 <li class="atmosphere-middle-list__item atmosphere-middle-list__text">
-                                   Ми допоможемо вам встановити систему «розумна квартира» та з моменту заселення даруємо вам Samsung SmartThing Hub. За його допомогою можна підключити у власній квартирі розумні пристрої:
+                                    <?=$links[63]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Термостати
+                                    <?=$links[64]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Освітлення
+                                    <?=$links[65]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Камери
+                                    <?=$links[66]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Акустичні системи
+                                    <?=$links[67]?>
                                 </li>
                                 <li class="atmosphere-middle-list__item">
-                                    Голосові асистенти від Apple, Amazon чи Google
+                                    <?=$links[68]?>
                                 </li>
                             </ul>
                         </div>
@@ -581,34 +581,21 @@
 
                 <div class="atmosphere-bottom">
                     <p class="atmosphere-bottom__text">
-                        <span class="atmosphere-bottom__text_medium">SAGA Development прагне</span> створювати не лише будинки, але й атмосферу у них.
+                        <span class="atmosphere-bottom__text_medium"><?=$links[69]?></span> <?=$links[70]?>
                     </p>
                     <p class="atmosphere-bottom__text">
-                        <span class="atmosphere-bottom__text_medium">Ми мріємо досягнути</span> затишку, у якому абсолютний комфорт буде підкреслюватися сучасними технологіями.
+                        <span class="atmosphere-bottom__text_medium"><?=$links[71]?></span> <?=$links[72]?>
                     </p>
                     <p class="atmosphere-bottom__text">
-                        <span class="atmosphere-bottom__text_medium">Саме тому в кожному будинку</span> присутня <br> ATMOSFERA – система для життя.
+                        <span class="atmosphere-bottom__text_medium"><?=$links[73]?></span> <?=$links[74]?>
                     </p>
                 </div>
             </div>
 
-          <!-- </section> -->
+            <!-- </section> -->
 
 
         </div>
         <!-- end wrapper -->
     </div>
-    <!-- end section -->
-
-    <!-- bottom-menu -->
-    <?php include_once 'includes/bottom-menu.php';?>
-      <!--end bottom-menu -->
-      <!-- footer -->
-      <?php include_once 'includes/footer.php';?>
-      <!-- end footer -->
-
-      <style type="text/css">
-
-      </style>
-  </body>
-</html>
+<?php get_footer();?>

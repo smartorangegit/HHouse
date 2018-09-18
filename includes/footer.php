@@ -1,7 +1,7 @@
 <!-- footer -->
 <div class="footer">
   <div class="wrapper flex">
-    <div class="footer__left">© 2018 Happy House усі права захищено.</div>
+    <div class="footer__left">© <?php _e('prava','happy-house'); ?></div>
     <div class="footer__right"><img src="img/smart_logo_w.svg" alt="SmartOrange studio"></div>
   </div>
 </div>

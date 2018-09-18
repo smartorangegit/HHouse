@@ -7,34 +7,62 @@ function mapMaker(id, longt, lat) {
 		// '<h3 style="font-size: 30px;text-align: center;">Happy House</h3>' +
 		// '<p>Київ, вул.Предславинська, 35 </p>' +
 		'</div>',
-		contentString2 = '<div class="map__info-marker">Стоматологічна клініка</div>',
-		contentString3 = '<div class="map__info-marker">Банкомат Ощадбанк</div>',
-		contentString4 = '<div class="map__info-marker">Спеціалізована школа №89 з <br>поглибленим вивченням іноземних мов</div>',
-		contentString5 = '<div class="map__info-marker">Гімназія №109 ім. Т.Г. Шевченка</div>',
-		contentString6 = '<div class="map__info-marker">Дошкільний навчальний заклад №632</div>',
-		contentString7 = '<div class="map__info-marker">Ощадбанк, АО</div>',
-		contentString8 = '<div class="map__info-marker">КБ ПриватБанк, ПАО</div>';
+		contentString2 = '<div class="map__info-marker">Парк Нивки</div>',
+		contentString3 = '<div class="map__info-marker">Берестейська</div>',
+		contentString4 = '<div class="map__info-marker">Спеціалізована школа №82</div>',
+		contentString5 = '<div class="map__info-marker">Мотузковий парк</div>',
+		contentString6 = '<div class="map__info-marker">Київська дитяча залізниця</div>',
+		contentString7 = '<div class="map__info-marker">Сирецький парк</div>',
+		contentString8 = '<div class="map__info-marker">КНЕУ</div>';
+		contentString10 = '<div class="map__info-marker">Шулявська</div>';
+		contentString11 = '<div class="map__info-marker">Парк імені Пушкіна</div>';
+		contentString12 = '<div class="map__info-marker">Київський зоопарк</div>';
+		contentString13 = '<div class="map__info-marker">Політехнічний інститут</div>';
+		contentString14 = '<div class="map__info-marker">НМУ</div>';
+		contentString15 = '<div class="map__info-marker">Парк КПI</div>';
+		contentString16 = '<div class="map__info-marker">ТЦ "Аркадiя"</div>';
+		contentString17 = '<div class="map__info-marker">ТЦ "Мармелад"</div>';
+		contentString18 = '<div class="map__info-marker">ТЦ "Космополiт"</div>';
+		contentString19 = '<div class="map__info-marker">Парк “Орлятко”</div>';
+		contentString20 = '<div class="map__info-marker">НАУ</div>';
+		contentString21 = '<div class="map__info-marker">Мамаєва Слобода</div>';
+		contentString22 = '<div class="map__info-marker">Парк “ Відрадний”</div>';
 
 // 50.437010, 30.541347
 
 	var locations = [
-				// [contentString2, 50.436653, 30.537347, "/img/map/dent.png"],
-				// [contentString3, 50.434541, 30.54343, "/img/map/bank.png"],
-				// [contentString4, 50.439243, 30.537797, "/img/map/Marker.png"],
-				// [contentString5, 50.433926, 30.538774, "/img/map/Marker.png"],
-				// [contentString6, 50.435491, 30.53961, "/img/map/sad.png"],
-				// [contentString7, 50.435456, 30.546176, "/img/map/bank.png"],
+				[contentString2, 50.461922, 30.418754, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+				[contentString3, 50.458609, 30.419816, "/wp-content/themes/happy-house/assets/img/map/metro.png"],
+				[contentString4, 50.459435, 30.431500, "/wp-content/themes/happy-house/assets/img/map/school.png"],
+				[contentString5, 50.465274, 30.438023, "/wp-content/themes/happy-house/assets/img/map/rope.png"],
+				[contentString6, 50.467398, 30.434836, "/wp-content/themes/happy-house/assets/img/map/train.png"],
+				[contentString7, 50.467692, 30.438924, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+				[contentString8, 50.456413, 30.440894, "/wp-content/themes/happy-house/assets/img/map/school.png"],
 				// [contentString8, 50.439367, 30.544927, "/img/map/bank.png"],
-				[contentString9, 50.422954, 30.522, "img/icons/location.svg"]
+        		[contentString10, 50.454856, 30.445475, "/wp-content/themes/happy-house/assets/img/map/metro.png"],
+        		[contentString11, 50.455751, 30.454406, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        		[contentString12, 50.454850, 30.463805, "/wp-content/themes/happy-house/assets/img/map/zoo.png"],
+        		[contentString13, 50.450854, 30.466487, "/wp-content/themes/happy-house/assets/img/map/metro.png"],
+        		[contentString14, 50.453341, 30.458784, "/wp-content/themes/happy-house/assets/img/map/school.png"],
+        		[contentString15, 50.450957, 30.460561, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        		[contentString16, 50.445013, 30.443826, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
+        		[contentString17, 50.446161, 30.443204, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
+        		[contentString18, 50.450226, 30.442507, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
+        		[contentString19, 50.444565, 30.427656, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        		[contentString20, 50.440390, 30.430285, "/wp-content/themes/happy-house/assets/img/map/school.png"],
+        		[contentString21, 50.435532, 30.428987, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        		[contentString22, 50.435163, 30.425961, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+				[contentString9, 50.458194, 30.428222] //Сам Хэппи
+
 			];
-	var centerX = 50.423954;
-	var centerY = lat || 30.522;
+	var centerX = 50.454661;
+	var centerY = 30.445264;
 
 	if($(window).width() < 748) {
 		centerY = locations[0][2];
 	}
 	var map = new google.maps.Map(document.getElementById(id), {
-			zoom: 16,
+			zoom: 14,
 			scrollwheel: false,
 			center: new google.maps.LatLng( centerX, centerY),
 			mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -49,7 +77,7 @@ function mapMaker(id, longt, lat) {
 	        map: map,
 	        icon: {
 	            url: locations[i][3],
-	            scaledSize: new google.maps.Size(60, 80)
+	            scaledSize: new google.maps.Size(30, 40)
 	        }
 	    });
 	    infowindow.setContent(locations[i][0]);
@@ -62,7 +90,7 @@ function mapMaker(id, longt, lat) {
 	    })(marker, i));
 	}
 
-	$.getJSON("js/mapStyle.json", function(data) {
+	$.getJSON("/wp-content/themes/happy-house/assets/js/mapStyle.json", function(data) {
          map.setOptions({styles: data});
      });
 

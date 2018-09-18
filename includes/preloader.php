@@ -90,6 +90,8 @@
 
     </div>
     <script>
+
+
     var sagapreloaderAnimation = (function() {
       var preloaderContainer = document.querySelector('.preloader-container');
       var circle = document.querySelector('.svg-circle');
@@ -99,7 +101,10 @@
 
 function init() {
 
-    sessionStorage.setItem('preloaderRan', true);
+    //sessionStorage.setItem('preloaderRan', true);
+    var ToDay = new Date();
+    var hours = ToDay.getHours();
+    localStorage.setItem("preloaderRan", hours);
 
     preloaderContainer.style.display = 'block';
 
@@ -125,9 +130,26 @@ return {
 })();
 
 // Для того чтобы заработал прелоавдер разкоментируй строку
+    /*
 if(!sessionStorage.getItem('preloaderRan')) {
     sagapreloaderAnimation.init();
 }
+*/
+    if(!localStorage.getItem("preloaderRan") && window.innerWidth > 768){
+        sagapreloaderAnimation.init();
+    }
+    else{
+        var ToDay = new Date();
+        var cur = ToDay.getHours();
+        if(cur-localStorage.getItem("preloaderRan")>=1 || cur<localStorage.getItem("preloaderRan")){
+            console.log('done');
+            console.log(cur);
+            console.log(localStorage.getItem("preloaderRan"));
+            localStorage.clear();
+        }
+    }
+
+
 
 // preloaderAnimation
     </script>

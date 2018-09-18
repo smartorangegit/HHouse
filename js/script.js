@@ -37,7 +37,10 @@ $('.lang_item_active, .lang_list, .lang_item').hover(
 
 //open modal window
 var call = $('#phone_call');
-var call2 = $('.btn_red');
+var call1 = $('#phone_call1');
+var call2 = $('#phone_call2');
+var call3 = $('.btn_click');
+var call4 = $('#get_price');
 var close = $('#close_form');
 var modal = $('#form_callback');
 var line = $('.smile_line');
@@ -50,7 +53,8 @@ call.click(function(){
       }
   })
 });
-call2.click(function(){
+
+call1.click(function(){
   modal.velocity('transition.slideUpBigIn',{
     // duration: 650,
     complete:function() {
@@ -58,6 +62,37 @@ call2.click(function(){
       }
   })
 });
+
+call2.click(function(){
+    event.preventDefault();
+  modal.velocity('transition.slideUpBigIn',{
+    // duration: 650,
+    complete:function() {
+      line.addClass('open')
+      }
+  })
+});
+
+call3.click(function(){
+    event.preventDefault();
+  modal.velocity('transition.slideUpBigIn',{
+    // duration: 650,
+    complete:function() {
+      line.addClass('open')
+      }
+  })
+});
+
+call4.click(function(){
+    event.preventDefault();
+  modal.velocity('transition.slideUpBigIn',{
+    // duration: 650,
+    complete:function() {
+      line.addClass('open')
+      }
+  })
+});
+
 
 close.click(function(){
   line.removeClass('open'),
@@ -72,7 +107,7 @@ var call1 = $('#phone_call1');
 var close1 = $('#close_form1');
 var modal1 = $('#form_callback1');
 // var line = $('.smile_line');
-
+/*
 call1.click(function(){
   modal1.velocity('transition.slideUpBigIn',{
     // duration: 650,
@@ -82,6 +117,7 @@ call1.click(function(){
   })
 });
 
+*/
 close1.click(function(){
   line.removeClass('open'),
   modal1.velocity('transition.slideUpBigOut',{
@@ -342,32 +378,32 @@ var currentMousePos = { x: -1, y: -1 };
       currentMousePos.y = event.pageY;
   });
 
- $('.floor__img').mousemove(function(){
+ $('.svg_links').mousemove(function(){
    var divInfoLeftPos = currentMousePos.x - $('#appInfo').width() - 46;
    var divInfoTopPos = currentMousePos.y - $('#appInfo').height() - 70;
 
    $('#appInfo').css({left:divInfoLeftPos});
    $('#appInfo').css({top:divInfoTopPos});
 
-   var rooms = this.dataset.rooms;
+   var rooms = this.dataset.flats;
    var square = this.dataset.square;
    var livsquare = this.dataset.livsquare;
-   var number = this.dataset.floor;
+   var number = this.dataset.number;
 
-   $('#room').html(rooms);  $('#floor').html(number);
+   $('#rooms').html(rooms);  $('#floor').html(number);
    $('#square').html(square);  $('#livingSquare').html(livsquare);
 
  });
 
 
-  $('.floor__img').mouseover(function(){
+  $('.svg_links').mouseover(function(){
     if($(window).width() > 320)
     {
       $('#appInfo').css( {visibility:'visible'});
       $('#appInfo').css( {display:'block'});
     }
      });
- $('.floor__img').mouseout(function(){
+ $('.svg_links').mouseout(function(){
    if($(window).width() > 320)
      {
      $('#appInfo').css( {visibility:'hidden'});

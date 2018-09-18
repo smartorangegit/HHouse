@@ -196,7 +196,7 @@ nav .main_name {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 20px;
+  padding: 20px 12px;
   height: 100%;
   overflow: hidden;
   opacity: 0;
@@ -692,6 +692,37 @@ a {
   line-height: 1.5;
   margin-left: 4px;
 }
+.lang_item a{
+  position: relative;
+  display: block;
+}
+.border_full{
+  position: relative;
+  display: inline-block;
+  /* padding-bottom: 4px; */
+}
+.lang_item a:after,
+.border_full:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 0%;
+  height: 2px;
+  background-color: #ed1c24;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+.lang_item:hover a:after{
+  width: 100%;
+}
+.border_full:after{
+  bottom: -3px;
+}
+.top-menu__item:hover .border_full::after{
+  width: 100%;
+
+}
 
 /* line 133, ../sass/style.scss */
 .lang_list_active {
@@ -1012,30 +1043,40 @@ figcaption {
   background: #ed1c24;
   z-index: -1;
 }
-
+.block_img > img{
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
 /* line 395, ../sass/style.scss */
 .block_about .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/proj_bg.jpg") center no-repeat;
-  background-size: cover;
+  /* background: url("/wp-content/themes/happy-house/assets/img/proj_bg.jpg") center no-repeat; */
+  /* background-size: cover; */
+  position: relative;
 }
 
 /* line 401, ../sass/style.scss */
 .block_location .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/locat_bg.jpg") center no-repeat;
-  background-size: cover;
+  /* background: url("/wp-content/themes/happy-house/assets/img/locat_bg.jpg") center no-repeat; */
+  /* background-size: cover; */
+  position: relative;
 }
-
 /* line 407, ../sass/style.scss */
 .block_genplan .block_img {
   height: 290px;
-  background: url("/wp-content/themes/happy-house/assets/img/plan_bg.jpg") center no-repeat;
-  background-position-x: 100%;
-  transition: 2s;
-  -webkit-transition: 2s;
+  position: relative;
+  /* background: url("/wp-content/themes/happy-house/assets/img/plan_bg.jpg") center no-repeat; */
+  /* background-position-x: 100%; */
+  /* transition: 2s; */
+  /* -webkit-transition: 2s; */
 }
 /* line 414, ../sass/style.scss */
 .block_genplan .block_img_active {
-  background-position-x: 0%;
+  /* background-position-x: 0%; */
 }
 
 /* line 419, ../sass/style.scss */
@@ -1052,13 +1093,14 @@ figcaption {
 
 /* line 433, ../sass/style.scss */
 .block_hub .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/mama_bg.jpg") center no-repeat;
-  background-size: cover;
+  position: relative;
+  /* background: url("/wp-content/themes/happy-house/assets/img/mama_bg.jpg") center no-repeat; */
+  /* background-size: cover; */
 }
 
 /* line 439, ../sass/style.scss */
 .block_infra .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/infra_bg.jpg") center no-repeat;
+  /* background: url("/wp-content/themes/happy-house/assets/img/infra_bg.jpg") center no-repeat; */
   background-size: cover;
 }
 
@@ -1193,8 +1235,8 @@ figcaption {
 /* line 564, ../sass/style.scss */
 .block_flats .block_img {
   height: 320px;
-  background: url("/wp-content/themes/happy-house/assets/img/flat_bg.jpg") center no-repeat;
-  background-size: cover;
+  /* background: url("/wp-content/themes/happy-house/assets/img/flat_bg.jpg") center no-repeat;
+  background-size: cover; */
   position: relative;
 }
 /* line 570, ../sass/style.scss */
@@ -1226,20 +1268,23 @@ figcaption {
 
 /* line 595, ../sass/style.scss */
 .block_commerc .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/commerc_bg.jpg") center no-repeat;
-  background-size: cover;
+  /* background: url("/wp-content/themes/happy-house/assets/img/commerc_bg.jpg") center no-repeat; */
+  /* background-size: cover; */
+  position: relative;
 }
 
 /* line 601, ../sass/style.scss */
 .block_atmosfera .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/sfera_bg.jpg") center no-repeat;
-  background-size: cover;
+  position: relative;
+  /* background: url("/wp-content/themes/happy-house/assets/img/sfera_bg.jpg") center no-repeat; */
+  /* background-size: cover; */
 }
 
 /* line 607, ../sass/style.scss */
 .block_building .block_img {
-  background: url("/wp-content/themes/happy-house/assets/img/build_bg.jpg") center no-repeat;
-  background-size: cover;
+  position: relative;
+  /* background: url("/wp-content/themes/happy-house/assets/img/build_bg.jpg") center no-repeat; */
+  /* background-size: cover; */
 }
 
 /* line 613, ../sass/style.scss */
@@ -1471,6 +1516,7 @@ figcaption {
   margin-bottom: 16px;
   text-indent: 60px;
   letter-spacing: 1px;
+  font-size: 16px;
 }
 /* line 796, ../sass/style.scss */
 .contact_form input[type="submit"] {
@@ -1587,6 +1633,9 @@ figcaption {
 .phone_box .flex {
   justify-content: space-evenly;
   -webkit-justify-content: space-evenly;
+  font-weight: bold;
+  color: red;
+  font-size: 1.25em;
 }
 
 /* line 906, ../sass/style.scss */
@@ -2118,6 +2167,10 @@ figcaption {
     line-height: 1.6;
     -webkit-line-clamp: 4;
     font-size: 12px;
+    max-height: 76px;
+  }
+  .block_day .block_prev{
+    max-height: none;
   }
 
   /* line 1331, ../sass/style.scss */
@@ -2244,6 +2297,9 @@ figcaption {
   /* line 1424, ../sass/style.scss */
   .day_block {
     overflow: hidden;
+    background-position: 26% 0%;
+    height: calc(100vh - 57px);
+    min-height: 450px;
   }
   /* line 1426, ../sass/style.scss */
   .day_block .wrapper {
@@ -2285,6 +2341,12 @@ figcaption {
   /* line 1454, ../sass/style.scss */
   .day_line ul {
     width: 100%;
+  }
+  .one{
+    height: auto;
+  }
+  .one_gallery1 .gallery__item {
+    height: 360px;
   }
 }
 @media only screen and (max-width: 460px) {
@@ -3141,7 +3203,8 @@ figcaption {
   cursor: pointer;
 }
 /* line 45, ../sass/_level-floor.scss */
-.floor-level_box svg a polygon {
+/* .floor-level_box svg a polygon, */
+ polygon.st0{
   opacity: 0;
   transition: 0.4s;
   -webkit-transition: 0.4s;
@@ -3206,7 +3269,9 @@ figcaption {
 
 /* line 91, ../sass/_level-floor.scss */
 .compass {
-  margin-top: -50px;
+  margin-top: -96px;
+  margin-bottom: 12px;
+  max-width: 120px;
 }
 
 /* line 94, ../sass/_level-floor.scss */
@@ -3235,9 +3300,9 @@ figcaption {
 /* line 114, ../sass/_level-floor.scss */
 .infobox {
   display: none;
-  width: 250px;
+  width: 270px;
   height: auto;
-  padding: 30px 20px;
+  padding: 20px 16px 16px;
   background: rgba(230, 230, 230, 0.9);
   position: absolute;
   line-height: 1.6;
@@ -3286,6 +3351,18 @@ figcaption {
 .flatplan__info__item.flex {
   flex-direction: column;
   width: 20%;
+}
+.flatplan__info__item__1.flex{
+  width: 34%;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+}
+.flatplan__info__item__2.flex{
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+}
+.flats__slider__new li{
+  margin: 10px 0;
 }
 /* line 158, ../sass/_level-floor.scss */
 .flatplan__info__item.flex .flatplan_btn, .flatplan__info__item.flex .btn_transparent, .flatplan__info__item.flex .btn_red {
@@ -3353,8 +3430,8 @@ figcaption {
 @media only screen and (max-width: 768px) {
   /* line 208, ../sass/_level-floor.scss */
   .floor-level_block .wrapper {
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
     padding: 0 10px;
     align-items: flex-start;
     -webkit-align-items: flex-start;
@@ -3365,18 +3442,24 @@ figcaption {
     width: 300%;
     margin-left: 60%;
     transform: translateX(-50%);
+    margin-bottom: -90px;
   }
 
   /* line 220, ../sass/_level-floor.scss */
   .house_left {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start;
     display: -webkit-flex;
-    -webkit-flex-direction: column;
+    /* -webkit-flex-direction: column; */
     -webkit-align-items: flex-start;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     pointer-events: none;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    margin-top: 155px;
   }
   /* line 229, ../sass/_level-floor.scss */
   .house_left .btn_transparent {
@@ -3387,9 +3470,16 @@ figcaption {
   /* line 234, ../sass/_level-floor.scss */
   .house_left .btn_red {
     pointer-events: all;
-    order: 2;
+    order: 5;
     max-width: 170px;
-    width: 100%;
+    width: 48%;
+    margin-top: 0;
+  }
+  .house_left .btn-11{
+    order: 5;
+    width: 48%;
+    background: #fff;
+    z-index: 0;
   }
 
   /* line 241, ../sass/_level-floor.scss */
@@ -3414,6 +3504,7 @@ figcaption {
     border-radius: 0;
     margin: 0;
     width: 90px;
+    margin-bottom: 12px;
   }
   /* line 259, ../sass/_level-floor.scss */
   .house_right .link_rect {
@@ -3434,6 +3525,8 @@ figcaption {
   .main_select__infobox {
     display: flex;
     display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
   }
 
   /* line 277, ../sass/_level-floor.scss */
@@ -3454,6 +3547,7 @@ figcaption {
   /* line 286, ../sass/_level-floor.scss */
   .floorplan_compass img {
     width: 100%;
+    margin: 0 auto;
   }
 
   /* line 288, ../sass/_level-floor.scss */
@@ -3464,7 +3558,15 @@ figcaption {
   .floorplan__box img {
     width: 100%;
   }
-
+  .infobox{
+    display: block;
+    position: static;
+    visibility: visible;
+    width: 100%;
+  }
+  .infobox__logo{
+    display: none;
+  }
   /* line 296, ../sass/_level-floor.scss */
   .flatplan_block .line_link {
     margin-bottom: 10px;
@@ -9198,4 +9300,9 @@ path.svg-inner_a_1_2 {
 .block_double .bx-wrapper .bx-controls-direction a svg {
   max-width: 12px;
   max-height: 12px;
+}
+.superseo {
+	height: 0;
+	width: 0;
+	overflow: hidden;
 }
