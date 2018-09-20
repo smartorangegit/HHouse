@@ -172,7 +172,7 @@ $array_living = array('004','005','006','007','008','027','035','036','042','043
                 </div>
 
                 <div class="flatplan__info__item flatplan__info__item__2 flex">
-                    <img class="is_desktop compass" src="<?php bloginfo('template_url'); ?>/assets/img/compas.png" alt="compas">
+                    <img class="compass" src="<?php bloginfo('template_url'); ?>/assets/img/compas.png" alt="compas">
                     <!-- <div class="flats_about_name"><?_e('flat parameters', 'happy-house');?></div> -->
                     <div class="flats_about__line">
                       <ul class="flats__slider__new">

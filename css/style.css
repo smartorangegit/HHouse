@@ -3555,7 +3555,7 @@ figcaption {
   /* line 288, ../sass/_level-floor.scss */
   .floorplan__box {
     padding: 60px 10px;
-    height: 560px;
+    height: 830px;
     position: relative;
   }
   /* line 290, ../sass/_level-floor.scss */
@@ -3589,6 +3589,9 @@ figcaption {
     flex-wrap: wrap;
     -webkit-flex-direction: row;
     -webkit-flex-wrap: wrap;
+  }
+  .flatplan__info__item__2 .compass{
+    margin: 6px auto;
   }
   /* line 310, ../sass/_level-floor.scss */
   .flatplan__info__item.flex .flatplan_btn {
@@ -3651,6 +3654,19 @@ figcaption {
   .flats_about__line {
     width: 100%;
   }
+  .flats__slider__new li{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+  .flats_param_num {
+    min-width: 168px;
+    padding: 0 18px;
+}
+
 }
 /* ====================================*/
 /*!filter HappyHouse(1.2). (C) June 2018 Anna Begas. */

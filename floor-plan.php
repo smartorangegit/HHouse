@@ -344,8 +344,7 @@ $sqL = livSq($arr,$array_living);
         fill: #ed1c24;
         opacity: 0;
         transition: 0.4s;
-    }
-    .svg_links:hover path{
+    }    .svg_links:hover path{
         opacity: 0.4;
     }
     @media only screen and (max-width: 768px) {
@@ -353,7 +352,7 @@ $sqL = livSq($arr,$array_living);
         position: absolute;
         top: 50%;
         left: 50%;
-        max-width: 500px!important;
+        max-width: 800px!important;
         height: 100%;
         max-height: 300px;
         display: block;
