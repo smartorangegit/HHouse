@@ -331,10 +331,6 @@ $sqL = livSq($arr,$array_living);
 
 <?php get_footer();?>
 <style>
-    .plan_floor{
-        max-width: 100% !important;
-        max-height: 65vh;
-    }
     .plan_floor {
         max-width: 100% !important;
         max-height: 65vh;
@@ -351,5 +347,31 @@ $sqL = livSq($arr,$array_living);
     }
     .svg_links:hover path{
         opacity: 0.4;
+    }
+    @media only screen and (max-width: 768px) {
+      .plan_floor{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        max-width: 500px!important;
+        height: 100%;
+        max-height: 300px;
+        display: block;
+        pointer-events: none;
+        transform: translate(-50%,-50%) rotate(90deg);
+        transform-origin: 50% 50%;
+        -webkit-transform: translate(-50%,-50%) rotate(90deg);
+        -webkit-transform-origin: 50% 50%;
+        margin: 0 auto;
+      }
+      .compass{
+       -moz-transform: rotate(135deg); /* Для Firefox */
+       -ms-transform: rotate(135deg); /* Для IE */
+       -webkit-transform: rotate(135deg); /* Для Safari, Chrome, iOS */
+       -o-transform: rotate(135deg); /* Для Opera */
+       transform: rotate(135deg);
+   }
+
+
     }
 </style>

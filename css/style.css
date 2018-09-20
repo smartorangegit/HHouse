@@ -3201,13 +3201,15 @@ figcaption {
 /* line 44, ../sass/_level-floor.scss */
 .floor-level_box svg a {
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 /* line 45, ../sass/_level-floor.scss */
 /* .floor-level_box svg a polygon, */
- polygon.st0{
+ .floor-level_box .st0{
   opacity: 0;
   transition: 0.4s;
   -webkit-transition: 0.4s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 /* line 50, ../sass/_level-floor.scss */
 .floor-level_box svg a:hover polygon {
@@ -3552,7 +3554,9 @@ figcaption {
 
   /* line 288, ../sass/_level-floor.scss */
   .floorplan__box {
-    padding: 30px 10px;
+    padding: 60px 10px;
+    height: 560px;
+    position: relative;
   }
   /* line 290, ../sass/_level-floor.scss */
   .floorplan__box img {
@@ -3591,6 +3595,8 @@ figcaption {
     display: flex;
     display: -webkit-flex;
     margin: 0 auto;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
   }
   /* line 315, ../sass/_level-floor.scss */
   .flatplan__info__item.flex .btn_transparent,
