@@ -31,7 +31,7 @@
 
   <div class="main" style="height: 500px;">
     <div class="clear">
-      <div class="cell_img_inner">
+      <div class="cell_img_inner" style="max-height: 160mm;">
         <?=$_SESSION['svg_min_plan']?>
       </div>
 
@@ -89,7 +89,10 @@
            <td><?=$_SESSION['pdfF'][3]['name']?></td>
        </tr>
    </table>
+    <?if($_SESSION['lng']=='/ua'){echo '<h1 class="red" style="text-align: center">Розташування на поверсі</h1>';}?>
+    <?if($_SESSION['lng']=='/ru'){echo '<h1 class="red" style="text-align: center">Расположение на этаже</h1>';}?>
 </div>
+
 </div>
 <div class="main" style="height: 200px; padding: 100px 0; width: 260mm; margin: 0 auto;" >
 
