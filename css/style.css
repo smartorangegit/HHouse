@@ -3372,6 +3372,7 @@ figcaption {
   max-width: 320px;
   margin: 20px auto;
   cursor: pointer;
+  text-align: center;
 }
 
 /* line 167, ../sass/_level-floor.scss */
@@ -3604,12 +3605,13 @@ figcaption {
   /* line 315, ../sass/_level-floor.scss */
   .flatplan__info__item.flex .btn_transparent,
   .flatplan__info__item.flex .btn_red {
-    display: flex;
-    display: -webkit-flex;
     width: 48%;
+    display: block;
+    /* display: flex;
+    display: -webkit-flex;
     justify-content: space-evenly;
     -webkit-justify-content: space-evenly;
-    padding: 12px 6px;
+    padding: 12px 6px; */
   }
   /* line 323, ../sass/_level-floor.scss */
   .flatplan__info__item.flex .btn_transparent span,

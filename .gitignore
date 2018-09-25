@@ -7,3 +7,4 @@ fonts
 .sass-cache
 HH-svg
 pdf_template
+include/pdf/mpdf

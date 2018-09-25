@@ -27,6 +27,7 @@ function mapMaker(id, longt, lat) {
 		contentString20 = '<div class="map__info-marker">НАУ</div>';
 		contentString21 = '<div class="map__info-marker">Мамаєва Слобода</div>';
 		contentString22 = '<div class="map__info-marker">Парк “ Відрадний”</div>';
+		contentString23 = '<div class="map__info-marker">Відділ продажу ЖК <p>Адреса: проспект Перемоги, 67 </p></div>';
 
 // 50.437010, 30.541347
 
@@ -39,19 +40,20 @@ function mapMaker(id, longt, lat) {
 				[contentString7, 50.467692, 30.438924, "/wp-content/themes/happy-house/assets/img/map/park.png"],
 				[contentString8, 50.456413, 30.440894, "/wp-content/themes/happy-house/assets/img/map/school.png"],
 				// [contentString8, 50.439367, 30.544927, "/img/map/bank.png"],
-        		[contentString10, 50.454856, 30.445475, "/wp-content/themes/happy-house/assets/img/map/metro.png"],
-        		[contentString11, 50.455751, 30.454406, "/wp-content/themes/happy-house/assets/img/map/park.png"],
-        		[contentString12, 50.454850, 30.463805, "/wp-content/themes/happy-house/assets/img/map/zoo.png"],
-        		[contentString13, 50.450854, 30.466487, "/wp-content/themes/happy-house/assets/img/map/metro.png"],
-        		[contentString14, 50.453341, 30.458784, "/wp-content/themes/happy-house/assets/img/map/school.png"],
-        		[contentString15, 50.450957, 30.460561, "/wp-content/themes/happy-house/assets/img/map/park.png"],
-        		[contentString16, 50.445013, 30.443826, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
-        		[contentString17, 50.446161, 30.443204, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
-        		[contentString18, 50.450226, 30.442507, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
-        		[contentString19, 50.444565, 30.427656, "/wp-content/themes/happy-house/assets/img/map/park.png"],
-        		[contentString20, 50.440390, 30.430285, "/wp-content/themes/happy-house/assets/img/map/school.png"],
-        		[contentString21, 50.435532, 30.428987, "/wp-content/themes/happy-house/assets/img/map/park.png"],
-        		[contentString22, 50.435163, 30.425961, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        [contentString10, 50.454856, 30.445475, "/wp-content/themes/happy-house/assets/img/map/metro.png"],
+        [contentString11, 50.455751, 30.454406, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        [contentString12, 50.454850, 30.463805, "/wp-content/themes/happy-house/assets/img/map/zoo.png"],
+        [contentString13, 50.450854, 30.466487, "/wp-content/themes/happy-house/assets/img/map/metro.png"],
+        [contentString14, 50.453341, 30.458784, "/wp-content/themes/happy-house/assets/img/map/school.png"],
+        [contentString15, 50.450957, 30.460561, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        [contentString16, 50.445013, 30.443826, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
+        [contentString17, 50.446161, 30.443204, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
+        [contentString18, 50.450226, 30.442507, "/wp-content/themes/happy-house/assets/img/map/shop.png"],
+        [contentString19, 50.444565, 30.427656, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        [contentString20, 50.440390, 30.430285, "/wp-content/themes/happy-house/assets/img/map/school.png"],
+        [contentString21, 50.435532, 30.428987, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        [contentString22, 50.435163, 30.425961, "/wp-content/themes/happy-house/assets/img/map/park.png"],
+        [contentString23, 50.457989, 30.405916,],
 				[contentString9, 50.458194, 30.428222] //Сам Хэппи
 
 			];

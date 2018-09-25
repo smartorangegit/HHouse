@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* font-family: "GothaProLig"; */
+}
+body{
+  /* padding-top: 50mm; */
+}
+.red{
+    color:#ed1c24;
+}
+.pdf_footer{
+    background-color: #fbfbfb;
+    padding: 6px 0;
+
+}
+.pdf_header img,
+.pdf_footer img{
+    width: 100%;
+    height: auto;
+}
+.pdf__line{
+    background: #f0f0f0;
+    width: 100%;
+    padding: 10px 0;
+}
+.pdf_linefunny{
+    background: url('/wp-content/themes/happy-house/assets/img/pattern_grey.png');
+    height: 30px;
+    background-size: auto 100%;
+}
+.main_info_wrapper{
+  background: #fbfbfb;
+  padding: 16px 0;
+  padding-top: 50mm;
+
+}
+.pdf_main__info{
+    width: 600px;
+    margin: 0 auto;
+}
+.pdf__info_main{
+  text-align: center;
+  font-size: 20px;
+}
+.pdf__info_main td{
+  width: 160px;
+}
+.pdf_table td{
+  padding: 3px 10px;
+  font-size: 20px;
+}
+.pdf_table td:nth-child(2){
+  color: #ed1c24;
+}
+.cell_img_inner{
+  width: 160mm;
+  float: left;
+  padding: 20px 50px 10px;
+  text-align: center;
+  margin-left: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
+.cell_img_inner img{
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  }
+.pdf_descr {
+  width: 450px;
+  padding: 50px 80px;
+  float: right;
+  box-sizing: border-box;
+}
+.clear:after{
+  display: table;
+  clear: both;
+}
