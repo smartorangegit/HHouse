@@ -204,12 +204,8 @@ foreach ($apartments as $searchItem){
 
     for($Z = 0; $Z<=$cnt;$Z++) {
         if(stristr($apps[$Z]['ap_id'], $B) === FALSE) {
-//            echo '+';
-
         }
         else{
-//            echo '-';
-//          $arr[] =  $B.'----'.$apps[$Z]['ap_id'] ;
           $arr[] =  $apps[$Z]['room'] ;
             break;
 
