@@ -1,4 +1,5 @@
 <?php
+session_start();
 print_r($_POST);
 
 $Server = "customsh.mysql.tools";
@@ -98,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             'UF_CRM_1485774805' => $_POST['inn'], // сохраняем ИНН UF_CRM_1485437157
             'ASSIGNED_BY_ID' => $Id,
             'ADDRESS' => $_POST['webad'],
-            'UF_CRM_1485774841' => $time, //UF_CRM_1485510398
+            'UF_CRM_1485774841' => $_POST['when'], //UF_CRM_1485510398
             'UF_CRM_1485774828' => $_POST['message'], //UF_CRM_1485507619
             'UF_CRM_1517487869'=>$utms[0],
             'UF_CRM_1517487957'=>$utms[1],

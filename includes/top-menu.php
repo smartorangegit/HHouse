@@ -34,6 +34,28 @@
 
 
       <?
+      session_start();
+      /*Utm 01.02.2018*/
+      if ($_GET)
+      {
+          $utm=array(
+              'utm_source' ,
+              'utm_medium',
+              'utm_campaign' ,
+              'utm_term',
+              'utm_content'
+          );
+          foreach($_GET as $key=>$t)
+          {
+              $metka= array_search($key,$utm);
+              if ($metka!==FALSE)
+              {
+                  $_SESSION[$utm[$metka]]=$t;
+              }
+          }
+      }
+      /*Utm End*/
+
       $locale = get_locale();
       if($locale=='uk'){
           $locale = 'ua';
@@ -45,13 +67,14 @@
           $locale = 'ru';
           $requestU = str_replace('/ru','',$_SERVER['REQUEST_URI']);
       }
-      $uaUri = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].'/'.'ua'.$requestU;
-      $ruUri = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].'/'.'ru'.$requestU;
+      $uaUri = 'https://'.$_SERVER['SERVER_NAME'].$requestU;
+      $ruUri = 'https://'.$_SERVER['SERVER_NAME'].'/'.'ru'.$requestU;
       ?>
 	<div class="top-menu__left">
       <div class="top-menu__logo">
         <a href="<? if($locale == 'ru'){echo '/ru/';}else{echo '/';}?>">
-          <img src="<?php bloginfo('template_url'); ?>/assets/img/HH_logo.svg" alt="Happy House">
+            <? if($locale == 'ru'){?><img src="<?php bloginfo('template_url'); ?>/assets/img/HH_logo.svg" alt="Happy House"><?}
+            else{?><img src="<?php bloginfo('template_url'); ?>/assets/img/hh_logo-ukr.svg" alt="Happy House"><?}?>
         </a>
       </div>
     </div>
@@ -206,9 +229,13 @@
       <!-- <li class="nav_item"></li> -->
     </ul>
     <div class="nav_logo">
-      <a href="/">
-        <img src="<?php bloginfo('template_url'); ?>/assets/img/HH_logo.svg" alt="Happy House">
-      </a>
+<!--      <a href="/">-->
+<!--        <img src="--><?php //bloginfo('template_url'); ?><!--/assets/img/HH_logo.svg" alt="Happy House">-->
+<!--      </a>-->
+        <a href="<? if($locale == 'ru'){echo '/ru/';}else{echo '/';}?>">
+            <? if($locale == 'ru'){?><img src="<?php bloginfo('template_url'); ?>/assets/img/HH_logo.svg" alt="Happy House"><?}
+            else{?><img style="width: 260px; height: auto;" src="<?php bloginfo('template_url'); ?>/assets/img/hh_logo-ukr.svg" alt="Happy House"><?}?>
+        </a>
     </div>
     <div class="close_btn open-overlay">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50"><path d="M37.304 11.282l1.414 1.414-26.022 26.02-1.414-1.413z" fill="#ed1c24"></path><path d="M12.696 11.282l26.022 26.02-1.414 1.415-26.022-26.02z" fill="#ed1c24"></path></svg>
