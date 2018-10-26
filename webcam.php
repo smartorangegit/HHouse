@@ -39,9 +39,9 @@ $img = (get_the_post_thumbnail_url($post->ID, 'full'));
 
             <div class="webcam_box">
                 <div class="building_info">
-                <?=$links[1]?>
+                <?/* =$links[1] */?>
                 </div>
-<!--                <iframe  src="https://www.youtube.com/embed/C8QJmI_V3j4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<iframe  src="https://cam.kperevozov.com/fs.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="building_info">
                 <?_e('fin-build','happy-house');?> <?_e('building-main','happy-house');?>
