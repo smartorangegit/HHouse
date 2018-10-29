@@ -18,6 +18,9 @@
   </div>
 
   <form id="callback-form-main" class="contact_form" onsubmit="ajax_form(this)">
+    <p class="contact_form__text">
+      Відправте заявку на телефонний дзвінок і менеджер відділу продажу зв'яжеться з вами найближчим часом. Або оберіть зручний вам час для дзвінка.
+    </p>
     <div class="input_wrapper required_input">
         <input class="js-input-name" type="text" name="name" required placeholder="<?_e('form-1','happy-house');?>" data-required="true" onkeyup="javascript:countme('callback-form-main');">
         <div class="validation-error validation-error_required" style="display: none"><?_e('form-2','happy-house');?></div>

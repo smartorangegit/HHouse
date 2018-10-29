@@ -1684,7 +1684,7 @@ figcaption {
 /* line 943, ../sass/style.scss */
 .form_box .contact_form {
   width: 95%;
-  margin: 70px auto 10px;
+  margin: 40px auto 10px;
   max-width: 1000px;
 }
 /* line 947, ../sass/style.scss */
@@ -9330,3 +9330,11 @@ path.svg-inner_a_1_2 {
 	width: 0;
 	overflow: hidden;
 }
+
+
+/*new style*/
+.contact_form__text {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+/*end__new style*/
