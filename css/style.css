@@ -1441,7 +1441,7 @@ figcaption {
   position: absolute;
   width: 20px;
   left: 0;
-  height: 24px;
+  height: 28px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -9336,5 +9336,10 @@ path.svg-inner_a_1_2 {
 .contact_form__text {
   margin-bottom: 20px;
   font-size: 1rem;
+}
+
+.contacts__info__social {
+  display: flex;
+  justify-content: center;
 }
 /*end__new style*/
