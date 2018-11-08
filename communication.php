@@ -86,7 +86,7 @@ $img = (get_the_post_thumbnail_url($post->ID, 'full'));
                             <div class="contacts__info_top flex">
                                 <div class="contacts__info__item">
                                     <p class="contact_item_name"><?php _e('locat-4','happy-house'); ?></p>
-                                    <p>(044) 237-36-35</p>
+                                    <div class="top-menu__item phone-number" ><p>(044) 237-36-35</p></div>
                                 </div>
                                 <div class="contacts__info__item">
                                     <p class="contact_item_name"><?php _e('locat-5','happy-house'); ?>:</p>
