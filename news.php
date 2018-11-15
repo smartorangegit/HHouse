@@ -31,7 +31,7 @@ Template Name: Новини
 
             <?php
             //$post = get_post(60);
-            $ReaNews =LoadingNews(NewsOnPage, 0);
+            $ReaNews =LoadingNews(-1, 0);
 
             if (count($ReaNews['ReaNews'])) {
 
@@ -79,6 +79,7 @@ Template Name: Новини
                 }
             }
             ?>
+
 <!--            <div class="pagination">-->
 <!--                <ul class="pad__center">-->
 <!--                    <li><a href="#">1</a></li>-->
